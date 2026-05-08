@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-05-08T01:50:02.092281Z",
+  "generated_at": "2026-05-08T12:50:17.867502Z",
   "papers": {
     "deriving_the_particle_zoo_from_observer_consistency": {
       "pdf_path": "paper/deriving_the_particle_zoo_from_observer_consistency.pdf",
-      "sha256": "79066597a99d8bef06edf4cedcdd6911af4c96d8999b7092cbabb6c31cd0c8c6",
-      "size_bytes": 322342
+      "sha256": "842ca69b97316e52a8be772e25fd3cbc38230be726180cc1e5be83abd77d7a63",
+      "size_bytes": 322341
     },
     "observers_are_all_you_need": {
       "pdf_path": "paper/observers_are_all_you_need.pdf",
-      "sha256": "598314baccba85f52cc5200368e38c386101bee8b0b931a0cd2cb211a0a145ad",
-      "size_bytes": 496520
+      "sha256": "3e8b264bbb8a3c78aa3171cd32f4195a17897526cf19c86af449c99d66b4d8f3",
+      "size_bytes": 496522
     },
     "reality_as_consensus_protocol": {
       "pdf_path": "paper/reality_as_consensus_protocol.pdf",
-      "sha256": "659159c3186928287df702e1780c81d06429926d04a24451912eeb6bb9feafdb",
-      "size_bytes": 219495
+      "sha256": "96a63779aa721c3040b0d9693df4d06febb8ff997c9c707372a3e9392ad05a39",
+      "size_bytes": 219429
     },
     "recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact": {
       "pdf_path": "paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf",
-      "sha256": "01ba12d01ae458c6a46359b3ef05a1fe9328ec82303f83b547f68bca09f43eae",
-      "size_bytes": 529055
+      "sha256": "b07a4845bf9cc43db85dabf8fa8f711bebcc07a6d21ef6a515704870b5b6b6f3",
+      "size_bytes": 528749
     },
     "screen_microphysics_and_observer_synchronization": {
       "pdf_path": "paper/screen_microphysics_and_observer_synchronization.pdf",
-      "sha256": "51dba28a5f5e24b03eb4da952054e016ac62f115b98ac172423423795478d7ae",
+      "sha256": "e3395497869394672a4e318b93faac680e1d5fd505aef7528d5ffc954c39554c",
       "size_bytes": 258580
     }
   },
-  "release_id": "r1430",
+  "release_id": "r1431",
   "released_at": "May 8, 2026"
 }
