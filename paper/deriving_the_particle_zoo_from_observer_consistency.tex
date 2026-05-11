@@ -42,7 +42,7 @@ Observer Consistency}
 \OPHPaperReleaseBanner
 
 \begin{abstract}
-Observer-Patch Holography turns the particle problem into a forward calculation from one local screen scale. The local pixel closure proceeds through five physics layers: unification scale, heat-kernel pixel closure, running transport, electroweak mixing, and Ward-projected Thomson transport. The fixed point gives \(\alpha^{-1}(0)=137.035999177(21)\) and \(P=1.630968209403959324879279847782648941\ldots\). The same pixel scale propagates into structural massless carriers, the weak sector, the Higgs/top row, selected-class running quarks, and a weighted-cycle neutrino absolute-mass branch. Hadrons require separate treatment: source-only strong-binding calculations are kept distinct from empirical \(e^+e^-\to\mathrm{hadrons}\) closure checks. The status ledger separates validation rows, charged-lepton witnesses, source-only checks, and empirical hadron closure checks.
+Observer-Patch Holography turns the particle problem into a forward calculation from one local screen scale. The local pixel closure proceeds through five physics layers: unification scale, heat-kernel pixel closure, running transport, electroweak mixing, and Ward-projected Thomson transport. The outer/inner pixel equation leaves no local tuning freedom for the fine-structure constant: the fixed point gives \(\alpha^{-1}(0)=137.035999177(21)\) and \(P\simeq1.6309682094\). The same pixel scale propagates into structural massless carriers, the weak sector, the Higgs/top row, selected-class running quarks, and a weighted-cycle neutrino absolute-mass branch. Hadrons require separate treatment: source-only strong-binding calculations are kept distinct from empirical \(e^+e^-\to\mathrm{hadrons}\) closure checks. The status table separates validation rows, charged-lepton witnesses, source-only checks, and empirical hadron closure checks.
 \end{abstract}
 
 \section{Introduction}
@@ -51,7 +51,7 @@ Observer-Patch Holography asks a concrete follow-up question after the gauge str
 Can one local screen constant organize the particle spectrum, or are the masses and mixings a
 collection of unrelated inputs?
 
-The structural companion papers start from observer consistency on a finite screen. Physical data are organized in local patch algebras, nearby observers must agree on overlaps, realized states obey a local maximum-entropy and refinement principle, generalized entropy is recoverable, and the realized low-energy branch is fixed by Minimal Admissible Realization (MAR). From that basis one can derive, conditionally but explicitly, the Lorentzian and Einstein branches together with the realized Standard Model gauge structure
+The structural companion papers start from observer consistency on a finite screen. Physical data are organized in local patch algebras, nearby observers must agree on overlaps, realized states obey a local maximum-entropy and refinement principle, generalized entropy is recoverable, and the realized low-energy branch is fixed by Minimal Admissible Realization (MAR). From that basis one can derive explicitly the Lorentzian and Einstein branches together with the realized Standard Model gauge structure
 \[
 \frac{\SU(3)\times\SU(2)\times\U(1)}{\mathbb Z_6},
 \qquad
@@ -81,7 +81,7 @@ ingredients. They are the stable observer-visible excitations and carrier modes 
 are left once three layers of structure have been fixed:
 \begin{enumerate}[leftmargin=2em]
 \item overlap consistency on the observer-patch network;
-\item compact gauge reconstruction from the theorem-produced transportability criterion, fixed-cutoff bosonic sector category, and refinement/fiber ladder, with nontrivial realized MAR occupancy as the gauge-side boundary;
+\item compact gauge reconstruction from the theorem-produced transportability criterion, fixed-cutoff bosonic sector category, refinement/fiber ladder, and realized compact-gauge witness theorem;
 \item minimal admissible realization of the low-energy branch.
 \end{enumerate}
 The first layer says what kinds of local data can be compared consistently across neighboring
@@ -161,13 +161,13 @@ electroweak map and its descendants. The fixed point gives
 \[
 \alpha^{-1}(0)=137.035999177(21),
 \qquad
-\alpha(0)=0.007297352564331425030245795264691683\ldots,
+\alpha(0)\simeq0.00729735256433,
 \qquad
-P=1.630968209403959324879279847782648941\ldots.
+P\simeq1.6309682094.
 \]
 The computation has a fixed source order: golden-ratio entropy balance gives
 \(\varphi\), boundary Gaussian normalization supplies the \(\sqrt{\pi}\) width,
-a trial \(P\) feeds the D10 map \(P\mapsto M_U\mapsto\alpha_U\mapsto
+a trial \(P\) feeds the source map \(P\mapsto M_U\mapsto\alpha_U\mapsto
 \alpha_i(m_Z)\mapsto a_0(P)\), Ward-projected \(\U(1)_Q\) transport gives the
 Thomson endpoint \(A_T(P)=\alpha_{\mathrm{em}}^{-1}(0;P)\), and the realized
 cell solves \(P=\varphi+\sqrt{\pi}/A_T(P)\).
@@ -181,13 +181,13 @@ P=1.63097209569432901817967892561191884270169,
 \qquad
 \alpha_{\mathrm{cand}}^{-1}=136.994835164621649457949994585787193262029,
 \]
-with the detailed endpoint ledger in Section~\ref{sec:particle-premise-ledger}. The separate
+with the detailed endpoint table in Section~\ref{sec:particle-input-ledger}. The separate
 screen-capacity input \(N_{\mathrm{scr}}\) belongs to the cosmological-capacity branch and
 only to legacy capacity-level neutrino side estimates. Structural carriers, quantitative outputs,
-exact sidecars, and continuation lanes are therefore downstream branches of one common premise
-ledger. The public fine-structure display row uses the OPH fixed-point equation with empirical
-hadron-completed Thomson input, while the source-only audit row stays separate in the ledger.
-Section~\ref{sec:particle-premise-ledger}
+exact sidecars, and continuation lanes are therefore downstream branches of one common input and theorem
+checklist. The public fine-structure display row uses the OPH fixed-point equation with empirical
+hadron-completed Thomson input, while the source-only audit row stays separate in the status table.
+Section~\ref{sec:particle-input-ledger}
 records that ledger in full.
 
 \section{P-Closure and the Reverse-Engineering Strategy}
@@ -227,7 +227,7 @@ The first-principles computation is a five-step source chain. First, the
 golden-ratio entropy balance of the local screen cell supplies
 \(\varphi=(1+\sqrt5)/2\). Second, boundary maximum-entropy normalization fixes
 the width of the leading electromagnetic detuning to \(\sqrt{\pi}\). Third, a
-trial \(P\) is sent through the D10 source map
+trial \(P\) is sent through the source map
 \[
 M_U(P)=E_P e^{-2\pi}P^{1/6},\qquad E_{\mathrm{cell}}(P)=\frac{E_P}{\sqrt P},
 \]
@@ -242,7 +242,7 @@ a_0(P)=\alpha_2^{-1}(m_Z;P)+\frac53\alpha_1^{-1}(m_Z;P).
 \]
 Fifth, Ward-projected \(\U(1)_Q\) transport gives the Thomson endpoint
 \[
-A_T(P)=T_Q(a_0(P),F_{D10}(P))=\alpha_{\mathrm{em}}^{-1}(0;P),
+A_T(P)=T_Q(a_0(P),F_{\mathrm{src}}(P))=\alpha_{\mathrm{em}}^{-1}(0;P),
 \]
 and the cell closes when
 \[
@@ -254,7 +254,7 @@ consistency equation.
 The OPH fixed-point readout
 \(\alpha^{-1}(0)=137.035999177(21)\) gives
 \[
-P=1.630968209403959324879279847782648941\ldots.
+P\simeq1.6309682094.
 \]
 The same equation is the local ruler for the downstream particle rows. The five-layer
 OPH audit trunk emits the source-side diagnostic point
@@ -263,7 +263,7 @@ P=1.63097209569432901817967892561191884270169,
 \qquad
 \alpha_{\mathrm{cand}}^{-1}=136.994835164621649457949994585787193262029.
 \]
-The detailed ledger records how the diagnostic trunk, endpoint residual, and
+The detailed table records how the diagnostic trunk, endpoint residual, and
 source-spectral payload fit together.
 A separate hardware note reports an optical-cavity check of the same fixed-point geometry;
 this is treated as corroborating engineering evidence.
@@ -344,7 +344,7 @@ Detailed scope statements are collected in the ledger sections that follow.
 \toprule
 Chain & OPH output & Role \\
 \midrule
-\(P\)-closure and fine structure & \(\alpha^{-1}(0)=137.035999177(21)\), \(P=1.630968209403959324879279847782648941\ldots\) & local fixed-point scale \\
+\(P\)-closure and fine structure & \(\alpha^{-1}(0)=137.035999177(21)\), \(P\simeq1.6309682094\) & local fixed-point scale \\
 Structural massless carriers & \(m_\gamma=m_g=m_{\mathrm{grav}}=0\) & symmetry-protected zeros \\
 Electroweak \(W/Z\) & \(80.377~\mathrm{GeV}\), \(91.18797809193725~\mathrm{GeV}\) & weak-sector validation pair \\
 Higgs/top surface & \(m_H=125.1995304097179~\mathrm{GeV}\), \(m_t=172.35235532883115~\mathrm{GeV}\) & declared D10/D11 split surface \\
@@ -367,8 +367,8 @@ Sector & Claim tier & Derivation stage & Public output(s) / exact sidecar(s) & C
 Structural carriers & structural & gauge/gravity structural theorems & exact \(m_\gamma=m_g=m_{\mathrm{grav}}=0\) & theorem-grade structural exactness; no particle-side caveat \\
 Electroweak bosons & compare-only adapter & D10 electroweak branch plus frozen validation adapter & \(M_W=80.377~\mathrm{GeV}\), \(M_Z=91.18797809193725~\mathrm{GeV}\) & not a live prediction theorem. The candidate \(P\) root awaits the source spectral measure payload, same-scheme remainder, and interval certificate \\
 Higgs/top stage & exact source-only split theorem on the declared D10/D11 running, matching, and threshold surface + compare-only exact sidecar & D10 gauge core followed by the target-free D10 repair chart, the shared scalar \(\rho_{HT}=\log(1+\tau_{2,\mathrm{tree}}^{\mathrm{exact}})\), the source-only split selectors, and the D11 Jacobian readout & exact pair \(m_H=125.1995304097179~\mathrm{GeV}\), \(m_t^{D11}=172.3523553288312~\mathrm{GeV}\); exact inverse-sidecar pair on the D11 Jacobian & Higgs row is closed on the declared surface.\newline The inverse pair is compare-only.\newline The auxiliary direct-top PDG row is a distinct compare-only codomain; issue \#207 is closed as a corpus-limited no-go. \\
-Quark family & selected-class theorem + exact supporting surfaces & shared excitation dictionary \(\rightarrow\) D12 mass bridge \(\rightarrow\) selected public quark frame class \(f_P\)\newline \(\rightarrow\) direct public sigma-datum descent \(\rightarrow\) affine mean law\newline \(\rightarrow\) ordered three-point readout \(\rightarrow\) exact forward construction & exact running quark sextet on the selected public quark frame class \(f_P\), together with explicit exact forward Yukawas \(Y_u,Y_d\) on that selected class & selected-class closure only.\newline The exact sextet matches the official PDG 2025 API running-quark surface, with the top coordinate taken from the PDG cross-section entry.\newline The auxiliary direct-top PDG row is compare-only; issue \#207 is closed as a corpus-limited no-go.\newline The stronger class-uniform/global public-frame classification is not emitted; issue \#199 is closed as a corpus-limited no-go without weakening the selected-class theorem.\newline Strong CP remains open: the available corpus does not derive \(\theta_{\mathrm{QCD}}\), does not emit physical \(\bar\theta\), and does not prove that the physical strong-CP phase vanishes.\newline Supporting exact surfaces:\newline same-family witness on \ophid{current_family_only};\newline restricted common-refinement transport-frame theorem on \ophid{current_family_common_refinement_transport_frame_only}.\newline Both realize the same sextet and explicit exact forward Yukawas.\newline Separate target-free mass bridge:\newline \(\Delta_{ud}^{\mathrm{overlap}}=\tfrac16\log(c_d/c_u)\), equivalently\newline \(\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_d12_t1_value_law}}\), on the emitted D12 mass ray.\newline Historical lower selector:\newline \(\sigma_{\mathrm{ref}}\) is a negative same-label sheet selector statement beneath the selected-class theorem.\newline No global classification of all quark frame classes is claimed \\
-Charged leptons & continuation + exact sidecar witness & shared excitation dictionary \(\rightarrow\) ordered charged carrier \(\rightarrow\) exact centered readback \(\rightarrow\) conditional determinant-line lift & exact same-carrier centered readback together with the exact same-family charged triple on a target-anchored witness & public charged masses are not emitted from \(P\).\newline The theorem lane does not emit a theorem-grade sector-isolated charged determinant exponent vector.\newline It does not attach a source-side determinant character to the physical charged determinant line.\newline The conditional determinant-line lift and algebraic mass readout apply only on theorem-grade physical charged data \\
+Quark family & selected-class theorem + exact supporting surfaces & shared excitation dictionary \(\rightarrow\) D12 mass bridge \(\rightarrow\) selected public quark frame class \(f_P\)\newline \(\rightarrow\) direct public sigma-datum descent \(\rightarrow\) affine mean law\newline \(\rightarrow\) ordered three-point readout \(\rightarrow\) exact forward construction & exact running quark sextet on the selected public quark frame class \(f_P\), together with explicit exact forward Yukawas \(Y_u,Y_d\) on that selected class & selected-class closure only.\newline The exact sextet matches the official PDG 2025 API running-quark surface, with the top coordinate taken from the PDG cross-section entry.\newline The auxiliary direct-top PDG row is compare-only; issue \#207 is closed as a corpus-limited no-go.\newline The stronger class-uniform/global public-frame classification is not emitted; issue \#199 is closed as a corpus-limited no-go without weakening the selected-class theorem.\newline Strong CP remains open: the available corpus does not derive \(\theta_{\mathrm{QCD}}\), does not emit physical \(\bar\theta\), and does not prove that the physical strong-CP phase vanishes.\newline Supporting exact surfaces:\newline same-family witness on \ophid{current_family_only};\newline restricted common-refinement transport-frame theorem on \ophid{current_family_common_refinement_transport_frame_only}.\newline Both realize the same sextet and explicit exact forward Yukawas.\newline Separate target-free mass bridge:\newline \(\Delta_{ud}^{\mathrm{overlap}}=\tfrac16\log(c_d/c_u)\), equivalently\newline \(\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_same_family_value_law}}\), on the emitted D12 mass ray.\newline Lower selector:\newline \(\sigma_{\mathrm{ref}}\) is a negative same-label sheet selector statement beneath the selected-class theorem.\newline No global classification of all quark frame classes is claimed \\
+Charged leptons & continuation + exact sidecar witness & shared excitation dictionary \(\rightarrow\) ordered charged carrier \(\rightarrow\) exact centered readback \(\rightarrow\) determinant-line lift on theorem-grade physical charged data & exact same-carrier centered readback together with the exact same-family charged triple on a target-anchored witness & public charged masses are not emitted from \(P\).\newline The theorem lane does not emit a theorem-grade sector-isolated charged determinant exponent vector.\newline It does not attach a source-side determinant character to the physical charged determinant line.\newline The determinant-line lift and algebraic mass readout apply only on theorem-grade physical charged data \\
 Neutrinos & continuation + emitted bridge invariant + diagnostic sidecars & same-label scalar certificate \(\rightarrow\) weighted-cycle branch \(\rightarrow\) bridge rigidity \(\rightarrow\) absolute attachment \(\rightarrow\) shared-basis transport readout & emitted absolute masses, central splittings, and the physical Majorana pair \((\alpha_{21}^{(\mathrm{Maj})},\alpha_{31}^{(\mathrm{Maj})})=(153.618518^\circ,257.003241^\circ)\) on the weighted-cycle branch, with bridge invariant \(C_\nu\) above emitted proxy \(P_\nu\) and paper-facing amplitude \(B_\nu\) & theorem-grade on the declared weighted-cycle branch; the exact positive-segment adapter, bridge corridor, and correction audit are diagnostic-only and do not feed back into theorem state \\
 Hadrons & source backend absent; empirical closure policy emitted & Ward-projected spectral-measure contract for an OPH hadron backend, plus empirical \(e^+e^-\to\mathrm{hadrons}\) source registry and payload schema & no source-only hadron masses; empirical hadron closure rows are separate from source-only OPH rows & Source-only hadron prediction requires a working OPH hadron backend, such as GLORB/Echosahedron, with the Ward-projected hadronic spectral measure and systematics. The empirical closure surface uses a separate \(e^+e^-\to\mathrm{hadrons}\) payload class and cannot promote the source-only theorem \\
 \bottomrule
@@ -402,7 +402,7 @@ Structural carriers & \(m_\gamma=m_g=m_{\mathrm{grav}}=0\) & axioms \(\rightarro
 Electroweak exact sidecar & exact frozen \(W/Z\) pair & axioms \(\rightarrow D7\rightarrow D10\) quantitative-closure chain \(\rightarrow\) exact frozen repair pair \ophid{oph_d10_ew_w_anchor_neutral_shear_factorization} & exact only on the frozen authoritative repair surface; compare-only beneath the target-free theorem \\
 Higgs/top exact sidecar & exact Higgs/top inverse pair & axioms \(\rightarrow D10\) gauge core \(\rightarrow D11\) Jacobian \(\rightarrow\) exact inverse slice & compare-only inverse slice; the public Higgs/top pair comes from the source-only split theorem on the declared surface, while the repo-wide exact public top row is also carried by the selected-class quark theorem \\
 Charged exact witness & exact same-family charged triple & axioms \(\rightarrow\) shared excitation dictionary \(\rightarrow\) ordered charged carrier \(\rightarrow\) exact centered readback \(\rightarrow\) closed quadratic readout theorem \(\rightarrow\) same-family exact witness & same-family-only; theorem lane carries exact centered readback plus the closed common-shift no-go, and issue \#201 closes the available corpus as a no-go until a theorem-grade \(\widehat C_e\) promotion and uncentered trace lift emit the physical scalar \(\mu_{\mathrm{phys}}(Y_e)\) \\
-Quark selected-class theorem & exact running quark sextet plus explicit exact forward Yukawas on \(f_P\) & axioms \(\rightarrow\) shared excitation dictionary \(\rightarrow\) D12 mass bridge \(\rightarrow\) selected public quark frame class \(f_P\) \(\rightarrow\) direct public sigma-datum descent \(\rightarrow\) affine mean law \(\rightarrow\) ordered three-point readout \(\rightarrow\) exact forward construction & selected-class closure on the public physical quark frame class chosen by \(P\); the sextet matches the official PDG 2025 API running-quark surface exactly, with the top coordinate taken from the PDG cross-section entry; the auxiliary direct-top PDG row is compare-only and issue \#207 is closed as a corpus-limited no-go; the stronger global classification of public quark frame classes is not emitted and issue \#199 is closed as a corpus-limited no-go; the same exact sextet is also realized by the same-family witness on \texttt{current\_family\_only} and by the restricted common-refinement transport-frame exact chain, which also carries explicit exact forward Yukawas \(Y_u\) and \(Y_d\); the target-free mass bridge \(\Delta_{ud}^{\mathrm{overlap}}=\tfrac16\log(c_d/c_u)\), equivalently \(\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_d12_t1_value_law}}\), closes separately on the emitted D12 mass ray; the historical selector \(\sigma_{\mathrm{ref}}\) is a lower negative sheet statement beneath the selected-class theorem; no global classification of all quark frame classes is claimed \\
+Quark selected-class theorem & exact running quark sextet plus explicit exact forward Yukawas on \(f_P\) & axioms \(\rightarrow\) shared excitation dictionary \(\rightarrow\) D12 mass bridge \(\rightarrow\) selected public quark frame class \(f_P\) \(\rightarrow\) direct public sigma-datum descent \(\rightarrow\) affine mean law \(\rightarrow\) ordered three-point readout \(\rightarrow\) exact forward construction & selected-class closure on the public physical quark frame class chosen by \(P\); the sextet matches the official PDG 2025 API running-quark surface exactly, with the top coordinate taken from the PDG cross-section entry; the auxiliary direct-top PDG row is compare-only and issue \#207 is closed as a corpus-limited no-go; the stronger global classification of public quark frame classes is not emitted and issue \#199 is closed as a corpus-limited no-go; the same exact sextet is also realized by the same-family witness on \texttt{current\_family\_only} and by the restricted common-refinement transport-frame exact chain, which also carries explicit exact forward Yukawas \(Y_u\) and \(Y_d\); the target-free mass bridge \(\Delta_{ud}^{\mathrm{overlap}}=\tfrac16\log(c_d/c_u)\), equivalently \(\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_same_family_value_law}}\), closes separately on the emitted D12 mass ray; the lower selector \(\sigma_{\mathrm{ref}}\) is a negative sheet statement beneath the selected-class theorem; no global classification of all quark frame classes is claimed \\
 Neutrino theorem branch & emitted absolute mass triple, representative central splittings, and physical Majorana pair & axioms \(\rightarrow\) same-label scalar certificate \(\rightarrow\) weighted-cycle branch \(\rightarrow\) bridge-rigidity theorem \(\rightarrow\) absolute-attachment theorem \(\rightarrow\) shared-basis transport readout & theorem-grade on the declared weighted-cycle branch; the exact positive-segment adapter and bridge-coordinate sidecars are diagnostic-only \\
 \bottomrule
 \end{tabular}
@@ -412,7 +412,7 @@ Concretely, the exact values shown on this surface are
 \[
 \alpha^{-1}(0)=137.035999177(21),
 \qquad
-P=1.630968209403959324879279847782648941\ldots,
+P\simeq1.6309682094,
 \]
 \[
 (M_W,M_Z,m_H)=
@@ -455,9 +455,9 @@ Thomson residual. At the implemented fixed point the residual is
 \]
 inverse-alpha units. At the public endpoint pixel value
 \[
-P=1.630968209403959324879279847782648941\ldots
+P\simeq1.6309682094
 \]
-the conditional endpoint package requires
+the endpoint residual package requires
 \[
 \Delta_{\mathrm{source}}(P)=0.041465861005223389053448715357314044\ldots.
 \]
@@ -466,7 +466,7 @@ scheme-remainder map. The OPH plus empirical hadron closure surface supplies
 the display row through the measured Thomson endpoint while the
 \(e^+e^-\to\mathrm{hadrons}\) payload class records the data-driven hadron
 path. The source-only transport row excludes an inserted comparison endpoint. The
-electroweak status ledger records the residual map and the
+electroweak status table records the residual map and the
 RG/matching/threshold/scheme packet.
 The electroweak \(W/Z\) row is therefore compare-only. Charged leptons carry a corpus-limited
 no-go because the determinant trace-lift attachment from the D10 descendants of \(P\) to physical charged data is absent. The auxiliary
@@ -587,7 +587,7 @@ Higgs/top critical stage & Higgs boson & quantitative theorem & \(125.1995304097
 Quark family & top quark & selected-class theorem & \(172.35235532883115~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & exact running-mass theorem row on \(f_P\); the D11 lane carries the same exact top value on its declared split quantitative surface, while the repo-wide exact public top row is emitted by the selected-class quark theorem \\
 Quark family & up quark & selected-class theorem & \(0.00216~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & exact running-mass theorem row on \(f_P\); supporting exact same-family and restricted transport-frame surfaces realize the same value; global classification of all public quark frame classes is closed as a corpus-limited no-go \\
 Quark family & down quark & selected-class theorem & \(0.00470~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & same selected-class theorem surface; target-free mass bridge on the emitted D12 ray closes separately \\
-Quark family & strange quark & selected-class theorem & \(0.0935~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & same selected-class theorem surface; the historical selector \(\sigma_{\mathrm{ref}}\) is a lower negative sheet statement beneath that theorem \\
+Quark family & strange quark & selected-class theorem & \(0.0935~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & same selected-class theorem surface; the lower selector \(\sigma_{\mathrm{ref}}\) is a negative sheet statement beneath that theorem \\
 Quark family & charm quark & selected-class theorem & \(1.273~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & same selected-class theorem surface; explicit exact forward Yukawas \(Y_u,Y_d\) are emitted on \(f_P\) \\
 Quark family & bottom quark & selected-class theorem & \(4.183~\mathrm{GeV}\) on the selected public quark frame class \(f_P\) & same selected-class theorem surface; the exact sextet matches the official PDG 2025 API running-quark target surface \\
 Charged leptons & electron & continuation gap & \(n/a\); exact same-carrier centered readback exists once a charged source pair is emitted, but the absolute scale is blocked by the closed common-shift no-go; compare-only target \(g_e^\star=0.0457789\), equivalently \(\Delta_e^{\mathrm{abs},\star}=3.00398633\) & promote the latent candidate \(\widehat C_e^{\mathrm{cand}}\) by closing branch-generator splitting, then emit the post-promotion lift whose descended scalar is \(\mu_{\mathrm{phys}}(Y_e)\); within that lift the exact smaller forcing object is the physical identity-mode equalizer, after which \(\widetilde C_e(Y_e)=\widehat C_e(Y_e)+\mu_{\mathrm{phys}}(Y_e)\,\mathbf 1\), \(A_{\mathrm{ch}}(Y_e)=\mu_{\mathrm{phys}}(Y_e)\), and the readouts \(g_e\), \(\Delta_e^{\mathrm{abs}}\) follow \\
@@ -603,9 +603,9 @@ Hadrons & \(\rho(770)^0\) proxy & source backend absent; empirical closure polic
 \end{longtable}
 \normalsize
 
-\section{Detailed Premise Ledger, Screen Architecture, Inputs, and Theorem Packages}\label{sec:particle-premise-ledger}
+\section{Detailed Inputs, Screen Architecture, and Theorem Packages}\label{sec:particle-input-ledger}
 
-This section records the detailed premise ledger used by the particle derivation: the five axioms,
+This section records the detailed input and theorem checklist used by the particle derivation: the five axioms,
 the screen-capacity input, the local pixel closure, the regulated screen realization, and the imported
 OPH theorem packages. The order is the logical order used later in the paper: axioms and screen
 language first, external inputs next, and theorem packages after that.
@@ -675,7 +675,7 @@ CP capability, and weak-sector UV completeness.
 For particle physics, the first four axioms provide the observer-centric kinematic and
 entropic/modular background. The fifth axiom, MAR, is the selector that turns ``some compact
 gauge group reconstructed from the transportable edge-sector category under the compact paper's
-explicit coherent refinement ladder, symmetry, and finite-fiber premises'' into the realized Standard Model branch. This
+explicit coherent refinement ladder, symmetry, and finite-fiber conditions'' into the realized Standard Model branch. This
 paper therefore uses MAR constantly, but only after the compact-gauge reconstruction step has
 been separated from the later realized-branch selection.
 
@@ -694,10 +694,9 @@ boundary-visible algebra with declared shared observables. Second, it makes the 
 language concrete. The particle derivation ultimately uses edge sectors, transport, refinement,
 fusion, and overlap data to build the gauge and flavor branches; Ref.~\cite{ophmicrophysics} shows
 how those objects can be realized at fixed cutoff by finite gauge-aware registers.
-Third, it clarifies the measurement interface. The observer-facing measurement package is not an
-added Copenhagen layer but a theorem-bearing fixed-cutoff statement about a central record
-algebra, Born probabilities for its event projectors, and L\"uders conditioning on that same
-commuting algebra.
+Third, it clarifies the measurement interface. The observer-facing measurement package is a
+theorem-bearing fixed-cutoff statement about a central record algebra, Born probabilities for its
+event projectors, and L\"uders conditioning on that same commuting algebra.
 
 This regulated architecture should be read as a reference implementation, not as the unique OPH
 UV completion. Ref.~\cite{ophmicrophysics} is explicit on that boundary: it selects one finite
@@ -752,44 +751,36 @@ burden sits on \(P\): \(N_{\mathrm{scr}}\) enters the separate capacity/cosmolog
 the reverse-engineering claim for masses and couplings is that one shared pixel constant should
 drive the spectrum instead of a long sector-by-sector input list.
 
-\subsection{Technical premises carried into the particle-spectrum derivation}
+\subsection{Technical theorem data carried into the particle-spectrum derivation}
 
-This paper uses the same technical-premise boundary as
+This paper uses the same theorem checklist as
 \emph{Recovering Relativity and Standard Model Structure from Observer Overlap Consistency}~\cite{ophcompact}, together with
 the regulator-language clarification integrated into the consensus and microphysics
-appendices. The premise ledger matters only
-insofar as it separates branch-internal statements from theorem-external ones.
+appendices. The ledger matters only
+insofar as it separates branch-internal statements from declared inputs.
 
 The third axiom internalizes several pieces of infrastructure that often appear as separate
 assumptions: the local Gibbs form of the regulator-scale state, the
 quasi-local propagation bound, the endpoint-control estimate for bounded intervals, and the
 meaning of refinement stability itself. In regulator language, one works with finite local
 Hilbert spaces and a boundary-fixed overlap action on cut data, often summarized as the R0/R1
-presentation. Beyond that regulator package, the numbered burdens inherited from the compact
-paper are the T1 controlled scaling-limit scope and the T2 nontrivial realized MAR occupancy
-boundary. Transportability, the fixed-cutoff bosonic sector category, and the refinement/fiber
-ladder are theorem-produced in the compact paper. On the central branch the matching gluing
+presentation. Beyond that regulator package, the compact paper supplies the support-visible BW
+scaling theorem for the Lorentz/null-modular/Einstein branch. Transportability, the fixed-cutoff bosonic sector category, the refinement/fiber
+ladder, and the realized compact-gauge witness theorem are theorem-produced in the compact paper. On the central branch the matching gluing
 obstruction is the zero-obstruction transport criterion, not a second theorem-side input. Any
 local-Gibbs or collar-mixing language on that branch is fixed-cutoff recoverability/support
-control; it does not decide whether the refinement-limit gauge-sector colimit is trivial or
-nontrivial.
-For the BW/geometric side, the target is the extracted prime geometric subnet, and the
-smallest internal extension route is a two-step chain: first a scaling-limit geometric cap-pair extraction
-theorem on that subnet that produces transported cap limits with vanishing carried collar errors,
-and then an ordered null cut-pair rigidity theorem that
-collapses the residual cap-preserving conformal freedom on those extracted cap pairs to the
-hyperbolic subgroup. Beneath that carried-collar witness, the sharper raw datum is a fixed-local-collar
-Markov/faithfulness package: collarwise conditional mutual information vanishing together with an
-eventual common floor on the finite modular-transport family on each fixed local collar model. Within that datum the
-single missing clause is precisely that modular-transport common floor, which feeds
-the faithful modular-defect term. No separate exact-Markov-reference faithfulness input is
-missing there: on one fixed collar model, the exact-Markov comparison marginals inherit the same
-eventual floor once the exact-Markov modulus tends to zero.
+control; it is not the source of the compact-gauge witness.
+For the BW/geometric side, the target is the support-visible extracted prime geometric subnet.
+The compact paper proves the needed scaling theorem by combining regularized support-visible
+modular transport, weak-\(*\)/GNS extraction of the cap pair, ordered cut-pair rigidity, and
+KMS/BW normalization. The unregularized full-algebra common-floor route is deliberately not
+claimed, because off-support directions may collapse without affecting observer-facing matrix
+elements.
 
 For the particle-spectrum derivation, this has a practical consequence. Structural statements such
 as compact-gauge reconstruction, the realized Standard Model quotient, the exact hypercharge
 lattice, the color count \(N_c=3\), the generation count \(N_g=3\), and the symmetry-protected
-massless carrier zeros are not floating independently of the declared premise ledger. They live on a
+massless carrier zeros are not floating independently of the declared input and theorem checklist. They live on a
 controlled chain whose scope conditions need to be visible in this paper,
 especially once later chapters turn from structural branches to quantitative closure, continuation, and
 nonperturbative sectors.
@@ -840,8 +831,8 @@ simulation status unless the underlying derivation chains close more strongly.
 The particle-spectrum derivation does not start from a list of particles. It starts from the
 compact-gauge branch. OPH first reconstructs a compact gauge
 group from the zero-obstruction edge-sector category produced by the compact paper's
-transportability, fixed-cutoff category, and refinement/fiber theorems. MAR then selects the
-realized low-energy branch, with T2 marking the nontrivial occupancy boundary. That logical order matters for this paper. The
+transportability, fixed-cutoff category, and refinement/fiber theorems. The compact-gauge witness theorem supplies the occupied realized branch, and MAR then selects the
+realized low-energy package. That logical order matters for this paper. The
 gauge branch fixes the structural carrier content before any mass readout, and it also explains
 why some rows are exact structural zeros rather than fitted or accidentally small numbers.
 
@@ -1357,7 +1348,7 @@ Ward-projected transport kernel satisfies
 on the same source-locked family and without any separate endpoint value feeding that lane.
 \end{corollary}
 
-The endpoint ledger records the source-locked anchor from the runtime candidate,
+The endpoint table records the source-locked anchor from the runtime candidate,
 \[
 a_0(P)=128.308268045165213892552005990181778935450\ldots,
 \]
@@ -1397,7 +1388,7 @@ is mass-chart bookkeeping on that frozen validation surface. It is not the publi
 readout on the Ward-projected \(\U(1)_Q\) lane.
 
 The electroweak quantitative-closure branch also contains several subordinate theorem objects: an
-underdetermination theorem for the quadratic repair family, the smallest conditional route
+underdetermination theorem for the quadratic repair family, the smallest theorem route
 through \(\mathrm{ColorBalancedQuadraticRepairDescent}_{EW}\), the source-only mass emitter
 beneath the public \(W/Z\) rows, and the Ward-projected electromagnetic transport theorem above
 the source-locked running-family anchor. The scalar-package consistency clause is the shared
@@ -1461,7 +1452,7 @@ At the precision quoted by the PDG Higgs listing, the Higgs row lands on the 202
 same surface emits a companion top coordinate. The exact public running-top row is carried by the
 selected-class quark theorem and uses the PDG 2025 cross-section entry. The bridge to the auxiliary
 direct-top PDG row is closed as a corpus-limited codomain no-go; the auxiliary row remains compare-only.
-The old one-scalar seed
+The one-scalar companion seed
 \[
 \sigma_{D11,\mathrm{HT}}=\frac{\alpha_U\cos(2\theta_{W0})}{\sqrt{\pi}}
 \]
@@ -1502,7 +1493,7 @@ endpoint and matching gates.
 
 The gauge branch explains why the realized low-energy sector has three generations, but it does
 not by itself produce the full flavor dictionary. This paper therefore needs a
-separate flavor chapter. The imported realized-branch premise here is the D9 count package
+separate flavor chapter. The imported realized-branch input here is the D9 count package
 \(N_c=3\) and \(N_g=3\). This chapter is the bridge between that structural result and the
 matter-family chapters for quarks, charged leptons, and neutrinos.
 
@@ -1541,7 +1532,7 @@ source-side determinant character for any fixed formal exponent vector
 \[
 S_M=\sum_e M_e^{\mathrm{ch}}\log q_e,
 \]
-a conditional determinant-line lift on theorem-grade physical charged data, and an algebraic mass
+a determinant-line lift on theorem-grade physical charged data, and an algebraic mass
 readout from theorem-grade \(A_{\mathrm{ch}}(P)\). The theorem lane does not emit a theorem-grade
 sector-isolated charged determinant exponent vector, and it does not identify a source-side
 determinant character with the physical charged determinant line. The charged-lepton theorem gap is the
@@ -1580,7 +1571,7 @@ selected class.
 The quark route starts from the shared flavor excitation dictionary, internalizes the target-free
 mass bridge on the D12 mass ray, descends the exact physical sigma datum to the selected public
 class \(f_P\), applies the affine mean law, and closes both the ordered three-point readout and
-the exact forward construction. The historical same-label left-handed selector surface closes to
+the exact forward construction. The same-label left-handed selector surface closes to
 the singleton \(\sigma_{\mathrm{ref}}\). That lower object is a negative sheet-selector statement
 on the selected D12 sheet. It does not replace the selected-class public theorem.
 
@@ -1613,7 +1604,7 @@ records the quark-family running-mass theorem surface on \(f_P\).
 
 \subsection{Target-free mass bridge and selected-class public theorem}\label{quark-family-strongest-overlap-branch-primitives}
 
-The historical same-label left-handed solver surface closes to the singleton
+The same-label left-handed solver surface closes to the singleton
 \(\sigma_{\mathrm{ref}}\) (\ophid{sigma_ref}). This is a negative same-sheet selector statement:
 same-sheet rephasing preserves CKM moduli, so it does not move that selected sheet to the
 physical CKM shell. Same-sheet overlap scans, chirality-swapped basis diagnostics, and other
@@ -1646,7 +1637,7 @@ and on that ray the same scalar is equivalently the one-scalar law
 \[
 \Theta_{ud}^{\mathrm{mass}}
 :=
-\text{\ophid{quark_d12_t1_value_law}}.
+\text{\ophid{quark_same_family_value_law}}.
 \]
 The exact scalar identities are
 \[
@@ -1784,7 +1775,7 @@ D12_{ud}^{\mathrm{mass}}
 \qquad
 \lambda=\mathrm{ray\_modulus}=t_1;
 \]
-\item the historical same-label left-handed selector value
+\item the same-label left-handed selector value
 \[
 \sigma_{ud}=\sigma_{\mathrm{ref}},
 \]
@@ -1796,7 +1787,7 @@ P\vdash
 \Delta_{ud}^{\mathrm{overlap}}=\frac16\log\frac{c_d}{c_u},
 \qquad
 P\vdash
-\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_d12_t1_value_law}};
+\Theta_{ud}^{\mathrm{mass}}=\text{\ophid{quark_same_family_value_law}};
 \]
 \item the selected-class public theorem on \(f_P\), which emits the target-free exact physical
 sigma datum, the affine pair \((g_u,g_d)\), the exact running sextet, and explicit exact forward
@@ -1858,7 +1849,7 @@ branch. Issue \#155 tracks this open companion branch.
 
 \section{Charged-Lepton Family Derivation}
 
-The charged-lepton derivation differs from the quark derivation in a precise way. It does not emit public charged masses from \(P\). It emits an exact same-family witness, a closed common-shift no-go, the declared same-label \(q_e\) readback, a conditional determinant-line lift on theorem-grade physical charged data, and a downstream algebraic mass readout from theorem-grade \(A_{\mathrm{ch}}(P)\). For any fixed formal source exponent vector \(M_\bullet^{\mathrm{ch}}\), the same-label readback defines a source-side determinant character
+The charged-lepton derivation differs from the quark derivation in a precise way. It does not emit public charged masses from \(P\). It emits an exact same-family witness, a closed common-shift no-go, the declared same-label \(q_e\) readback, a determinant-line lift on theorem-grade physical charged data, and a downstream algebraic mass readout from theorem-grade \(A_{\mathrm{ch}}(P)\). For any fixed formal source exponent vector \(M_\bullet^{\mathrm{ch}}\), the same-label readback defines a source-side determinant character
 \[
 S_M=\sum_e M_e^{\mathrm{ch}}\log q_e.
 \]
@@ -2638,9 +2629,8 @@ that would feed the normalized dump from real production execution.
 It is useful to separate the lightweight analysis layer from the missing backend layer.
 Informally, the repository-side control plane is explicit: the seeded ensemble family, the
 deterministic cfg/source contract, the export manifest, the jackknife evaluator, the forward-window
-selector, and the publication-budget schema are all explicit. The missing step is therefore not
-another bookkeeping script but the production export of Ward-projected hadronic spectral data from
-a real OPH hadron backend.
+selector, and the publication-budget schema are all explicit. The missing step is the production
+export of Ward-projected hadronic spectral data from a real OPH hadron backend.
 
 Technically, the required production computation is the standard lattice-QCD stable-channel
 workflow on the emitted family: run unquenched RHMC/HMC for the three seeded ensembles; for each
@@ -3039,7 +3029,7 @@ non-theorem commentary.
 
 This directly answers the particle-state question in the present framework. Measurements give particles
 actual states by conditioning the observer-accessible state on the central record algebra. A
-detector click, a stable overlap-sector readout, or a pointer value does not merely announce a
+detector click, a stable overlap-sector readout, or a pointer value does more than announce a
 pre-existing classical label; it defines the conditioned state for subsequent observer-accessible
 physics. If the same event is re-read without any accepted repair move touching its support, the
 result in Ref.~\cite{ophmicrophysics} shows that the re-read probability is \(1\). So the measurement interface is
@@ -3146,7 +3136,7 @@ threshold conventions, and an additional fermionic-grading restriction together 
 MSSM-like benchmark shift. It does not prove that those effective loop multiplicities,
 statistics restrictions, and decoupling conventions are uniquely forced by OPH edge sectors alone.
 
-For this paper, the correct conclusion is therefore conditional and modest:
+For this paper, the correct conclusion is therefore scope-limited and modest:
 \begin{enumerate}[leftmargin=2em]
 \item the derivation reconstructs the realized Standard Model branch without having to
 introduce a supersymmetric partner for every known field;
@@ -3203,7 +3193,7 @@ row, the charged-lepton absolute-mass landing, and the hadron backend plus empir
 The \(W/Z\) row is a frozen compare-only adapter; theorem promotion requires the source spectral
 measure payload, same-scheme remainder, and interval certificate on the Ward-projected Thomson
 lane. In the charged lane the theorem surface carries an exact
-same-family witness, a conditional determinant-line lift, and an algebraic mass readout from
+same-family witness, a determinant-line lift, and an algebraic mass readout from
 theorem-grade \(A_{\mathrm{ch}}(P)\), while the source landing from the D10 quantitative
 descendants of \(P\) to physical charged data is closed as a corpus-limited no-go. Source-only
 hadron masses require a working OPH hadron backend. Empirical hadron closure values use a
@@ -3211,11 +3201,11 @@ separate \(e^+e^-\to\mathrm{hadrons}\) payload class.
 
 That accounting belongs on the page because it is part of the derivation. The paper puts the
 structural results, the fixed-point fine-structure value, the emitted quantitative rows, and the
-status ledger onto one common surface. The bosonic \(P\)-driven trunk is explicit. The local
+status table onto one common surface. The bosonic \(P\)-driven trunk is explicit. The local
 extension surface identifies the shared edge entropy with the D10 nonabelian sum on the lifted
 product presentation of the realized quotient branch, and the same surface fixes that scalar to
 \(P/4\). The particle spectrum is therefore organized by one local screen scale rather than by a
-list of unrelated particle inputs. The ledger records scope boundaries for the weak validation
+list of unrelated particle inputs. The status table records scope boundaries for the weak validation
 pair, charged-lepton witnesses, direct-top auxiliary codomain, strong-CP phase status,
 neutrino comparison tension, source-only hadron backend rows, and empirical hadron closure rows.
 

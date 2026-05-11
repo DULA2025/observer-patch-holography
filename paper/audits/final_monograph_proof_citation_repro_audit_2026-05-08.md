@@ -10,18 +10,18 @@ Scope: Observer/compact proof status for the particle-adjacent OPH proof surface
 | --- | --- | --- |
 | #237 | Closed | Reference-architecture benchmark runner, tests, and JSON output artifact. |
 | #113 | Closed | Fixed-cutoff packet quotient closure map and invariant simplex; full habitat map not claimed. |
-| #232 | Closed | T1 downgraded to support-visible regularized modular transport plus explicit common-floor/noncollapse boundary. |
+| #232 | Closed | Support-visible BW scaling theorem installed on the prime geometric cap net. |
 | #233 | Closed | MAR realization space, physical equivalence, lexicographic order, well-founded minima, and SM-package uniqueness up to physical equivalence formalized. |
 | #60 | Closed | This audit artifact plus local rebuild/test commands. |
 
-## Numbered T1-T2 Status
+## BW Scaling And Gauge Witness Status
 
 | Lane | Status | Boundary |
 | --- | --- | --- |
-| T1 | Downgraded, explicit | Fixed-cutoff exact Lorentz/BW is not claimed. Regularized support-visible modular transport is proved; unregularized cap-pair extraction requires a noncollapse/common-floor theorem or a microscopic realization supplying it. |
-| T2 | Formalized boundary | MAR order/minima/equivalence are formalized; nontrivial realized branch occupancy is an explicit burden. |
+| Support-visible BW scaling | Proved in the current paper surface | Fixed-cutoff exact Lorentz/BW is not claimed. Regularized support-visible modular transport, weak-\(*\)/GNS extraction, ordered cut-pair rigidity, and KMS/BW normalization supply the observer-facing cap automorphism theorem. The false stronger full-algebra common-floor route is not claimed. |
+| Compact gauge witness | Proved in the current paper surface | MAR order/minima/equivalence are formalized; the realized compact-gauge witness theorem supplies the occupied Standard Model branch and physical-UV landing statement. |
 
-The active premise list contains T1 and T2. Transportability is supplied by overlap gluing, the fixed-cutoff bosonic collar-sector category is constructed on the bosonic EFT branch, and refinement functors plus finite bosonic fiber descent are constructed from the coherent ladder.
+The active recovered-core paper surface cites its theorem sources directly. Transportability is supplied by overlap gluing, the fixed-cutoff bosonic collar-sector category is constructed on the bosonic EFT branch, refinement functors plus finite bosonic fiber descent are constructed from the coherent ladder, and the realized compact-gauge witness is theorem-supplied.
 
 ## Reproducibility Commands
 
@@ -49,4 +49,4 @@ Run locally on 2026-05-08:
 
 ## Audit Conclusion
 
-The broad GitHub issues have closure support without hiding theorem debt: the documents state which parts are theorem-level, which parts are fixed-cutoff or regularized, and which parts are conditional on noncollapse or realized occupancy. No paper surface should state hadron predictions as closed or derived by this pipeline.
+The broad GitHub issues have closure support without hiding theorem boundaries: the documents state which parts are theorem-level, which parts are fixed-cutoff or regularized, and which parts require noncollapse, geometric-cap extraction, or continuation inputs. No paper surface should state hadron predictions as closed or derived by this pipeline.

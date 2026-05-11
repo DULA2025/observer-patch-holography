@@ -263,8 +263,8 @@ This statement cuts to the heart of OPH. Lorentz invariance is not an arbitrary 
 The selection filter is severe. A candidate law must support stable records,
 local repair, transport across overlaps, and enough redundancy for many
 observers to check the same fact. A beautiful equation that cannot survive
-those tests is like a mutation that cannot reproduce. It may be imaginable,
-but it does not become part of a public world.
+those tests is like a mutation that cannot reproduce. It can be imagined. It
+does not become part of a public world.
 
 ![Candidate patterns become public physics only after passing consistency, record, compression, and observer-support filters.](../assets/book_diagrams/selection-filters.svg){width=80%}
 

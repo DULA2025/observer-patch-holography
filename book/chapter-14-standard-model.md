@@ -476,7 +476,7 @@ plain meaning is simpler: a real charge cannot vanish or split into a different
 charge just because the bookkeeping became more detailed. If that happened
 without new overlap-visible data, the transport system would have failed. This
 does not prove that every edge charge survives. It says that survival, once
-supplied by the transport premises, is unique and checkable.
+supplied by the transport conditions, is unique and checkable.
 
 ### The Standard Model Factors
 
@@ -719,7 +719,7 @@ outside it is a small displacement from golden-ratio balance. From the inside it
 is the electromagnetic observation step available to observers in the encoded
 world. Matching those two descriptions gives
 $\alpha^{-1}(0)=137.035999177(21)$ and
-$P=1.630968209403959324879279847782648941\ldots$.
+$P\simeq1.6309682094$.
 The calculation runs from golden-ratio entropy balance to the boundary
 $\sqrt{\pi}$ width, through the source map for the unification scale and
 running gauge couplings, into the electroweak anchor, and then through the

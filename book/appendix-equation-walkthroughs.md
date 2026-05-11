@@ -140,7 +140,7 @@ This is why OPH can be observer-first without being arbitrary. The observer
 does not get to invent public facts. Public facts are what survive the
 restriction and comparison process.
 
-## Conditional Mutual Information
+## CMI
 
 $$I(A:C|B)=S(AB)+S(BC)-S(B)-S(ABC)$$
 
@@ -149,7 +149,7 @@ $AB$, and similarly for the other terms. The quantity $I(A:C|B)$ asks how
 much correlation remains between $A$ and $C$ after $B$ is known.
 
 If $I(A:C|B)=0$, then $B$ screens off $A$ from $C$ in a Markov-like way. In
-quantum information, small conditional mutual information implies that
+quantum information, small CMI implies that
 recovery is possible with controlled error. This is why the quantity matters
 for the collar picture. The collar $B$ can contain the interface data needed
 to reconstruct relationships between inside and outside.
@@ -244,7 +244,7 @@ the observer-patch bookkeeping arena.
 
 The same radius appears in the dark-sector continuation through the
 acceleration scale $a_0^{(\mathrm{OPH})}=(15/8\pi^2)c^2/r_{dS}$. That formula
-should be read as conditional. It is a proposed infrared bridge from de
+should be read as a continuation. It is a proposed infrared bridge from de
 Sitter capacity to galaxy-scale acceleration anomalies, not a finished
 replacement for all dark-sector phenomenology.
 
@@ -280,7 +280,7 @@ breaking in compact form.
 
 After symmetry breaking, weak gauge bosons gain mass, and fermions gain
 masses through Yukawa couplings. The details are part of the Standard Model
-ledger. OPH's particle chapter is careful that not every mass row has the
+status table. OPH's particle chapter is careful that not every mass row has the
 same status. Higgs and top relations, charged-lepton anchors, quark payloads,
 and neutrino assumptions must be tracked separately.
 
@@ -320,7 +320,7 @@ public copy.
 
 This warning belongs in an equation appendix because not every important
 symbol is part of a successful derivation. Some symbols mark the edge of the
-OPH derivation. A good ledger records those edges as clearly as its wins.
+OPH derivation. A good status table records those edges as clearly as its wins.
 
 ## A Practical Audit Method for Equations
 
@@ -341,10 +341,10 @@ reader whether the equation is quantum, relativistic, thermodynamic, or
 gravitational.
 
 Third, what kind of statement is the equation? It may be a definition, an
-established theorem, an empirical fit, a dimensional estimate, a conditional
+established theorem, an empirical fit, a dimensional estimate, an assumption-dependent
 OPH derivation, a conjectural continuation, or a numerical consistency check.
 These categories should stay distinct. A definition cannot be experimentally
-confirmed in the same way as a prediction. A conditional derivation carries the
+confirmed in the same way as a prediction. An assumption-dependent derivation carries the
 weight of its assumptions.
 
 Fourth, what is being held fixed? Many equations are misunderstood because the
@@ -356,8 +356,7 @@ asks which value remains stable.
 
 Fifth, where does the equation enter the architecture? Some equations are
 load-bearing. The horizon entropy formula supports the screen idea. The
-overlap restriction equation supports objectivity-as-consistency. Conditional
-mutual information supports recovery. Einstein's equation is a recovery
+overlap restriction equation supports objectivity-as-consistency. CMI supports recovery. Einstein's equation is a recovery
 target for smooth gravity. Other equations are illustrative or historical.
 The reader should know which is which.
 
@@ -378,12 +377,12 @@ The appendices are not a detour from the book. They are scaffolding. A reader
 who wants the argument in one continuous line can read the prologue, chapters,
 and epilogue first, then return here. A reader who gets stuck on symbols can
 use the equation walkthroughs and concept glossary as a local repair map. A
-reader evaluating status claims can use the chapter ledger to check whether a
-claim is established, conditional, target anchored, empirical-payload
+reader evaluating status claims can use the chapter table to check whether a
+claim is established, assumption-dependent, target anchored, empirical-payload
 dependent, or open.
 
 The appendices also give the book a stable reference surface. A theorem-status
-label in a chapter should match the ledger. A diagram should visualize a
+label in a chapter should match the table. A diagram should visualize a
 concept that the glossary or chapter ledger can name. A simplified public
 summary should be traceable to a more careful explanation inside the book.
 
@@ -402,7 +401,7 @@ status label, and historical inheritance remains checkable.
 
 The book belongs to the same research surface as the papers. Paper claims,
 book passages, diagrams, and PDF downloads should carry the same status
-language. The common drift points are theorem-status language, particle-ledger
+language. The common drift points are theorem-status language, particle-table
 rows, dark-sector claims, the strong-CP boundary, neutrino assumptions,
 charged-lepton anchors, hadron payload language, and metaphysical summaries
 that may sound more settled than the technical chapter permits.
@@ -422,7 +421,7 @@ reader receives pages, not Markdown files.
 The word-count floor should be understood in that spirit. The goal is not
 bulk. The goal is enough room for explanation. When the book uses a symbol,
 the reader deserves its meaning. When it invokes a discovery, the reader
-deserves the human chain behind it. When it makes a conditional claim, the
+deserves the human chain behind it. When it makes an assumption-dependent claim, the
 reader deserves the condition. Length is justified only when it pays those
 debts.
 

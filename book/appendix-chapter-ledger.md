@@ -326,7 +326,7 @@ cannot be copied freely, noise is everywhere, and horizons hide data. Yet the
 world has durable records. The answer is recovery: information can survive in
 encoded correlations even when local access is damaged.
 
-The central information quantity is conditional mutual information:
+The central information quantity is CMI:
 
 $$I(A:C|B)=S(AB)+S(BC)-S(B)-S(ABC).$$
 
@@ -336,15 +336,14 @@ correlation remains between $A$ and $C$ once $B$ is known. If it is zero, the
 state has a quantum Markov property: $B$ screens off $A$ from $C$ in the
 right sense. If it is small, recovery is approximate.
 
-The Fawzi-Renner theorem says, roughly, that small conditional mutual
-information implies the existence of a recovery map. Petz gave an earlier
+The Fawzi-Renner theorem says, roughly, that small CMI implies the existence of a recovery map. Petz gave an earlier
 canonical recovery map in the exact Markov setting. The book does not require
 the reader to compute the map, but it does require the conceptual lesson:
 lost-looking local data can be reconstructible from surrounding correlations.
 
 The collar-tripartition diagram shows the split used repeatedly in
 holographic recovery: a cap, a collar, and an exterior. The collar is the
-buffer region that can make conditional independence possible. It is the
+buffer region that can make given-data independence possible. It is the
 boundary information that lets inside and outside fit back together.
 
 The historical chain begins with Shannon's noisy-channel problem, passes
@@ -380,7 +379,7 @@ a bulk partition function with boundary source equals a generating functional
 for boundary correlation functions. The details are technical, but the
 meaning is direct: boundary data can compute bulk physics.
 
-OPH does not simply claim dS/CFT. Chapter 8 is careful about this. Anti-de
+OPH does not claim dS/CFT. Chapter 8 is careful about this. Anti-de
 Sitter space has a global boundary and negative cosmological constant. Our
 universe is closer to de Sitter, with positive cosmological constant and
 observer-dependent horizons. OPH takes the boundary-encoding lesson but
@@ -598,7 +597,7 @@ $$
 
 uses the de Sitter radius to set a deep-infrared scale. The proximity to the
 empirical MOND scale is the reason the chapter treats galaxy-scale anomalies
-as a serious continuation, while still keeping the claim conditional.
+as a serious assumption-dependent continuation.
 
 The builders include de Sitter, Friedmann, Lemaitre, Hubble, Slipher,
 Gamow, Penzias, Wilson, Guth, Starobinsky, Linde, Riess, Perlmutter, Schmidt,
@@ -642,7 +641,7 @@ structure makes the symmetric point unstable so electroweak symmetry breaks.
 Yukawa couplings connect fermions to the Higgs and generate masses after the
 Higgs gets a vacuum expectation value.
 
-The generation-count diagram marks a conditional OPH claim: the window begins
+The generation-count diagram marks a theorem-grade OPH claim: the window begins
 at three for intrinsic CP capability and closes above five from weak-sector
 ultraviolet consistency. The chapter is careful about which rows are
 theorem-grade, which are validation rows, which are target anchored, and
@@ -794,7 +793,7 @@ quark theorem does not derive its vanishing.
 
 The synthesis chapter is also where status language matters most. A
 reconstruction can be impressive without being uniform in theorem status.
-Some parts are structural consequences. Some are conditional continuations.
+Some parts are structural consequences. Some are assumption-dependent continuations.
 Some are empirical validations. Some depend on external payloads. A serious
 book should not flatten those categories.
 
@@ -846,10 +845,10 @@ recoverable. The important distinction is between backup and continuation. A
 backup is an external record. Continuation asks whether the restored pattern
 carries the same internal flow of experience.
 
-The key terms are **boundary-sector label**, **interior conditional state**,
+The key terms are **boundary-sector label**, **interface-relative interior state**,
 and **interface**. A boundary-sector label tells how the observer pattern
-glues to its environment. An interior conditional state is the inside pattern
-specified relative to that interface. Conditional independence means that,
+glues to its environment. An interface-relative interior state is the inside pattern
+specified relative to that interface. Given-data independence means that,
 once the relevant boundary data are fixed, inside and outside do not need
 extra direct information about each other to make compatible predictions.
 
@@ -978,12 +977,12 @@ assignments. The vertical bar restricts each state to the shared menu. The
 equation says both observers make the same predictions for shared questions.
 
 **Example 3: Reading a status claim.** Suppose a chapter says a row is a
-validation row, target-anchored witness, source-only row, or conditional
+validation row, target-anchored witness, source-only row, or assumption-dependent
 continuation. These are not stylistic labels. A validation row checks known
 physics. A target-anchored witness uses an empirical target as part of the
 setup. A source-only row is more predictive because it uses only declared
-source inputs. A conditional continuation is a plausible extension whose
-premises have not all been promoted to theorem status. Keeping those labels
+source inputs. An assumption-dependent continuation is a plausible extension whose
+assumptions have not all been promoted to theorem status. Keeping those labels
 visible is part of intellectual hygiene.
 
 The book's ambition is large, but its reading discipline is ordinary. Track

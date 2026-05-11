@@ -66,9 +66,9 @@ the `sqrt(pi)` width; a trial `P` feeds the source map
 transport carries the electroweak anchor to the Thomson endpoint
 `A_T(P)=α_em^-1(0;P)`; the realized cell solves
 `P = φ + sqrt(pi) / A_T(P)`. Its public solution is
-`P = a_cell / l_P^2 = 1.630968209403959324879279847782648941...`, with
+`P = a_cell / l_P^2 ≈ 1.6309682094`, with
 `α⁻¹(0) = 137.035999177(21)` and
-`α(0) = 0.007297352564331425030245795264691683...`. The same fixed-point
+`α(0) ≈ 0.00729735256433`. The same fixed-point
 geometry is also probed in a separate optical-cavity hardware note.
 
 The same local pixel scale drives the gravity readout, the fine-structure
@@ -187,18 +187,18 @@ tiers live in the papers.
 - **Common objections:** [extra/COMMON_OBJECTIONS.md](extra/COMMON_OBJECTIONS.md)
 - **IBM Quantum note:** [extra/IBM_QUANTUM_CLOUD.md](extra/IBM_QUANTUM_CLOUD.md)
 
-## Status Ledger
+## Status Table
 
 The fine-structure display row uses the fixed-point value
 `α⁻¹(0)=137.035999177(21)` and
-`P=1.630968209403959324879279847782648941...`. The source-side audit trunk
-emits `α_cand^-1=136.994835164621649457949994585787193262029` at
-`P_cand=1.63097209569432901817967892561191884270169`. The endpoint ledger
+`P≈1.6309682094`. The source-side audit trunk
+emits `α_cand^-1≈136.9948351646` at
+`P_cand≈1.6309720957`. The endpoint table
 records the residual needed by the source spectral payload:
-`0.041465861005223389053448715357314044...` inverse-alpha units at the
+`0.0414658610...` inverse-alpha units at the
 public endpoint pixel, with
-`S_required=0.895400132647658797805800283181670641...` and
-`c_Q=0.658025759927155435638230170232360050...`.
+`S_required≈0.8954001326` and
+`c_Q≈0.6580257599`.
 
 The weak-boson pair is a validation row. Charged-lepton absolute masses are
 target-anchored witness rows. The auxiliary direct-top average is a validation

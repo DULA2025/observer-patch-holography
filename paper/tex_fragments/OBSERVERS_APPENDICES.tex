@@ -188,7 +188,7 @@ canonical internal self-map, it does not identify any nonempty invariant observe
 and it does not prove uniqueness or stability. In particular, nonemptiness and compact-convexity
 of the ambient habitat do not by themselves imply the existence of a nonempty invariant
 observer-supporting sector. This does not erase the exact finite packet branch proved on the
-consensus surface: there the quotient normal-form map already pushes forward to a continuous
+consensus surface: there the quotient normal-form map pushes forward to a continuous
 affine idempotent self-map of the finite packet simplex, with fixed points exactly the packets
 supported on quotient normal forms. Any further strange-loop reading of the ambient habitat as a
 closure story for existence is interpretive only and is not part of the recovered theorem package.
@@ -196,9 +196,9 @@ closure story for existence is interpretive only and is not part of the recovere
 \subsection{Additional Problem Closures}
 
 Using the phase split of Section~\ref{16-summary-complete-axiom-set}, the broader closure claims
-read as follows. The ledger also records appendix-tier closure stories so they cannot float
-outside the official status ledger. In this table, ``Proved corollary of earlier theorems'' means
-proved under the dependencies named in the row, including declared branch premises and cited
+read as follows. The table also records appendix-tier closure stories so they cannot float
+outside the official status table. In this table, ``Proved corollary of earlier theorems'' means
+proved under the dependencies named in the row, including declared branch conditions and cited
 companion-paper theorem surfaces.
 
 \begin{center}
@@ -208,14 +208,14 @@ companion-paper theorem surfaces.
 \toprule
 Claim & Status & Boundary \\
 \midrule
-Quantum gravity consistency & Proved corollary of earlier theorems & Conditional Lorentz and Jacobson-type Einstein branches follow once the stated scaling-limit, null-bridge, and fixed-cap premises are imported. \\
+Quantum gravity consistency & Proved corollary of earlier theorems & Lorentz and Jacobson-type Einstein branches follow from the support-visible BW scaling theorem together with the stated null-bridge and fixed-cap conditions. \\
 UV completion / microscopic uniqueness & Explicit future program & Fixed-cutoff theorem packages exist, but a unique microscopic representative, the continuum BW lift on the extracted geometric subnet, and the refinement-limit transportable compact-gauge lift remain open. \\
 Measurement problem & Explicit future program & Ref.~\cite{ophmicrophysics} closes the fixed-cutoff central-record / Born-L\"uders interface, but a full philosophical or continuum-level measurement closure is not derived here. \\
 Cosmological principle and horizon homogeneity & Explicit future program & MaxEnt symmetry inheritance is suggestive only; an independent derivation of cosmological isotropy and homogeneity remains outside the recovered-core theorems. \\
 Observer-relative modular time & Proved corollary of earlier theorems & On the BW\(_{S^2}\) geometric branch, observer-relative time is read from the cap modular automorphism parameter of the observer's accessible algebra/state pair. This is the D3 reading only. \\
 Global / operational problem of time & Explicit future program & OPH does not prove a separate operational-clock theorem or a global solution of the problem of time. \\
 Black-hole information paradox & Explicit future program & Edge-center sectorization and recoverability motivate an internal resolution template, but the full black-hole-information branch remains outside Phase I. \\
-D6 cosmological-capacity closure under declared screen-capacity premise & Proved corollary of earlier theorems & Once the external input \(N_{\mathrm{scr}}\) and the D6 identification \(N_{\mathrm{scr}}=S_{\mathrm{dS}}\) are declared, the same Einstein branch fixes \(\Lambda=3\pi/(G N_{\mathrm{scr}})\) and the static-patch readout. \\
+D6 cosmological-capacity closure under declared screen-capacity input & Proved corollary of earlier theorems & Once the external input \(N_{\mathrm{scr}}\) and the D6 identification \(N_{\mathrm{scr}}=S_{\mathrm{dS}}\) are declared, the same Einstein branch fixes \(\Lambda=3\pi/(G N_{\mathrm{scr}})\) and the static-patch readout. \\
 Bare cosmological-constant problem from local null data & Explicit future program & The local null-data route determines the Einstein branch only modulo \(\Lambda g_{ab}\) and does not derive the screen-capacity identification from bare OPH axioms. \\
 Magnetic monopole expectation from simple GUT groups & Proved corollary of earlier theorems & The realized product-group branch \(\SU(3)\times\SU(2)\times\U(1)/\mathbb Z_6\) removes the standard simple-GUT symmetry-breaking monopole channel. \\
 Proton stability against gauge-mediated decay & Proved corollary of earlier theorems & The realized product-group branch removes the standard simple-GUT gauge-mediated proton-decay channel. \\
@@ -224,7 +224,7 @@ Dark matter phenomenology & Explicit future program & Modular-anomaly response l
 Baryon asymmetry scale & Explicit future program & Suppression-counting estimates are not a substitute for a derived out-of-equilibrium mechanism. \\
 Three generations & Proved corollary of earlier theorems & \(N_g=3\) is recovered on the realized MAR-admissible branch. \\
 Downstream flavor structure, Koide, and charged-lepton fits & Explicit future program & Later flavor constructions require extra ans\"atze and remain outside the recovered core. \\
-Edge-to-2D-YM / controlled large-\(N_{\mathrm{edge}}\) worldsheet branch & Proved corollary of earlier theorems & On the stated overlap-gauge, local-Gibbs/MaxEnt, compact-group, and large-\(N_{\mathrm{edge}}\) premises, the edge-sector heat-kernel bridge and controlled Gross--Taylor worldsheet effective description are theorem-level. \\
+Edge-to-2D-YM / controlled large-\(N_{\mathrm{edge}}\) worldsheet branch & Proved corollary of earlier theorems & On the stated overlap-gauge, local-Gibbs/MaxEnt, compact-group, and large-\(N_{\mathrm{edge}}\) conditions, the edge-sector heat-kernel bridge and controlled Gross--Taylor worldsheet effective description are theorem-level. \\
 Critical superstring / worldsheet CFT lift & Explicit future program & Critical-superstring claims, worldsheet CFT closure, anomaly cancellation, and full massless-spectrum matching require extra ingredients outside the recovered core. \\
 Why anything exists / strange-loop closure & Explicit future program & Appendix B provides only the habitat theorem and fixed-point setting. The OPH closure map, invariant observer-supporting sector, and uniqueness/stability proofs remain open. \\
 Fixed-cutoff checkpoint/restoration/backup & Proved corollary of earlier theorems & Ref.~\cite{ophmicrophysics} proves same-interface checkpoint/restoration and backup for observer-accessible event algebras with explicit future-law error control. \\
@@ -281,7 +281,7 @@ A checkpoint is the tuple
 \[
 \mathcal{C}=\bigl(R,\alpha,\rho_{\mathrm{int}}^{(\alpha)}\bigr),
 \]
-with \(\rho_{\mathrm{int}}^{(\alpha)}\) the interior conditional state. Given a compatible target
+with \(\rho_{\mathrm{int}}^{(\alpha)}\) the interior state after fixing \(\alpha\). Given a compatible target
 environment state \(\sigma_{\mathrm{env}}^{(\alpha)}\), a restored state is
 \[
 \rho_{\mathrm{new}}^{(\alpha)}
@@ -300,8 +300,8 @@ For approximate Markov collars, recovery is controlled by the standard bound
 \le
 2\sqrt{\ln 2\,\varepsilon}.
 \]
-This gives quantitative trace-distance control on the recovered state under finite conditional
-mutual information (finite collar error). Interpreting that control as observer continuation
+This gives quantitative trace-distance control on the recovered state under finite CMI
+(finite collar error). Interpreting that control as observer continuation
 requires additional modeling assumptions beyond the bound itself.
 
 The fixed-cutoff microphysics claim is stronger than the bare recoverability estimate written

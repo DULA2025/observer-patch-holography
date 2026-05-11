@@ -200,7 +200,7 @@ equation that acts like a uniform large-scale tendency for space to accelerate.
 OPH reads it as global capacity data, not as one more local particle-physics
 coupling.
 
-So on the D6 closure branch Lambda is fixed by a **global** constraint: the total capacity of the screen. In natural units, once $N_{\mathrm{scr}}=\log(\dim \mathcal{H}_{\text{tot}})$ is supplied, the relationship is:
+So on the cosmological-capacity branch Lambda is fixed by a **global** constraint: the total capacity of the screen. In natural units, once $N_{\mathrm{scr}}=\log(\dim \mathcal{H}_{\text{tot}})$ is supplied, the relationship is:
 
 $$\Lambda = \frac{3\pi}{G \cdot \log(\dim \mathcal{H}_{\text{tot}})}$$
 

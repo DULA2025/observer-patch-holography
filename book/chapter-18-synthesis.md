@@ -93,7 +93,7 @@ The color triplet follows from the minimal coupled carrier, and the
 three-generation count follows from CKM phase counting, weak-sector
 consistency, and minimality on the same low-energy branch. The photon,
 gluons, and graviton stay massless because they ride on redundancy directions
-the architecture cannot break. The broader particle ledger then carries the
+the architecture cannot break. The broader particle table then carries the
 weak validation pair, the low-energy electromagnetic endpoint, the declared
 Higgs-top surface, the selected-class quark sector, and one weighted-cycle
 neutrino family. The technical status ledger separates charged-lepton
@@ -185,7 +185,7 @@ fine-structure constant measures that minimal electromagnetic disturbance.
 The long-distance fine-structure readout gives
 
 $$
-P=1.630968209403959324879279847782648941\ldots
+P\simeq1.6309682094
 $$
 
 and
@@ -308,7 +308,7 @@ views mutually legible without erasing their differences.
 
 The structure is not a flat list. The gauge quotient, charge lattice, counting
 chain, massless carriers, Lorentz geometry, Einstein relation, and the
-ledgered electroweak, Higgs-top, quark, and neutrino surfaces form one
+tracked electroweak, Higgs-top, quark, and neutrino surfaces form one
 organized reconstruction, not a catalog of unrelated facts.
 
 The local-ruler ledger records five technical boundaries. The weak pair is a

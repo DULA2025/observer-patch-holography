@@ -155,7 +155,7 @@ The area law wasn't just dimensional analysis. In that supersymmetric class of b
 
 In December 1997, Juan Maldacena put all the pieces together.
 
-He studied a stack of D3-branes. There are two ways to describe what happens at low energies:
+He studied a stack of branes. There are two ways to describe what happens at low energies:
 
 **Description 1 (Open strings)**: The open strings on the branes form a gauge theory-specifically, N=4 super Yang-Mills theory in 4 dimensions. This is a conformal field theory (CFT).
 

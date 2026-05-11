@@ -85,7 +85,7 @@ Over the following decades, experimenters closed the major loopholes one by one.
 
 **The result: suitable entangled Bell experiments violate Bell inequalities repeatedly.**
 
-This means at least one ingredient in the classical Bell-premise set must
+This means at least one ingredient in the classical Bell-assumption set must
 fail. The pressure falls on locality, realism, or the assumption that
 measurement settings are not secretly pre-coordinated with hidden variables.
 
@@ -509,7 +509,7 @@ The topology of this graph determines what kind of global structure can emerge. 
 If overlap consistency is real, the world should look Bell-like, Markov-like,
 and Darwinian all at once. Bell experiments should obey the quantum bound and
 violate the classical one. Structured states separated by a good intermediary
-region should show small conditional mutual information. A genuine global
+region should show small CMI. A genuine global
 state, when it exists, should automatically induce matching reduced states on
 every overlap. Public facts should appear only where information has been
 copied redundantly into the environment.

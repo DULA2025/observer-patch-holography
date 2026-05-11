@@ -107,7 +107,7 @@ long-distance Thomson limit. The fixed point gives
 
 $$
 \alpha^{-1}(0)=137.035999177(21), \qquad
-P=1.630968209403959324879279847782648941\ldots.
+P\simeq1.6309682094.
 $$
 
 $\alpha$ is the electromagnetic fine-structure constant. The inverse
@@ -124,7 +124,7 @@ The value is forced because the pixel has one geometry and one electromagnetic
 readout, and those two descriptions meet at a single fixed point.
 
 The weak-boson pair and the familiar low-energy electromagnetic strength come
-from one continuous construction. The status ledger records the diagnostic
+from one continuous construction. The status table records the diagnostic
 source trunk, the endpoint residual, and the empirical hadron closure row that
 uses a separate \(e^+e^-\to\mathrm{hadrons}\) payload class.
 
@@ -172,7 +172,7 @@ $$
 
 together with definite Majorana phases in that construction. Taken together,
 the particle picture is larger than a handful of isolated numbers. The OPH
-ledger carries structural massless carriers, the weak-sector validation pair,
+status table carries structural massless carriers, the weak-sector validation pair,
 the declared Higgs/top surface, the selected-class running quark sextet with
 Yukawas, and one weighted-cycle neutrino family. The late status ledger
 records the fine-structure audit trunk, the charged-lepton witness surface, the

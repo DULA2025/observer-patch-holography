@@ -70,7 +70,7 @@ reflects a correlated result. No signal passes between them. The correlation
 is just... there.
 
 **Black holes put information under pressure.** Throw something into a black
-hole, and modern quantum-gravity arguments say the information is not simply
+hole, and modern quantum-gravity arguments say the information is not
 lost. It is encoded in a far less obvious way.
 
 **Holography is a major clue.** The information needed to describe a volume

@@ -2,13 +2,13 @@
 \begin{description}
   \item[\textbf{[Established]}] Follows from cited prior work or a complete
         argument given here.
-  \item[\textbf{[Conditional]}] True under additional assumptions not
+  \item[\textbf{[Assumption-dependent]}] True under additional assumptions not
         derived from \textrm{OPH} first principles.
   \item[\textbf{[Conjecture]}] A plausible open direction, not a settled result.
 \end{description}
 
 % ------------------------------------------------------------
-\subsection*{B.1\quad Theorem 1 --- QBFT Safety Bound}
+\subsection*{B.1\quad Theorem 1: QBFT Safety Bound}
 % ------------------------------------------------------------
 
 \begin{definition}[QBFT-style protocol]
@@ -42,7 +42,7 @@ satisfies (P1)--(P3) and is the intended instance.
   \item \textbf{Partial synchrony (DLS).}
         Fixed but initially unknown bounds $\Delta$ (message delay) and
         $\Phi$ (processing rates).
-        \emph{Safety} holds unconditionally;
+        \emph{Safety} holds without extra timing assumptions;
         \emph{liveness} holds after the Global Stabilisation Time (\textrm{GST}).
   \item \textbf{Byzantine fault model.}
         At most $f$ observers behave arbitrarily; the remaining $n-f$ are nonfaulty.
@@ -63,7 +63,7 @@ satisfies (P1)--(P3) and is the intended instance.
 \end{enumerate}
 
 \begin{theorem}[QBFT Safety Bound
-  {\normalfont\small [Established, conditional on A1--A6]}]
+  {\normalfont\small [Established under A1--A6]}]
 \label{thm:qbft-safety}
 Under assumptions (A1)--(A6), any consensus protocol satisfying
 (P1)--(P3) of Definition~\ref{def:qbft-style} and run over the
@@ -85,7 +85,7 @@ By (A3): $|Q_a\cap Q_b|\geq(2f+1)+(2f+1)-(3f+1)=f+1$.
 By (A2), at most $f$ are Byzantine, so $Q_a\cap Q_b$ contains a
 nonfaulty $O^*$.
 By (A4), $O^*$'s signed vote is path-reachable within both quorums.
-By (P1), $O^*$ voted for at most one value --- contradiction.
+By (P1), $O^*$ voted for at most one value. Contradiction.
 
 \textit{Liveness and Optimality}
 follow from \cite{DLS88} (Thm.~4.4) and \cite{Lamport1982}, cited directly.
@@ -97,10 +97,10 @@ partial synchrony (A1).
 \end{proof}
 
 % ------------------------------------------------------------
-\subsection*{B.2\quad Theorem 2 --- Convergence of the OPH Repair Map}
+\subsection*{B.2\quad Theorem 2: Convergence of the OPH Repair Map}
 % ------------------------------------------------------------
 
-\begin{definition}[OPH Repair Map --- Petz form]
+\begin{definition}[OPH Repair Map: Petz form]
 \label{def:oph-repair-map}
 Let $\sigma\in\mathcal{D}(\mathcal{H})$ be a full-rank reference state and
 $\mathcal{N}:\mathcal{B}(\mathcal{H})\to\mathcal{B}(\mathcal{K})$ a quantum channel.
@@ -128,7 +128,7 @@ All subsequent properties refer exclusively to
 Definition~\ref{def:oph-repair-map}.
 \end{remark}
 
-\begin{proposition}[Petz map CPTP --- domain-restricted statement
+\begin{proposition}[Petz map CPTP: domain-restricted statement
   {\normalfont\small [Established, subject to domain restriction]}]
 \label{prop:petz-cptp}
 Let $\sigma$ have full support on $\mathcal{H}$.
@@ -171,7 +171,7 @@ Trace preservation in the full-rank case:
 Petz~\cite{Petz1986}; Fagnola--Umanit\`{a}~\cite{FagnolaUmanita2010}.
 \end{proof}
 
-\begin{proposition}[Contraction {\normalfont\small [Conditional]}]
+\begin{proposition}[Contraction {\normalfont\small [Assumption-dependent]}]
 \label{prop:petz-contraction}
 Suppose $\mathcal{N}$ is strictly contractive with spectral gap
 $\lambda\in(0,1)$:
@@ -196,7 +196,7 @@ Proof from OPH first principles is open issue~\#63.
 \end{conjecture}
 
 \begin{theorem}[Exponential Convergence
-  {\normalfont\small [Conditional on Conjecture~\ref{conj:spectral-gap}]}]
+  {\normalfont\small [Assuming Conjecture~\ref{conj:spectral-gap}]}]
 \label{thm:exp-convergence}
 Assuming Conjecture~\ref{conj:spectral-gap} with gap $\delta>0$,
 \[
@@ -208,7 +208,7 @@ for $C>0$ depending on $\rho$ and $\mathcal{N}$.
 \end{theorem}
 
 % ------------------------------------------------------------
-\subsection*{B.3\quad Theorem 3 --- QECC Correspondence}
+\subsection*{B.3\quad Theorem 3: QECC Correspondence}
 % ------------------------------------------------------------
 
 \paragraph{Notation.}
@@ -217,7 +217,7 @@ Standard notation: $[[n,k,d]]$ stabilizer code; $K=2^k$; quantum
 Singleton bound: $k\leq n-2(d-1)$.
 
 \begin{claim}[Code distance and min-cut
-  {\normalfont\small [Conditional --- tightened]}]
+  {\normalfont\small [Assumption-dependent, tightened]}]
 \label{claim:qecc-mincut}
 The identity \emph{code distance = graph min-cut} holds for topological
 codes (surface/toric codes) whose logical operators correspond to
@@ -245,7 +245,7 @@ Under (i)--(iii), $d=\mathrm{mincut}(G_{\mathrm{OPH}})$
 This claim requires an explicit construction of the topological encoding
 map, the primal/dual complex of $G_{\mathrm{OPH}}$, and verification of
 (i)--(iii), none of which have been provided.
-The claim is conditional (open issue~\#113).
+The claim remains open until that construction is supplied (open issue~\#113).
 \end{claim}
 
 \begin{conjecture}[Communication complexity {\normalfont\small [Conjecture]}]
@@ -256,12 +256,12 @@ communication task, has per-round complexity $O(n\cdot\mathrm{poly}(d))$
 \end{conjecture}
 
 \begin{theorem}[QECC Correspondence
-  {\normalfont\small [Conditional / Conjecture]}]
+  {\normalfont\small [Assumption-dependent / Conjecture]}]
 \label{thm:qecc}
 Suppose conditions (i)--(iii) of Claim~\ref{claim:qecc-mincut} hold.
 Then:
 \begin{enumerate}[(i)]
-  \item \textrm{[Conditional]} Code distance $d =
+  \item \textrm{[Assumption-dependent]} Code distance $d =
         \mathrm{mincut}(G_{\mathrm{OPH}})$.
   \item \textrm{[Established]} The Knill--Laflamme \textrm{QECC}
         conditions~\cite{KL97} are satisfied for the logical subspace
@@ -272,7 +272,7 @@ Then:
 \end{theorem}
 
 % ------------------------------------------------------------
-\subsection*{B.4\quad Theorem 4 --- Asynchronous Convergence}
+\subsection*{B.4\quad Theorem 4: Asynchronous Convergence}
 % ------------------------------------------------------------
 
 \paragraph{Why fairness alone does not give a probability-1 statement.}
@@ -314,7 +314,7 @@ no uniform finite bound on $T$ follows from fairness alone.
 \end{theorem}
 
 \begin{theorem}[Quantitative Convergence
-  {\normalfont\small [Conditional on (B1)--(B3)]}]
+  {\normalfont\small [Assuming (B1)--(B3)]}]
 \label{thm:quantitative-convergence}
 In a partially synchronous \textrm{OPH} observer network satisfying
 (B1)--(B3), after \textrm{GST} every nonfaulty observer reaches consensus

@@ -4,7 +4,7 @@
 
 ## 19.1 The Zombie That Couldn't Exist
 
-In 1996, philosopher David Chalmers asked us to imagine a zombie. This is not the shambling undead of horror films. It is something far stranger: a creature physically identical to you in every way, with the same neurons firing, the same behaviors, and the same words coming out of its mouth, but with nobody home. No inner experience. No "what it's like" to be it. The lights are on, with no one watching.
+In 1996, philosopher David Chalmers asked us to imagine a zombie. Chalmers meant a creature physically identical to you in every way, with the same neurons firing, the same behaviors, and the same words coming out of its mouth, and no one inside. No inner experience. No "what it's like" to be it. The lights are on, with no one watching.
 
 Chalmers argued that such a zombie is *conceivable*. You can imagine it without contradiction. And if you can conceive of it, then consciousness must be something over and above the physical facts. This is the "hard problem": even if we mapped every neuron and explained every behavior, we'd still have to explain why there's *experience* at all.
 
@@ -33,7 +33,7 @@ The "what it's like" is part of what patch-hood means from the inside.
 
 A philosophical zombie would be a patch that does everything a conscious observer does, maintaining records, enforcing consistency, and participating in overlap agreements, while having no interior experience. In OPH, doing those things *is* having an interior experience. There is no gap between the function and the feel. The zombie concept tries to pry apart two things that were never separate.
 
-This dissolves the hard problem by showing it rested on a false premise: the assumption that you could have a complete objective description and then ask where experience fits in. There is no such description. The most fundamental level is perspectival.
+This dissolves the hard problem by showing it rested on a false assumption: the idea that you could have a complete objective description and then ask where experience fits in. There is no such description. The most fundamental level is perspectival.
 
 ## 19.4 What the Model Doesn't Touch
 
@@ -89,7 +89,7 @@ strength. The source-side computation sends the same trial pixel through the
 unification scale, running gauge couplings, electroweak anchor, and
 Ward-projected electromagnetic endpoint. The fixed point gives
 
-$$P=1.630968209403959324879279847782648941\ldots.$$
+$$P\simeq1.6309682094.$$
 
 with
 
@@ -107,7 +107,7 @@ fine-structure readout. The parenthesized digits again indicate the quoted
 uncertainty in the final digits.
 For the displayed Thomson endpoint, the hadronic spectral contribution has a
 separate empirical \(e^+e^-\to\mathrm{hadrons}\) payload class. The source-only
-calculation is kept in the technical ledger.
+calculation is kept in the technical table.
 
 Here the philosophical point is that a famous "free
 constant" is tied to the same local screen scale that organizes the particle

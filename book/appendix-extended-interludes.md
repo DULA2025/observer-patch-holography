@@ -44,7 +44,7 @@ to meet. A successful reverse-engineered architecture must explain why the
 symptoms cluster. It must reduce the number of arbitrary knobs. It must
 respect the known test suite. It must explain why older effective
 descriptions worked where they did. It must make failures local, not global:
-when an extension remains conditional, that status must be visible rather
+when an extension remains assumption-dependent, that status must be visible rather
 than hidden.
 
 This is why the book keeps returning to ledgers and status labels. A ledger
@@ -259,15 +259,15 @@ OPH uses this lesson for observer consistency. If public reality depends on
 records, and records are always local and noisy, then the world needs repair
 mechanisms. Redundancy cannot mean classical copying of arbitrary quantum
 states. It has to mean recoverability through structured correlations. The
-conditional mutual information $I(A:C|B)$ is one way to measure whether a
+CMI $I(A:C|B)$ is one way to measure whether a
 buffer region $B$ screens off $A$ from $C$ well enough for recovery. When it
 is small, a recovery map can approximately rebuild missing correlations.
 
 The emotional force of this point is easy to overstate, so the book separates
 principle from practice. In principle, unitary dynamics preserves information
 in the total state. In practice, reconstruction may require resources larger
-than anything physically available to a finite observer. The past is not
-simply erased, but it can become inaccessible. That is exactly the kind of
+than anything physically available to a finite observer. The past can remain
+preserved in principle and inaccessible in practice. That is exactly the kind of
 distinction an observer-first theory should make. What exists in the total
 state, what is accessible to a patch, what is recoverable with an allowed
 interface, and what is public to many observers are different questions.
@@ -394,12 +394,12 @@ and model assumptions. A theory that treats all masses as the same kind of
 number is not being precise.
 
 This is why the book distinguishes validation rows, target-anchored witnesses,
-source-only rows, empirical payload rows, and conditional continuations. A
+source-only rows, empirical payload rows, and assumption-dependent continuations. A
 validation row asks whether the architecture reproduces a known benchmark. A
 target-anchored witness uses an empirical target as part of the derivation or
 normalization. A source-only row is closer to a prediction because it does not
 use the target. An empirical payload row depends on external data, such as
-hadronic spectral information. A conditional continuation depends on premises
+hadronic spectral information. An assumption-dependent continuation depends on assumptions
 whose first-principles derivation is work in progress.
 
 The reader should treat these labels as part of the theory, not as legal
@@ -449,11 +449,11 @@ feeds back into the inside process as learning, correction, and expectation.
 
 This is also where the epilogue's continuation question belongs. If an
 observer is a structured process with boundary interfaces and interior
-conditional state, then restoration is not a magical word. It is a question
+interface-relative state, then restoration is not a magical word. It is a question
 about which structures must be preserved for the next internal moment to be
 the continuation of the previous one. The answer is not known in any simple
 engineering sense. But OPH gives the right type of boundary: records,
-interfaces, conditional independence, and recoverability.
+interfaces, given-data independence, and recoverability.
 
 The metaphysical humility is essential. Observer-first physics does not free
 us from empirical discipline. It deepens that discipline by refusing to
@@ -576,7 +576,7 @@ assumption that it arrives whole.
 In Chapter 16, ask whether matter is a stability ladder from quantum
 excitations to public records. In Chapter 17, ask whether selection is used
 as a disciplined filter, not a loose metaphor. In Chapter 18, ask whether the
-synthesis preserves all the conditional boundaries. In Chapter 19, ask
+synthesis preserves all the scope boundaries. In Chapter 19, ask
 whether metaphysics remains downstream of physics. In the epilogue, ask
 whether restoration is treated as an open engineering problem with explicit
 interfaces, not a promise.
@@ -597,7 +597,7 @@ A good OPH sentence should behave like a good interface. It should expose the
 right inputs. It should hide no critical dependency. It should fail visibly
 when the claim exceeds its support. If a symbol appears, the reader should
 know what physical job it performs. If a status label appears, the reader
-should know whether the line is structural, conditional, empirical, or work
+should know whether the line is structural, assumption-dependent, empirical, or work
 in progress. If a diagram appears, the diagram should orient the reader
 before the next paragraph asks for more abstraction.
 
@@ -694,7 +694,7 @@ The screen and overlap diagrams show why public reality differs from private
 experience. The shared lens is where agreement can be checked. Their edge is
 that real overlaps are quantum-algebraic and may not be literal flat
 intersections. The collar diagram shows why a buffer can make recovery
-possible. Its edge is that conditional mutual information, recovery maps, and
+possible. Its edge is that CMI, recovery maps, and
 state spaces carry the real theorem content.
 
 The Tannaka-Krein and generation-count diagrams are closer to the technical
@@ -727,7 +727,7 @@ extra assumptions that are too close to the desired conclusion. A
 Tannaka-Krein reconstruction might recover a broader family than the Standard
 Model without the economy principle doing legitimate work.
 
-It could fail phenomenologically. A particle-ledger row might miss updated
+It could fail phenomenologically. A particle status row might miss updated
 data. A claimed source-only output might depend on a hidden empirical target.
 A dark-sector continuation might fit one acceleration scale but fail lensing,
 clusters, cosmic microwave background constraints, or structure formation.
@@ -774,7 +774,7 @@ with extraordinary precision. At higher energies it runs. The inverse value
 near 137 is culturally famous, but the fame is a trap. Without scale,
 scheme, uncertainty, and input status, a numerical match means little.
 
-OPH's ledger language exists to keep these distinctions visible. A source-only
+OPH's status-table language exists to keep these distinctions visible. A source-only
 row is different from a validation row. A target-anchored witness is
 different from a prediction. A hadronic empirical payload is different from a
 first-principles quark-mass calculation. The reader should be suspicious of
@@ -820,14 +820,14 @@ structural and approximate in many regimes.
 
 This is why the book's careful language matters. A bridge points the way. A
 derivation earns the crossing. When OPH says a result is established,
-conditional, conjectural, target anchored, or empirical-payload dependent,
+assumption-dependent, conjectural, target anchored, or empirical-payload dependent,
 those words mark where the bridge stands.
 
 ## Interlude 19: Why Length Helps
 
 A short book can be elegant. A short book about a synthesis this large can also
 become misleading. It can make a theorem look like an intuition. It can make a
-conditional continuation look like a conclusion. It can let a symbol appear
+assumption-dependent continuation look like a conclusion. It can let a symbol appear
 before the reader has been given enough handles to use it. It can make the work
 of whole communities disappear behind a few famous names.
 
@@ -845,7 +845,7 @@ visible without pretending the diagram is the proof.
 Length has a practical meaning here. It gives the book room for caveats,
 examples, historical credit, and reader support. The goal is to be long enough
 that a serious reader can see what is being claimed, what is inherited, what
-is conditional, and what remains open.
+is assumption-dependent, and what remains open.
 
 ## Interlude 20: How a Public Fact Gets Built
 
@@ -1024,7 +1024,7 @@ but it is not enough. Lensing, clusters, cosmic microwave background peaks,
 large-scale structure, galaxy diversity, and precision expansion history all
 matter.
 
-The matter ledger needs continuous hygiene. Quark masses, hadron payloads,
+The matter status table needs continuous hygiene. Quark masses, hadron payloads,
 neutrino assumptions, and electroweak scheme choices must stay explicit. The
 strong-CP issue remains open in the selected-class quark theorem as stated.
 The book should not imply otherwise.

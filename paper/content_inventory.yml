@@ -21,8 +21,8 @@ papers:
   recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact:
     role: compact recovered-core theorem surface
     lead_material:
-      - recovered-core axioms and premises
-      - Lorentz, Einstein, and Standard Model dependency ledger
+      - recovered-core axioms and theorem inputs
+      - Lorentz, Einstein, and Standard Model dependency checklist
     detailed_status_home:
       - compact dependency tables
     avoid_repeating:
@@ -62,7 +62,7 @@ papers:
     detailed_status_home:
       - architecture and packet-level closure sections
     avoid_repeating:
-      - Standard Model dependency ledger
+      - Standard Model dependency checklist
       - full particle claim-tier audit
 
 style_policy:

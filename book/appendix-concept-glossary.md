@@ -73,16 +73,16 @@ protected by boundary redundancy.
 **Collar.** A collar is a buffer region between a cap and its exterior. In
 recoverability arguments, the collar can screen off inside from outside once
 the right boundary data are fixed. The collar diagram in the recovery chapter
-is a visual shorthand for conditional independence.
+is a visual shorthand for given-data independence.
 
 **Commutator.** The commutator $[A,B]=AB-BA$ measures whether two operators
 commute. If it is zero, order does not matter. If it is nonzero, asking the
 questions in different orders can give different physical operations. The
 position-momentum commutator is the standard quantum example.
 
-**Conditional mutual information.** Conditional mutual information
+**CMI.** CMI
 $I(A:C|B)$ measures how much correlation remains between $A$ and $C$ once
-$B$ is known. In quantum information, small conditional mutual information
+$B$ is known. In quantum information, small CMI
 signals approximate recoverability. OPH uses it to express when local damage
 can be repaired from surrounding data.
 
@@ -165,7 +165,7 @@ arguments. OPH uses it to connect cap entropy to emergent gravity.
 
 **Higgs field.** The Higgs field gives mass to weak gauge bosons and fermions
 through electroweak symmetry breaking and Yukawa couplings. In the book it
-appears as part of the Standard Model ledger, where different mass claims
+appears as part of the Standard Model status table, where different mass claims
 carry different support labels.
 
 **Hilbert space.** Hilbert space is the vector space of quantum states. Kets

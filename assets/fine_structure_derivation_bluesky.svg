@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-<title id="title">First derivation of the fine-structure constant</title>
-<desc id="desc">A Bluesky social-card diagram of the OPH fine-structure derivation chain from golden-ratio screen balance through the source map, Ward-projected Thomson endpoint, fixed point, and numeric alpha readout.</desc>
+<title id="title">Fine-structure constant: OPH core plus hadronic input</title>
+<desc id="desc">A Bluesky social-card diagram of the OPH fine-structure calculation, showing the internal OPH core value first, the measured hadronic correction next, and the measured low-energy alpha endpoint.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#07110f"/>
@@ -49,14 +49,14 @@
 <rect x="54" y="42" width="1492" height="816" rx="38" fill="#071014" fill-opacity="0.58" stroke="#263642" stroke-width="1.2"/>
 <rect x="86" y="76" width="528" height="7" rx="3.5" fill="url(#titleAccent)"/>
 
-<text x="86" y="126" class="sans" fill="#f7fbff" font-size="44" font-weight="820">First derivation of the</text>
-<text x="86" y="178" class="sans" fill="#f7fbff" font-size="50" font-weight="820">fine-structure constant</text>
-<text x="88" y="216" class="mono" fill="#b9c8d6" font-size="21">Observer Patch Holography | May 6, 2026</text>
+<text x="86" y="126" class="sans" fill="#f7fbff" font-size="44" font-weight="820">Fine-structure constant:</text>
+<text x="86" y="178" class="sans" fill="#f7fbff" font-size="48" font-weight="820">OPH core + hadronic input</text>
+<text x="88" y="216" class="mono" fill="#b9c8d6" font-size="21">Observer Patch Holography | May 19, 2026</text>
 
-<rect x="1136" y="82" width="366" height="98" rx="24" fill="#0e171c" stroke="#344652" stroke-width="1.2"/>
-<text x="1319" y="121" class="sans" fill="#f4d06f" font-size="20" text-anchor="middle" font-weight="760">public readout</text>
-<text x="1319" y="157" class="mono" fill="#f7fbff" font-size="28" text-anchor="middle" font-weight="760">
-  <tspan>&#945;</tspan><tspan baseline-shift="super" font-size="17">-1</tspan><tspan>(0) = 137.035999177(21)</tspan>
+<rect x="1018" y="82" width="486" height="104" rx="24" fill="#0e171c" stroke="#344652" stroke-width="1.2"/>
+<text x="1261" y="121" class="sans" fill="#f4d06f" font-size="20" text-anchor="middle" font-weight="760">measured endpoint</text>
+<text x="1261" y="158" class="mono" fill="#f7fbff" font-size="23" text-anchor="middle" font-weight="760">
+  <tspan>&#945;</tspan><tspan baseline-shift="super" font-size="15">-1</tspan><tspan>(0) = 137.035999177(21)</tspan>
 </text>
 
 <g filter="url(#shadow)">
@@ -93,31 +93,32 @@
 <path d="M 1190 343 L 1218 343" stroke="#d7f8f3" stroke-width="3" marker-end="url(#arrow)"/>
 
 <rect x="86" y="462" width="1418" height="244" rx="32" fill="url(#readout)" stroke="#40515a" stroke-width="1.2" filter="url(#shadow)"/>
-<text x="126" y="514" class="sans" fill="#f7fbff" font-size="30" font-weight="780">Numerical fixed-point readout</text>
-<text x="126" y="564" class="mono" fill="#6ee7d8" font-size="31" font-weight="760">
-  <tspan>&#945;</tspan><tspan baseline-shift="super" font-size="18">-1</tspan><tspan>(0) = 137.035999177(21)</tspan>
+<text x="126" y="514" class="sans" fill="#f7fbff" font-size="30" font-weight="780">Numerical accounting</text>
+<text x="126" y="562" class="mono" fill="#6ee7d8" font-size="28" font-weight="760">
+  <tspan>OPH core:</tspan><tspan dx="10">&#945;</tspan><tspan baseline-shift="super" font-size="16">-1</tspan><tspan>(0) = 136.9948351646216494</tspan>
 </text>
-<text x="126" y="612" class="mono" fill="#f7fbff" font-size="27">
-  <tspan>&#945;(0) = 0.007297352564331425030245795264691683...</tspan>
+<text x="126" y="608" class="mono" fill="#f4d06f" font-size="26">
+  <tspan>+ measured hadronic/QCD correction = 0.0411640123783506</tspan>
 </text>
-<text x="126" y="660" class="mono" fill="#f4d06f" font-size="27">
-  <tspan>P = 1.630968209403959324879279847782648941...</tspan>
+<text x="126" y="654" class="mono" fill="#f7fbff" font-size="27" font-weight="700">
+  <tspan>= measured endpoint:</tspan><tspan dx="10">&#945;</tspan><tspan baseline-shift="super" font-size="16">-1</tspan><tspan>(0) = 137.035999177(21)</tspan>
 </text>
 
 <g>
-  <rect x="1036" y="510" width="410" height="134" rx="24" fill="#0c1419" fill-opacity="0.76" stroke="#4d5c64" stroke-width="1"/>
-  <text x="1066" y="548" class="sans" fill="#b9c8d6" font-size="19" font-weight="720">same cell, two readings</text>
-  <text x="1066" y="584" class="mono" fill="#f7fbff" font-size="18">outside: geometry above &#966;</text>
-  <text x="1066" y="618" class="mono" fill="#f7fbff" font-size="18">inside: electromagnetic width</text>
+  <rect x="1016" y="504" width="454" height="154" rx="24" fill="#0c1419" fill-opacity="0.76" stroke="#4d5c64" stroke-width="1"/>
+  <text x="1046" y="542" class="sans" fill="#b9c8d6" font-size="19" font-weight="720">why use measured input?</text>
+  <text x="1046" y="579" class="mono" fill="#f7fbff" font-size="15">hadron loops are low-energy QCD</text>
+  <text x="1046" y="610" class="mono" fill="#f7fbff" font-size="15">nonperturbative and lattice-hard</text>
+  <text x="1046" y="639" class="mono" fill="#f7fbff" font-size="14">so the measured term is inserted</text>
 </g>
 
 <rect x="86" y="732" width="1418" height="90" rx="22" fill="#0b1218" stroke="#283842" stroke-width="1"/>
 <text x="126" y="762" class="sans" fill="#f28ba8" font-size="18" font-weight="760">ledger</text>
 <text x="126" y="788" class="mono" fill="#91a4b2" font-size="13">
-  <tspan>finite source audit: residual 0.041465861005223389053448715357314044 inverse-alpha units</tspan>
+  <tspan>internal OPH value is close but not the measured endpoint by itself</tspan>
 </text>
 <text x="126" y="810" class="mono" fill="#91a4b2" font-size="13">
-  <tspan>source spectral payload, same-scheme remainder, and interval certificate recorded in papers</tspan>
+  <tspan>the displayed 137.035999177(21) includes measured hadronic vacuum polarization</tspan>
 </text>
 
 <text x="1504" y="850" class="mono" fill="#8fa1ad" font-size="16" text-anchor="end">floatingpragma.io | assets/fine_structure_derivation_bluesky.svg</text>

@@ -593,7 +593,7 @@ The observed small value of Lambda isn't a fine-tuning miracle. It's simply what
 Fundamental data live on the screen, while the bulk, including black hole
 interiors, is emergent.
 
-That changes the bookkeeping. The boundary-sector structure blocks a naive factorization into independent inside and outside Hilbert spaces. The recovery measure from Chapter 7, small conditional mutual information, supports an interior-encoding statement: in the controlled regime, the interior partner is approximately recoverable from outside-plus-radiation data, not present as a separate fundamental tensor factor.
+That changes the bookkeeping. The boundary-sector structure blocks a naive factorization into independent inside and outside Hilbert spaces. The recovery measure from Chapter 7, small CMI, supports an interior-encoding statement: in the controlled regime, the interior partner is approximately recoverable from outside-plus-radiation data, not present as a separate fundamental tensor factor.
 
 This is the sense in which OPH softens the information paradox. The fundamental store of information is the screen, not an autonomous bulk interior.
 
@@ -618,7 +618,7 @@ gravitational pull may come from imperfect information recovery.
 
 The underlying logic is simple. In the ideal Markov limit, information on one
 side of a boundary is perfectly recoverable from the boundary itself, and the
-recovered branch follows the Einstein relation. In the D12 continuation
+recovered branch follows the Einstein relation. In the dark-sector continuation
 considered here, one moves away from that ideal limit and some correlation
 sits out of reach. That leftover correlation can feed an extra effective term.
 

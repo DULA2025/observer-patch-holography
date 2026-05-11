@@ -16,7 +16,7 @@ has experienced and learned.
 Part of that pattern can be read, compared, and checked by others. Part of it
 lives on the inside.
 
-Records matter because most quantum information cannot simply be copied. A
+Records matter because most quantum information resists direct copying. A
 record is the rare part that becomes public. It is the part that can be read,
 compared, and restored without turning the whole observer into a classical
 machine.
@@ -27,7 +27,7 @@ The continuation question becomes sharper once one asks how tightly an
 observer is tied to the surrounding world. OPH contains a useful answer. Under
 the right information-theoretic conditions, a boundary region can separate the
 observer's interior from the environment cleanly enough that the inside and
-outside become conditionally independent once the relevant boundary data is
+outside become independent after the relevant data is fixed once the relevant boundary data is
 fixed.
 
 In plain language, if you know the right boundary data, you can cut an
@@ -35,7 +35,7 @@ observer-pattern away from its environment without destroying the structure
 that makes it the observer it is. The environment matters. The interface
 matters. But the observer is not dissolved into an undifferentiated whole.
 
-Conditional independence means that, once the boundary information is fixed,
+Given-data independence means that, once the boundary information is fixed,
 the inside and outside do not need extra direct knowledge of each other to
 make compatible predictions.
 
@@ -45,12 +45,12 @@ This makes a limited continuation thought experiment possible.
 
 What would need to be stored? First, the public outcome data carried by the
 observer's record layer. Second, the boundary-sector label that tells the
-environment how to glue to the observer. Third, the interior conditional
+environment how to glue to the observer. Third, the interface-relative interior
 state, the computational pattern that carries the observer's point of view.
 
 The boundary-sector label is the interface tag. It tells the outside world how
 the observer-pattern connects back to its surroundings. The interior
-conditional state is the inside pattern, specified relative to that interface.
+interface-relative state is the inside pattern, specified relative to that interface.
 
 What does the framework actually support? It supports a fixed-cutoff
 backup-and-restore statement on the operational surface studied in the paper.

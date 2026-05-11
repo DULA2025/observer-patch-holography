@@ -159,25 +159,25 @@ $H(X|Y)$ means the uncertainty left about $X$ after $Y$ is known. $H(X,Y)$ is
 the joint entropy of the pair. Mutual information is the amount of uncertainty
 that disappears when one variable is used to predict the other.
 
-### Conditional Mutual Information: The Recovery Metric
+### CMI: The Recovery Metric
 
-Recovery enters through conditional mutual information, which measures correlation between X and Y *given* knowledge of Z:
+Recovery enters through CMI, which measures correlation between X and Y *given* knowledge of Z:
 
 $$I(X:Y|Z) = H(X|Z) + H(Y|Z) - H(X,Y|Z)$$
 
-If I(X:Y|Z) = 0, then X and Y are **conditionally independent given Z**. Once you know Z, learning Y tells you nothing new about X.
+If I(X:Y|Z) = 0, then X and Y are **independent given Z**. Once you know Z, learning Y tells you nothing new about X.
 
-The vertical bar again means "given." Conditional mutual information asks how
+The vertical bar again means "given." CMI asks how
 much extra connection remains between $X$ and $Y$ after the mediator $Z$ is
 supplied.
 
 This is the mathematical definition of "Z screens X from Y." All information that Y has about X is contained in Z.
 
-Small conditional mutual information means approximate conditional independence-and approximate conditional independence enables recovery.
+Small CMI means approximate given-data independence, and approximate given-data independence enables recovery.
 
 ## 7.6 Markov Chains and Screening
 
-We say X goes to Y goes to Z forms a **Markov chain** if X and Z are conditionally independent given Y:
+We say X goes to Y goes to Z forms a **Markov chain** if X and Z are independent given Y:
 
 $$p(x,z|y) = p(x|y) \cdot p(z|y)$$
 
@@ -217,7 +217,7 @@ $$S(\rho) = -\text{Tr}(\rho \log \rho) = -\sum_i \lambda_i \log \lambda_i$$
 
 where the lambdas are the eigenvalues of rho.
 
-The quantum conditional mutual information is:
+The quantum CMI is:
 
 $$I(A:C|B) = S(AB) + S(BC) - S(B) - S(ABC)$$
 
@@ -227,7 +227,7 @@ In 1973, Elliott Lieb and Mary Beth Ruskai proved one of the most important theo
 
 **Strong Subadditivity**: For any quantum state, I(A:C|B) is greater than or equal to 0.
 
-Conditional mutual information is never negative.
+CMI is never negative.
 
 This sounds obvious but it's not. The proof took years and required sophisticated functional analysis. And it's the foundation of quantum recovery.
 
@@ -255,7 +255,7 @@ Think of it like calibrating a distorted photograph. The original image (BC) got
 
 ### Approximate Recovery: The Fawzi-Renner Theorem
 
-Perfect recovery requires I(A:C|B) = 0 exactly. But in physics, nothing is exact. What if conditional mutual information is merely small?
+Perfect recovery requires I(A:C|B) = 0 exactly. But in physics, nothing is exact. What if CMI is merely small?
 
 In 2015, Omar Fawzi and Renato Renner proved a powerhouse theorem:
 
@@ -263,7 +263,7 @@ In 2015, Omar Fawzi and Renato Renner proved a powerhouse theorem:
 
 $$\|\rho_{ABC} - (\mathbb{I}_A \otimes R_{B \to BC})(\rho_{AB})\|_1 \leq 2\sqrt{2\epsilon}$$
 
-Small conditional mutual information implies approximate recoverability. The smaller I(A:C|B), the better the recovery.
+Small CMI implies approximate recoverability. The smaller I(A:C|B), the better the recovery.
 
 This is the mathematical heart of the recovery rule: **redundancy implies reconstruction**.
 
@@ -299,7 +299,7 @@ Similarly, S(BC) = 1 bit and S(B) = 1 bit.
 So:
 $$I(A:C|B) = S(AB) + S(BC) - S(B) - S(ABC) = 1 + 1 - 1 - 0 = 1$$
 
-The GHZ state has nonzero, genuinely tripartite conditional mutual information. B doesn't screen A from C at all. The correlation between A and C is genuinely tripartite-you need all three systems to see it.
+The GHZ state has nonzero, genuinely tripartite CMI. B doesn't screen A from C at all. The correlation between A and C is genuinely tripartite: you need all three systems to see it.
 
 This means you can't recover C from B alone. The GHZ state is non-Markov.
 
@@ -401,7 +401,7 @@ Initially, B is small. The collected radiation is too small to decode the diary 
 
 As time passes, B grows. More radiation is emitted, and the correlations needed for decoding become increasingly accessible in the radiation subsystem.
 
-At Page time, B becomes large enough to screen A from C effectively in the heuristic picture. The conditional mutual information I(A:C|B) is then expected to drop.
+At Page time, B becomes large enough to screen A from C effectively in the heuristic picture. The CMI I(A:C|B) is then expected to drop.
 
 This motivates an encoded-information picture. Later radiation becomes
 recoverable from earlier radiation once the separator grows large enough to do
@@ -454,7 +454,7 @@ The "gravity" in the HaPPY code emerges from the code structure. Regions of the 
 ## 7.12 What Recovery Implies
 
 Recovery sits on a strong foundation. No-cloning blocks naive copying. Strong
-subadditivity guarantees that conditional mutual information cannot go
+subadditivity guarantees that CMI cannot go
 negative. Fawzi-Renner and Petz show that when the missing correlation is
 small enough, there is a map that rebuilds what looked lost.
 
@@ -472,7 +472,7 @@ information does not need to sit in one place to survive.
 The recovery rule has a startling implication: in this recoverability picture,
 nothing is simply deleted from the full quantum description.
 
-If the universe is unitary and holographic encoding is robust, information is not simply destroyed; it is redistributed into increasingly nonlocal correlations of the full quantum state.
+If the universe is unitary and holographic encoding is robust, information is not destroyed. It is redistributed into increasingly nonlocal correlations of the full quantum state.
 
 The Library of Alexandria? The scrolls burned, and the information scrambled into smoke, heat, and light. That radiation spread across the cosmos at light speed. It is diluted across an unimaginably vast region of space. In principle, with a computer the size of the observable universe, you could run the Petz map and watch the smoke reconstitute into Sophocles.
 
@@ -494,9 +494,9 @@ time. The past is not erased. It is encrypted with a key we will never find.
 
 ## 7.14 Reverse Engineering Summary
 
-Information does not have to be freely copied to remain recoverable.
-No-cloning blocks duplication, but recovery survives because the information is
-encoded across extended correlations. That is how a noisy world can still
+Information can remain recoverable without being freely copied. No-cloning
+blocks duplication. Recovery survives because the information is encoded across
+extended correlations. That is how a noisy world can still
 carry history. It is why observers can agree on a past they never saw. It is
 why black holes do not behave like cosmic shredders. And it is why spacetime
 starts to look like a code, a structure whose geometry and stability are tied
