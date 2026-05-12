@@ -247,15 +247,17 @@ Under (i)--(iii), $d=\mathrm{mincut}(G_{\mathrm{OPH}})$
 
 This claim requires an explicit construction of the topological encoding
 map, the primal/dual complex of $G_{\mathrm{OPH}}$, and verification of
-(i)--(iii), none of which have been provided.
-The claim remains open until that construction is supplied (open issue~\#113).
+(i)--(iii). This is a separate topological-code realization condition rather than a
+generic theorem about arbitrary overlap graphs.
 \end{claim}
 
 \begin{conjecture}[Communication complexity {\normalfont\small [Conjecture]}]
 \label{conj:comm-complexity}
 The \textrm{OPH} consensus-repair protocol, realised as a quantum
 communication task, has per-round complexity $O(n\cdot\mathrm{poly}(d))$
-(open issue~\#72; cf.~\cite{BCW98}).
+for a chosen communication encoding (cf.~\cite{BCW98}). The fixed finite repair theorem gives
+termination after a supplied descent law; it does not by itself fix a quantum communication
+complexity class for every implementation.
 \end{conjecture}
 
 \begin{theorem}[QECC Correspondence
@@ -328,21 +330,22 @@ requires (B1) and (B2) explicitly and does not follow from fairness alone).
 \end{theorem}
 
 % ------------------------------------------------------------
-\subsection*{B.5\quad Open Problems}
+\subsection*{B.5\quad Extension Boundaries}
 % ------------------------------------------------------------
 
 \begin{itemize}
   \item Analytic spectral-gap and full-rank estimates for a chosen stochastic or channel-level
         BFT/QECC realization are model-specific refinements. They are separate from the finite
         OPH repair theorem, where the accepted repair law supplies Lyapunov descent directly.
-  \item \textbf{\#68}\enspace Quantum observable-level confluence.
-  \item \textbf{\#69}\enspace Continuum / refinement limit of
-        Theorems~\ref{thm:qbft-safety} and~\ref{thm:quantitative-convergence}.
-  \item \textbf{\#72}\enspace Communication complexity
-        (upgrades Conjecture~\ref{conj:comm-complexity}).
-  \item \textbf{\#73}\enspace Re-export repair map into the companion framework notation.
-  \item \textbf{\#113}\enspace Construct topological encoding map for
-        Claim~\ref{claim:qecc-mincut}.
+  \item Topological-code distance equals graph min-cut only after a concrete primal/dual
+        complex, boundary condition, and logical-operator dictionary are supplied for the
+        chosen code realization.
+  \item Communication-complexity bounds require a concrete quantum communication encoding and
+        implementation cost model. They are not consequences of finite normal-form termination
+        alone.
+  \item The core OPH consensus paper supplies observable-level confluence and refinement-limit
+        normal-form/holonomy classes on their declared theorem surfaces; the BFT/QECC statements
+        above are separate protocol-style extensions.
 \end{itemize}
 
 % ------------------------------------------------------------

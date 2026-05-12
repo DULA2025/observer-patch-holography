@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-05-12T21:25:44.181332Z",
+  "generated_at": "2026-05-12T21:47:08.935843Z",
   "papers": {
     "deriving_the_particle_zoo_from_observer_consistency": {
       "pdf_path": "paper/deriving_the_particle_zoo_from_observer_consistency.pdf",
-      "sha256": "3300a1d2217b3f3bd14871b4309f2a43cadaf8bda3ccb012c86de397ceacc9f8",
-      "size_bytes": 321939
+      "sha256": "881d05fa81431ff97d554ca8815927c799fbef0e5516266841dbf76c0b576ce9",
+      "size_bytes": 321023
     },
     "observers_are_all_you_need": {
       "pdf_path": "paper/observers_are_all_you_need.pdf",
-      "sha256": "07f3258874fa7a0697ac3ab5ad26f20a13562ee523787a9b844952de4f0fb4cf",
-      "size_bytes": 496800
+      "sha256": "2e3b9baa7087eab4747fc92c427636cdc23e075b9fad6bb663296a2af2895e0e",
+      "size_bytes": 496718
     },
     "reality_as_consensus_protocol": {
       "pdf_path": "paper/reality_as_consensus_protocol.pdf",
-      "sha256": "1746834b6e5f459aa01863b7510576d2830d31280f0cbfb8ef760958f237289a",
-      "size_bytes": 224740
+      "sha256": "4b5d26dc5c0d077392e7feec5e09117cfa69cd27190098bad6633c2ab948212d",
+      "size_bytes": 224569
     },
     "recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact": {
       "pdf_path": "paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf",
-      "sha256": "0893e2a0c98458b7bec5436dd9f2f588b7631e54da242720bf2b6ebbca973580",
-      "size_bytes": 531061
+      "sha256": "0e122c781eccd97ce24799d095376434b37ec97b284bfe5bd8b668b72785fa27",
+      "size_bytes": 530986
     },
     "screen_microphysics_and_observer_synchronization": {
       "pdf_path": "paper/screen_microphysics_and_observer_synchronization.pdf",
-      "sha256": "5c65ea34f409f8953ec93af77db72e2084a461ab0dbc49b47b67434f8eaee785",
-      "size_bytes": 258704
+      "sha256": "6b498bdb78531400e276daaa1a8b762247af2068248097e226a7124f5c00b919",
+      "size_bytes": 258739
     }
   },
   "release_id": "r1443",

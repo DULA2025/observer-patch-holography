@@ -178,7 +178,7 @@ Yukawas, and one weighted-cycle neutrino theorem branch. The late status ledger
 records the fine-structure audit trunk, the charged-lepton target-anchored witness surface, the
 global public quark-frame classification boundary, and the auxiliary direct-top
 compare-only codomain.
-The selected-class quark theorem leaves strong CP open: the
+Strong CP is work in progress in the selected-class quark theorem: the
 available corpus does not derive $\theta_{\mathrm{QCD}}$, does not emit
 physical $\bar\theta$, and does not prove that the physical strong-CP phase
 vanishes.

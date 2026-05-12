@@ -845,7 +845,7 @@ visible without pretending the diagram is the proof.
 Length has a practical meaning here. It gives the book room for caveats,
 examples, historical credit, and reader support. The goal is to be long enough
 that a serious reader can see what is being claimed, what is inherited, what
-is assumption-dependent, and what remains open.
+is assumption-dependent, and what is work in progress.
 
 ## Interlude 20: How a Public Fact Gets Built
 
@@ -1009,14 +1009,15 @@ construction may succeed or fail, but it should fail in the open, with its
 assumptions, symbols, lineage, diagrams, and artifacts exposed to review.
 That is how science earns a shared world.
 
-## Interlude 21: Open Problems as Part of the Architecture
+## Interlude 21: Continuation Boundaries as Part of the Architecture
 
-The book should end with open problems visible, not hidden. OPH still has to
-sharpen the exact mathematical form of observer-overlap gluing in the quantum
-setting. It has to clarify which compatibility conditions are assumed and
-which are derived. It has to push the modular-to-geometric route through
-precise hypotheses. It has to keep the Standard Model reconstruction audited
-while empirical inputs and theorem-status labels remain explicit.
+The book ends with continuation boundaries visible. OPH has a precise
+finite-consensus package for overlap repair, quotient normal forms, and
+declared observable-level confluence. It has a support-visible
+modular-to-geometric theorem surface for the Lorentz, null-modular, and local
+Einstein branch. The Standard Model reconstruction is audited by separating
+structural theorems, quantitative theorem surfaces, validation rows,
+source-only boundaries, and empirical closure rows.
 
 The dark-sector continuation needs confrontation with the full cosmological
 and astrophysical data suite. Matching an acceleration scale is interesting,
@@ -1026,16 +1027,19 @@ matter.
 
 The matter status table needs continuous hygiene. Quark masses, hadron payloads,
 neutrino assumptions, and electroweak scheme choices must stay explicit. The
-strong-CP issue remains open in the selected-class quark theorem as stated.
+strong-CP branch is work in progress in the selected-class quark theorem as stated.
 The book should not imply otherwise.
 
-The observer and restoration discussions need more formal interfaces. What
+The observer and restoration discussions use the fixed-cutoff
+checkpoint/restoration theorem as their theorem surface. Stronger continuation
+interfaces are separate questions. What
 exactly counts as a recoverable observer pattern? Which records are public,
 which are private, and which are needed for continuation? What kinds of
 hardware could instantiate the relevant patch federation? Which error bounds
-matter? These questions are open problems.
+matter? These questions are continuation boundaries.
 
-Open problems are not a blemish. They are the work surface. A theory that
+Continuation boundaries are not a blemish. They are the work surface. A theory that
 claims to reverse engineer reality should produce better questions as well
 as proposed answers. The reader should leave with a map, a toolkit, and a
-clear sense of where the map is still unfinished.
+clear sense of which parts are theorem surfaces and which parts are work in
+progress.

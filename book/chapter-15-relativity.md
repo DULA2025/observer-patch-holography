@@ -376,8 +376,8 @@ $S^2$, and $\text{Conf}(S^2)\cong \mathrm{SO}(3,1)$ is the Lorentz group.
 So Lorentz invariance is not imposed from outside. It is the natural symmetry class relating observer perspectives without privileging any one of them.
 
 **The screen degrees of freedom do not need to move.** What we call "motion" in
-the emergent 4D spacetime is not the substrate rearranging itself inside an
-already-given bulk. Motion is a pattern in how correlations change. A "moving
+the emergent 4D spacetime is not the substrate rearranging itself inside a
+pre-given bulk. Motion is a pattern in how correlations change. A "moving
 particle" is a correlation pattern that shifts across the screen. A "Lorentz
 boost" is a transformation relating how two observers describe the same
 correlation pattern.

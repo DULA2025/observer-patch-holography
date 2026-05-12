@@ -571,7 +571,7 @@ argument.
 
 ### The Witten Check
 
-The global $SU(2)$ anomaly still has to cancel on the realized branch. Each
+The global $SU(2)$ anomaly must cancel on the realized branch. Each
 generation contributes $N_c$ quark doublets and one lepton doublet, so the
 number of left-handed $SU(2)$ doublets per generation is
 
@@ -908,12 +908,12 @@ framework fixes the massless carriers. The particle surface carries the
 fine-structure fixed point, a weak-boson compare-only validation pair, a Higgs/top quantitative surface,
 a selected-class six-quark running-mass sector with Yukawas,
 and one weighted-cycle neutrino theorem branch with definite masses and Majorana
-phases. That selected-class quark sector leaves strong CP open: the available
+phases. Strong CP is work in progress in that selected-class quark sector: the available
 corpus does not derive $\theta_{\mathrm{QCD}}$, does not emit physical
 $\bar\theta$, and does not prove that the physical strong-CP phase vanishes. It
 also marks the charged-lepton source landing from $P$ to physical charged data,
 global public quark-frame classification, and the auxiliary direct-top PDG
-codomain as current boundaries in the available derivation.
+codomain as declared boundaries in the available derivation.
 
 The reason these numbers belong in one chapter is that the framework organizes
 them with one local fixed-point structure. The same pixel ratio feeds the
@@ -922,7 +922,7 @@ gravitational coupling. The reader does not need
 every intermediate symbol to see the point. OPH is attempting to tie
 electroweak validation rows, the Higgs/top quantitative surface, electromagnetism at low energy, and
 Newton's constant to one common structure without treating them as unrelated
-constants, while keeping the open endpoint and matching gates visible.
+constants, while keeping validation bookkeeping and matching gates visible.
 
 **Charge quantization.** All color-singlet particles have integer electric charge. No fractional charges like $\pm 1/3$ can exist outside hadrons. This follows from the global structure of the gauge group.
 

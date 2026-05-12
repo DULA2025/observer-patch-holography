@@ -206,10 +206,11 @@ row. Hadron-controlled rows use the policy in [`HADRON.md`](HADRON.md):
 source-only OPH values stay separate from OPH plus empirical hadron closure
 values carried by the empirical \(e^+e^-\to\mathrm{hadrons}\) payload class.
 
-The selected-class quark theorem leaves strong CP as an open companion branch:
+Strong CP is work in progress in the selected-class quark theorem:
 the available corpus does not derive the QCD theta angle, does not emit the
 physical strong-CP angle, and does not prove that the physical strong-CP phase
-vanishes. Issue `#155` tracks that phase, anomaly, and topological-angle bridge.
+vanishes. The required bridge is the phase, anomaly, and topological-angle
+descent on the realized branch.
 
 ## Repository Guide
 

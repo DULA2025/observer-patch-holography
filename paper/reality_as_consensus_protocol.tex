@@ -720,11 +720,11 @@ algebra. Therefore \(\omega_R^t(X)=\omega_R^u(X)\) for every
 \(X\in\mathcal A_{\mathrm{phys}}(R)\).
 \end{proof}
 
-\begin{remark}[Inputs and open boundary for observable-level confluence]\label{rem:obsconfluence}
+\begin{remark}[Inputs and boundary for observable-level confluence]\label{rem:obsconfluence}
 Theorem~\ref{thm:obsconfluence} does not add a new repair hypothesis beyond the D1 package. Its
 inputs are exactly the representative-level confluence theorem, quotient descent of the repair
 law, Definition~\ref{def:physobs}, and Corollary~\ref{cor:obsglue} from the fixed-cutoff
-union-collar gluing package. The open item is not fixed-cutoff observable uniqueness on that
+union-collar gluing package. The boundary item is not fixed-cutoff observable uniqueness on that
 carrier, but extension of the same statement to broader refinement-stable branches where the
 declared union-collar compatibility is only approximate or where the chosen physical observable
 algebra itself changes under refinement.
@@ -1308,7 +1308,7 @@ The companion manuscripts develop a derived gravity branch from entanglement equ
 This paper provides the finite patch-net foundation for the broader companion corpus.
 
 
-\section{Discussion and Open Problems}
+\section{Discussion and Scope Boundaries}
 
 This paper proves the fixed-point consensus spine of OPH: schedule-independent normal forms,
 holonomy obstructions, gauge-quotient invariance, separated cofinal refinement-limit consensus
@@ -1346,25 +1346,26 @@ mechanism. A universality claim would require an explicit uniform family of patc
 simulates arbitrary circuits or machines with stated encoding overhead and robustness under
 asynchronous schedules. No such theorem is supplied here.
 
-With those boundaries explicit, six downstream directions are:
+With those boundaries explicit, the consensus-paper boundaries and companion interfaces are:
 
 \begin{enumerate}
-\item \textbf{Sharper RG-shadowing estimates.} Theorem~\ref{thm:coarse-grain-consensus} closes the abstract reconciliation/coarse-graining square once its normal-form and obstruction defects are supplied. The open quantitative task is to derive model-specific or uniform bounds for \(\varepsilon^n_{sr}\) and \(\varepsilon^h_{sr}\) from concrete OPH coarse-graining channels and recovery decoders.
+\item \textbf{Sharper RG-shadowing estimates.} Theorem~\ref{thm:coarse-grain-consensus} closes the abstract reconciliation/coarse-graining square once its normal-form and obstruction defects are supplied. The quantitative task is to derive model-specific or uniform bounds for \(\varepsilon^n_{sr}\) and \(\varepsilon^h_{sr}\) from concrete OPH coarse-graining channels and recovery decoders.
 
-\item \textbf{Defect classification and refinement-limit transportability.} The fixed-cutoff hierarchy extends from abelian frustrations to crossed-module classes \(q\in \check H^2(N,H\to G)\). The open task is to connect those higher-gauge defect sectors to the refinement-stable transportable sector category used in the broader compact-gauge reconstruction lane.
+\item \textbf{Defect classification and refinement-limit transportability.} The fixed-cutoff hierarchy extends from abelian frustrations to crossed-module classes \(q\in \check H^2(N,H\to G)\). The continuation task is to connect those higher-gauge defect sectors to the refinement-stable transportable sector category used in the broader compact-gauge reconstruction lane.
 
-\item \textbf{Observable-level confluence beyond the declared fixed-cutoff physical algebra.} Theorem~\ref{thm:obsconfluence} closes the fixed-cutoff quantum-lift statement when microscopic representatives differ by gauge relabelings globally or by sector/higher-gauge relabelings on the same declared quotient-local glued state. The open question is whether an analogous observable theorem survives on broader refinement-stable branches where the union-collar compatibility is only approximate or where the physical observable algebra itself changes under refinement.
+\item \textbf{Observable-level confluence beyond the declared fixed-cutoff physical algebra.} Theorem~\ref{thm:obsconfluence} closes the fixed-cutoff quantum-lift statement when microscopic representatives differ by gauge relabelings globally or by sector/higher-gauge relabelings on the same declared quotient-local glued state. The continuation question is whether an analogous observable theorem survives on broader refinement-stable branches where the union-collar compatibility is only approximate or where the physical observable algebra itself changes under refinement.
 
 \item \textbf{Global approximate-consensus stability.} Theorem~\ref{thm:splice} and Theorem~\ref{thm:crdt} supply the collar-local perturbative controls carried by this paper. The rooted-tree packet domain proves the exact finite repair package on one nontrivial exported domain. What is absent is a multi-step theorem showing that approximate recovery moves are repair-complete for arbitrary packet-closed exported overlap nets, preserve support-local disjoint commutation and nested-collar restriction compatibility, satisfy the support/CPTP clause on every Petz branch used there, and converge under long asynchronous schedules to a unique approximate quotient normal form with controlled accumulated error.
 
-\item \textbf{Expressive power / universality.} A universality claim would require an explicit uniform family of patch nets and repair laws that simulates arbitrary circuits or machines with stated encoding overhead and robustness under asynchronous schedules. This paper supplies no such construction, so universality remains outside the theorem-grade output.
+\item \textbf{Expressive power / universality.} A universality claim would require an explicit uniform family of patch nets and repair laws that simulates arbitrary circuits or machines with stated encoding overhead and robustness under asynchronous schedules. This paper supplies no such construction, so universality is outside the theorem-grade output.
 
-\item \textbf{Scaling-limit bridge to the downstream gravity/gauge stack.} The companion compact paper derives the gravity chain through the support-visible BW scaling theorem on the prime geometric cap subnet. This consensus paper supplies the finite-state and refinement-consensus spine feeding that bridge, while dark-sector proposals, heuristic baryogenesis continuations, spectroscopy, and string/worldsheet topics remain separate continuations that require their own declared inputs beyond what this paper itself proves.
+\item \textbf{Interface to the companion gravity/gauge stack.} The companion compact paper derives the gravity chain through the support-visible BW scaling theorem on the prime geometric cap subnet. This consensus paper supplies the finite-state and refinement-consensus spine used by that bridge, while dark-sector proposals, heuristic baryogenesis continuations, spectroscopy, and string/worldsheet topics remain separate continuations that require their own declared inputs beyond what this paper itself proves.
 \end{enumerate}
 
-The last item is the bridge to the downstream gravity/gauge branches. Failure of that bridge would
-leave the fixed-point theorems proved here unchanged while revising the downstream gravity, gauge,
-or continuation sectors.
+The last item is an interface statement rather than an extra consensus premise. The fixed-point
+theorems proved here stand on their stated finite and refinement-consensus hypotheses, while
+companion gravity, gauge, and continuation sectors add their own theorem surfaces and declared
+inputs.
 
 \subsection{Assumption-Dependent BFT and QECC Extensions}
 \label{subsec:assumption-dependent-bft-qecc}

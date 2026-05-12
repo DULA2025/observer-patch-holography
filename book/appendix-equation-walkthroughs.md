@@ -315,7 +315,7 @@ dipole moment. The empirical smallness is the strong-CP problem.
 The book is careful about this because it is easy to overclaim. The selected
 class quark theorem does not derive $\theta_{\mathrm{QCD}}$, does not emit a
 physical $\bar\theta$, and does not prove that the physical strong-CP phase
-vanishes. That open boundary should remain visible in summaries, tables, and
+vanishes. This work in progress boundary is visible in summaries, tables, and
 public copy.
 
 This warning belongs in an equation appendix because not every important

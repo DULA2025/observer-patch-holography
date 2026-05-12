@@ -62,9 +62,9 @@ schedules.
 local-Einstein closure surfaces are supplied in the companion corpus; this paper only supplies
 the fixed-cutoff implementation interface that those surfaces use.
 
-\item \textbf{Excluded claims.} This paper does not identify the final OPH microphysics, does not
-establish a unique global repair law, and does not itself close the Standard Model branch or the
-companion-paper closure surfaces.
+\item \textbf{Scope-separated claims.} This paper does not identify the final OPH microphysics.
+The consensus paper carries finite repair and refinement-consensus theorem surfaces, and the
+companion papers carry the Standard Model and geometric-modular closure surfaces.
 \end{enumerate}
 
 \section{Why a Finite Gauge-Register Reference Architecture}
@@ -971,12 +971,12 @@ This paper owns the fixed-cutoff
 regulator $\mathfrak R_{\Gamma}$, the embedded finite interface layer
 $\mathfrak F_{\Gamma}$, the overlap object $\mathfrak I_{PQ}$, the local repair instrument
 $\mathcal R_{PQ}$, the packet-closure tests, and the unit/integration tests that a simulator can
-run. \emph{Reality as a Consensus Protocol} should own only the next layer: autonomous packet dynamics
+run. \emph{Reality as a Consensus Protocol} owns the next layer: autonomous packet dynamics
 when closure holds, repair completeness on the packet-closed quotient branch, the quotient-level
 compatibility package that yields the local diamond, the resulting schedule-independent
-normal-form theory, and the classification of residual holonomy or obstruction classes. Phase 1
+normal-form theory, and the classification of residual holonomy or obstruction classes. This paper
 therefore supplies the concrete microscopic inputs to the consensus story without claiming that
-the global consensus theorems have been proved here.
+the consensus theorems are proved on this microphysics surface.
 
 \section{What a First Implementable Reference Model Should Contain}
 
@@ -1695,13 +1695,12 @@ it, and the required logs above tell them where to start looking. Literal micros
 is not the target invariant here; the OPH theorem surface fixes only the physical branch modulo
 gauge or implementation hiding and inert ancillary refinement.
 
-As of the current reference artifact, the analytic backend passes all named $\mathbb Z_2$ and $S_3$
-fixed-cutoff gates across all six schedules. The pass should be read only as an existence-program
-benchmark for the regulated architecture. It does not settle uniqueness of the underlying
-microscopic completion and it does not replace the later packet-level quotient and global-consensus
-program.
+The analytic backend passes all named $\mathbb Z_2$ and $S_3$ fixed-cutoff gates across all six
+schedules. The pass is an existence-program benchmark for the regulated architecture. It does not
+settle uniqueness of the underlying microscopic completion and it does not replace packet-level
+quotient closure or long-run noisy approximate consensus for arbitrary exported packet nets.
 
-\section{Dependence on Existing OPH Results and Remaining Bridges}
+\section{Dependence on Existing OPH Results and Scope Boundaries}
 
 This note is intentionally one-sided in its logical role. It imports OPH structure that
 exists elsewhere in the program, adds one concrete fixed-cutoff reference architecture on top of
@@ -1775,11 +1774,12 @@ and correction menus on a finite screen.
 
 This paper does not claim complete OPH microphysics. It records one concrete regulated
 fixed-cutoff construction that carries the mapped fixed-cutoff theorem packages directly, while
-leaving uniqueness and the packet-level refinement program open.
+separating microscopic uniqueness and packet-level refinement questions from the fixed-cutoff
+construction.
 
-\subsection{Remaining bridges}
+\subsection{Scope boundaries}
 
-The remaining bridges are:
+The scope boundaries are:
 \begin{enumerate}[leftmargin=2em]
 \item \textbf{Microphysics uniqueness.}
 Nothing below claims that the octahedral $\mathbb Z_2$ pilot, the $S_3$ upgrade, or the
@@ -1957,8 +1957,8 @@ by the regulated screen microphysics. Autonomous quotient dynamics for the packe
 packet-closure test introduced in the preceding section: identical input packets must lead to
 identical reread packets after every accepted branch. When that test passes for a declared
 observable family, the regulator pushes forward to the exact finite packet-level update rule on
-that family. If the test fails, the embedding proved here stands. The missing quotient closure is
-explicit and logged.
+that family. If the test fails, the embedding proved here stands. Packet quotient closure is
+therefore a branch-local export condition rather than part of the object-level embedding theorem.
 
 \paragraph{Conclusion for this package.}
 The regulated patch-net embedding is explicit at fixed cutoff: patch vertices, patch-state spaces,
@@ -1967,8 +1967,9 @@ regulator. The consensus paper proves repair completeness, quotient compatibilit
 classical full-support Petz support-gap clause on a rooted-tree packet-net export. Gauge-invariant
 observables then factor through the quotient normal form on that verified branch. For a general
 regulator export, the downstream items are packet-level quotient closure when available, repair
-completeness on the declared finite patch-net branch, the quotient-level compatibility package
-that yields the local diamond, residual-obstruction classification, and refinement-limit lift. On
+completeness for that declared finite patch-net branch, the quotient-level compatibility package
+that yields the local diamond, residual-obstruction classification, and refinement-limit
+normal-form/holonomy transport under the required naturality and separation hypotheses. On
 a verified packet-closed branch, the consensus theorem package yields Lyapunov descent, derived
 termination, local confluence, schedule robustness, and normal-form existence.
 
@@ -2070,8 +2071,8 @@ heat-kernel / Casimir form
 w_\beta(R)\propto d_R e^{-\beta C_2(R)}
 \end{equation}
 on irreducible representation labels $R$. Thus the explicit screen microphysics carries the
-SM/GR paper's edge-law branch, while leaving refinement-stable
-universality and UV uniqueness open.
+SM/GR paper's edge-law branch. Microscopic uniqueness and model-family universality remain
+separate questions.
 
 \paragraph{Fixed-cutoff closure.}
 The previous reference-model section supplies the concrete same-overlap realization needed for
@@ -2487,8 +2488,8 @@ This closes the fixed-cutoff observer checkpoint/restoration package: the checkp
 The downstream questions are:
 \begin{enumerate}[leftmargin=2em]
 \item The regulated patch-net embedding package is closed here at the object and local-interface
-level. Downstream work begins only when one asks for packet-level quotient closure on a declared
-observable family and then for long-run noisy approximate consensus on that exported packet net.
+level. Packet-level quotient closure on a declared observable family and long-run noisy
+approximate consensus on that exported packet net are separate tasks.
 \item The edge heat-kernel / Casimir package has an explicit thermalized finite-group theorem
 here. The compact-group / Peter--Weyl lift is handled on the companion compact and D10 surfaces,
 and large-\(N_{\mathrm{edge}}\) worldsheet statements use their own continuation inputs.
@@ -2507,7 +2508,7 @@ exported packet nets.
 
 The regulated screen architecture carries five fixed-cutoff theorem packages:
 \begin{enumerate}[leftmargin=2em]
-\item the regulated patch-net embedding theorem, with the later packet-closure/global-consensus boundary made explicit,
+\item the regulated patch-net embedding theorem, with the packet-closure and long-run noisy-consensus boundary made explicit,
 \item the edge-sector thermal/Casimir theorem, with the compact-group / Peter--Weyl handoff made explicit,
 \item the central-record/Born-rule measurement package,
 \item the fixed-cutoff Bell/CHSH package on the declared two-wing surface, and

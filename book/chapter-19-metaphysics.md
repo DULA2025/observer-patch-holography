@@ -256,7 +256,7 @@ the physics, not a replacement for it. If the overlap conditions fail, if the
 particle ledger fails on its declared surfaces, if the dark-sector
 continuation fails, or if the recoverability claims cannot be sharpened, the
 interpretation must change.
-That is a feature. A metaphysics worthy of physics should remain exposed to
+That is a feature. A metaphysics worthy of physics is exposed to
 physics.
 
 ## 19.11 Reverse Engineering Summary

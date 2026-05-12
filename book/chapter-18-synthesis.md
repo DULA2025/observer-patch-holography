@@ -323,10 +323,10 @@ The local-ruler ledger records five technical boundaries. The weak pair is a
 validation row on a declared compare-only surface. Charged-lepton rows are
 target-anchored same-family witnesses rather than source-emitted public
 masses. The selected-class quark theorem closes only on its declared public
-frame class, so global public quark-frame classification remains open. The
-auxiliary direct-top PDG row remains compare-only. Hadron masses require the
+frame class, with global public quark-frame classification as a corpus-limited
+no-go boundary. The auxiliary direct-top PDG row is compare-only. Hadron masses require the
 OPH strong-binding backend with production spectral data and systematics.
-The selected-class quark theorem leaves strong CP open: the available corpus
+Strong CP is work in progress in the selected-class quark theorem: the available corpus
 does not derive $\theta_{\mathrm{QCD}}$, does not emit physical $\bar\theta$,
 and does not prove that the physical strong-CP phase vanishes.
 
