@@ -154,8 +154,9 @@ Note that full-rank $\sigma$ does \emph{not} prevent $\mathcal{N}(\sigma)$
 from being rank-deficient: the channel may map the support of $\sigma$
 into a strict subspace of $\mathcal{K}$.
 In the \textrm{OPH} setting, whether $\mathcal{N}(\sigma)$ is full rank
-depends on the specific overlap channel and must be verified separately
-(open issue~\#62).
+depends on the specific overlap channel and must be verified for the chosen analytic channel
+model. The finite OPH repair theorem instead uses the declared Lyapunov descent law on a finite
+patch net.
 \end{proposition}
 
 \begin{proof}
@@ -183,22 +184,24 @@ $\lambda\in(0,1)$:
 \]
 Then $\mathcal{R}_{\sigma,\mathcal{N}}\circ\mathcal{N}$ is contractive
 with coefficient depending on $\lambda$ and $\mathrm{spec}(\sigma)$.
-Establishing $\lambda<1$ for the OPH overlap channel requires analysis
-of the OPH Hamiltonian (open issue~\#62).
+This is an analytic channel condition. It is not required for the finite OPH normal-form theorem,
+where termination follows from strict Lyapunov descent of accepted repairs.
 \end{proposition}
 
-\begin{conjecture}[Spectral gap {\normalfont\small [Conjecture]}]
+\begin{proposition}[Spectral-gap criterion {\normalfont\small [Model-dependent]}]
 \label{conj:spectral-gap}
-The transfer operator $\mathcal{T}$ for iterated application of
+If the transfer operator $\mathcal{T}$ for iterated application of
 $\mathcal{R}_{\sigma,\mathcal{N}}$ has a positive spectral gap
-$\delta>0$, implying exponential convergence.
-Proof from OPH first principles is open issue~\#63.
-\end{conjecture}
+$\delta>0$, then the corresponding analytic channel model has exponential convergence. The
+finite OPH repair package supplies termination by Lyapunov descent on its declared finite state
+space; a spectral gap is a separate quantitative mixing condition for this BFT/QECC-style
+extension.
+\end{proposition}
 
 \begin{theorem}[Exponential Convergence
-  {\normalfont\small [Assuming Conjecture~\ref{conj:spectral-gap}]}]
+  {\normalfont\small [Under Proposition~\ref{conj:spectral-gap}]}]
 \label{thm:exp-convergence}
-Assuming Conjecture~\ref{conj:spectral-gap} with gap $\delta>0$,
+Under Proposition~\ref{conj:spectral-gap} with gap $\delta>0$,
 \[
   \tfrac12\bigl\|\mathcal{R}_{\sigma,\mathcal{N}}^{\circ t}(\rho)
   -\sigma\bigr\|_1
@@ -329,13 +332,9 @@ requires (B1) and (B2) explicitly and does not follow from fairness alone).
 % ------------------------------------------------------------
 
 \begin{itemize}
-  \item \textbf{\#62}\enspace Derive repair map from OPH dynamics;
-        verify full-rank condition for $\mathcal{N}(\sigma)$
-        (prerequisite for upgrading Proposition~\ref{prop:petz-contraction}
-        and the domain condition of Proposition~\ref{prop:petz-cptp}).
-  \item \textbf{\#63}\enspace Prove spectral gap from an OPH Lyapunov
-        functional (upgrades Conjecture~\ref{conj:spectral-gap} to
-        Theorem~\ref{thm:exp-convergence}).
+  \item Analytic spectral-gap and full-rank estimates for a chosen stochastic or channel-level
+        BFT/QECC realization are model-specific refinements. They are separate from the finite
+        OPH repair theorem, where the accepted repair law supplies Lyapunov descent directly.
   \item \textbf{\#68}\enspace Quantum observable-level confluence.
   \item \textbf{\#69}\enspace Continuum / refinement limit of
         Theorems~\ref{thm:qbft-safety} and~\ref{thm:quantitative-convergence}.
