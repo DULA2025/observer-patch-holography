@@ -209,7 +209,7 @@ the same architecture. We trace the logic from the starting basis to its
 consequences.
 
 The gauge branch also carries a four-dimensional Euclidean Yang-Mills form and
-an exact repair-gap account of the compact-gauge mass gap on its declared
+a repair-gap account of the compact-gauge mass gap on its declared
 support-visible branch.
 
 The program targets the recovery of known physics, gravity and the Standard

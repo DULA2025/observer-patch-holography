@@ -249,9 +249,10 @@ Forces are mediated by bosons: particles with integer spin.
 
 The Yang-Mills mass gap is a statement about the spectrum of the compact
 nonabelian gauge theory, separate from assigning a hard mass to the gluon. In
-OPH, the gap is accounted for by repair dynamics on the compact-gauge branch:
-exact local repair gives a positive Euclidean relaxation generator, and its
-first nonzero repair eigenvalue is the first nonzero Yang-Mills energy.
+OPH, the gap is accounted for by repair dynamics on the declared
+support-visible compact-gauge branch: exact local repair gives a positive
+Euclidean relaxation generator, and its first nonzero repair eigenvalue is the
+first nonzero Yang-Mills energy.
 
 **Higgs boson** (spin 0): The source of mass for W, Z, and fermions. Discovered at CERN in 2012. Mass about 125 GeV.
 

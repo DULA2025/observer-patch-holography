@@ -242,9 +242,10 @@ that some shared center labels are counted only once.
 ### Yang-Mills and the Gap
 
 Once a compact gauge group is reconstructed, the next question is the field
-theory carried by that group. On the compact-gauge branch, OPH uses local
-holonomy data, a four-dimensional scaling chart, reflection positivity, and the
-local maximum-entropy Gibbs rule to obtain the Euclidean Yang-Mills action:
+theory carried by that group. On the declared support-visible compact-gauge
+branch, OPH uses local holonomy data, a four-dimensional scaling chart,
+reflection positivity, support-visible continuum extraction, and the local
+maximum-entropy Gibbs rule to obtain the Euclidean Yang-Mills action:
 
 $$
 S_E[A]=\frac{1}{4g^2}\int_{\mathbb R^4}\langle F_{\mu\nu},F_{\mu\nu}\rangle\,d^4x.
@@ -266,7 +267,7 @@ $$
 \Delta_{\mathrm{YM}}=\Delta_{\mathrm{rep}}.
 $$
 
-The Yang-Mills gap is the repair gap.
+On that branch, the Yang-Mills gap is the repair gap.
 
 ## 12.8 Symmetry Breaking
 
