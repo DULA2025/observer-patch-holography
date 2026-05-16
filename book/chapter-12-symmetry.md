@@ -239,6 +239,35 @@ system. $U(1)$ is the single continuous charge direction that feeds ordinary
 electromagnetism after symmetry breaking. The quotient by $\mathbb Z_6$ says
 that some shared center labels are counted only once.
 
+### Yang-Mills and the Gap
+
+Once a compact gauge group is reconstructed, the next question is the field
+theory carried by that group. On the compact-gauge branch, OPH uses local
+holonomy data, a four-dimensional scaling chart, reflection positivity, and the
+local maximum-entropy Gibbs rule to obtain the Euclidean Yang-Mills action:
+
+$$
+S_E[A]=\frac{1}{4g^2}\int_{\mathbb R^4}\langle F_{\mu\nu},F_{\mu\nu}\rangle\,d^4x.
+$$
+
+The field strength $F$ measures curvature of the gauge connection. The formula
+says that the action is built from curvature squared, integrated over
+four-dimensional Euclidean space. In OPH this is the continuum form of
+compact-gauge patch bookkeeping.
+
+The mass gap uses a separate spectral argument on the same branch. Exact local
+repair on an active collar acts as projection onto the repaired visible data.
+After the ground-state transform, Euclidean time evolution becomes a sum of
+active collar relaxations. A uniform positive repair rate gives a positive lower
+bound for the first nonzero compact-gauge energy. The accounting is literal on
+that branch:
+
+$$
+\Delta_{\mathrm{YM}}=\Delta_{\mathrm{rep}}.
+$$
+
+The Yang-Mills gap is the repair gap.
+
 ## 12.8 Symmetry Breaking
 
 The universe has beautiful symmetries. But the symmetries are also hidden.

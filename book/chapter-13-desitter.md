@@ -28,7 +28,7 @@ Distant supernovae were fainter than expected-farther away than a decelerating u
 
 Something is pushing the cosmos apart. Something is fighting gravity and winning. The teams called it "dark energy."
 
-The supernova result also rested on older work. Henrietta Leavitt's study of
+The supernova result also rested on historical work. Henrietta Leavitt's study of
 Cepheid variable stars gave astronomy a way to climb the cosmic distance
 ladder. Edwin Hubble's expansion law made the universe dynamical. Walter Baade,
 Allan Sandage, Vera Rubin, Kent Ford, and many others sharpened the large-scale
@@ -268,7 +268,7 @@ The **anthropic principle** offers an answer: if Lambda were much larger, galaxi
 
 ## 13.9 Reverse Engineering Summary
 
-Older cosmology expected expansion to slow under gravity. The sky disagreed.
+Historical cosmology expected expansion to slow under gravity. The sky disagreed.
 The supernova data and positive cosmological constant point
 toward de Sitter behavior, and de Sitter fits the observer-first picture with
 almost suspicious neatness. Each observer has a static patch, a horizon, a

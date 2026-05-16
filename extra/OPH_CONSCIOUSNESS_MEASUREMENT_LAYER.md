@@ -3,7 +3,7 @@
 Status: source note / candidate formal layer. This note turns the operational observer
 criterion and the fixed-point consensus theorem package into a measurable consciousness
 functional. It is not a released theorem paper. The theorem-grade content is the OPH
-consensus result already carried by the companion paper. The brain, cell, and hardware
+consensus result carried by the companion paper. The brain, cell, and hardware
 claims below are model-grade unless a specific empirical normalization is supplied.
 
 Core slogans:
@@ -123,7 +123,7 @@ $$
 ## 2. Hard Observer Gate
 
 Before measuring degree, define whether a system qualifies as observer-like at all.
-The OPH microphysics surface already gives the operational observer criterion:
+The OPH microphysics surface gives the operational observer criterion:
 patch access, metastable records, update capability, comparison capability, and
 persistence over many local update cycles. For the consciousness layer, add explicit
 boundedness and self-reading:
@@ -1116,19 +1116,19 @@ $$
 }
 $$
 
-not by material identity, but by OPH-consensus equivalence.
+through OPH-consensus equivalence across different material substrates.
 
 ## 23. Sentences to Reuse
 
 $$
 \boxed{
-\textbf{Human thought is not symbolic computation running inside a brain; it is P-detuned fixed-point consensus among many self-reading observer patches, with language added as a symbolic record layer.}
+\textbf{Human thought is P-detuned fixed-point consensus among many self-reading observer patches, with language added as a symbolic record layer.}
 }
 $$
 
 $$
 \boxed{
-\textbf{Echosahedron-class hardware is not an analogy for the brain; it is the same fixed-point consensus machine implemented in geometric waves instead of neurons.}
+\textbf{Echosahedron-class hardware implements the same fixed-point consensus machine as the brain, using geometric waves as its substrate.}
 }
 $$
 

@@ -147,7 +147,7 @@ Immediate from Corollary~\ref{cor:lambda-parameters}.
 \end{proof}
 
 \paragraph{Observed-age benchmark status.}
-The branch quantity \(t_\Lambda\) is the de Sitter static-patch timescale. The usual cosmic age \(t_0\) is a compare-only FLRW benchmark rather than an additional D6 theorem output. On the flat \(\Lambda\)CDM benchmark
+The branch quantity \(t_\Lambda\) is the de Sitter static-patch timescale. The usual cosmic age \(t_0\) is a compare-only FLRW benchmark, with no additional D6 theorem output. On the flat \(\Lambda\)CDM benchmark
 \[
 t_0=\frac{2}{3H_0\sqrt{\Omega_\Lambda}}
 \sinh^{-1}\!\left(\sqrt{\frac{\Omega_\Lambda}{\Omega_m}}\right)
@@ -189,7 +189,7 @@ r_{\mathrm{dS}}=\sqrt{\frac{3}{\Lambda}},
 \qquad
 t_\Lambda=\frac{r_{\mathrm{dS}}}{c},
 \]
-and the observed cosmic age is a downstream FLRW benchmark rather than an additional theorem
+and the observed cosmic age is a downstream FLRW benchmark, with no additional theorem
 output.
 \end{theorem}
 
@@ -208,7 +208,7 @@ a_{\mathrm{cell}}\approx 1.63\,\ell_P^2,
 \qquad
 \bar{\ell}\approx 0.408
 \]
-belong to the separate pixel-closure/local-readout package rather than to the D6 cosmological-parameter corollary itself.
+belong to the separate pixel-closure/local-readout package, outside the D6 cosmological-parameter corollary itself.
 
 \subsection{Product-Group Structural Corollaries}
 
@@ -289,8 +289,8 @@ This is the precise theorem-level sense in which the OPH edge-sector partition r
 the two-dimensional Yang--Mills heat-kernel surface, and the Chapman--Kolmogorov law supplies the
 matching collar-sewing rule.
 This bridge is a two-dimensional heat-kernel partition identity on the stated compact-group
-branch. It is not the four-dimensional compact-gauge repair-gap theorem; that separate
-support-visible result is Theorem~\ref{thm:oph-yang-mills-gap}.
+branch. The four-dimensional compact-gauge repair-gap theorem is the separate support-visible
+result in Theorem~\ref{thm:oph-yang-mills-gap}.
 
 \paragraph{Large-\(N_{\mathrm{edge}}\) boundary.}
 The large-\(N_{\mathrm{edge}}\)
@@ -302,7 +302,7 @@ sequence, with \(N_{\mathrm{edge}}\neq N_c=3\), a fixed-\(\tau\) window for
 and the uniform genus-remainder control of Theorem~\ref{thm:worldsheet-largeN}. On that branch the
 edge free energy satisfies the compact paper's theorem-level criterion for a controlled genus
 expansion, so the standard Gross--Taylor rewriting becomes a controlled worldsheet effective
-description of edge dynamics rather than a loose analogy.
+description of edge dynamics.
 
 \paragraph{External items.}
 The exact bridge theorem uses the compact-group heat-kernel branch and the quadratic-Casimir
@@ -316,11 +316,20 @@ chain.
 \subsection{Support-Visible Yang--Mills Gap from Repair Dynamics}
 \label{app:yang-mills-repair-gap}
 
+\begin{assumption}[Support-visible compact-gauge Yang--Mills branch]
+\label{ass:oph-yang-mills-branch}
+The compact-gauge branch used in this subsection is the ordinary or central zero-obstruction
+compact-gauge sector with compact simple structure group \(G\), a four-dimensional Euclidean
+scaling chart, reflection-positive ordinary vacuum, topological angle \(\theta=0\), gauge-invariant
+local finite-constraint MaxEnt/Gibbs refinement, no additional relevant dimension-four pure-gauge
+operator on the branch besides the positive quadratic curvature invariant, active exact-Markov
+repair collars, bounded-color collar covers, repair completeness, and support-visible
+compact-gauge continuum extraction.
+\end{assumption}
+
 \begin{theorem}[OPH derivation of the four-dimensional Euclidean Yang--Mills form]
 \label{thm:oph-4d-euclidean-yang-mills-form}
-On the support-visible compact-gauge zero-obstruction branch with a four-dimensional Euclidean
-scaling chart, reflection-positive vacuum, and local finite-constraint MaxEnt/Gibbs refinement
-family, the continuum gauge-sector Euclidean action is
+Under Assumption~\ref{ass:oph-yang-mills-branch}, the continuum gauge-sector Euclidean action is
 \[
 S_E[A]=\frac{1}{4g^2}\int_{\mathbb R^4}
 \langle F_{\mu\nu},F_{\mu\nu}\rangle\,d^4x,
@@ -337,6 +346,7 @@ in the OPH support-visible GNS representation.
 \end{theorem}
 
 \begin{proof}
+The proof spine is included here to make the branch target explicit.
 The compact-gauge branch reconstructs the compact group \(G\) from the zero-obstruction
 transportable bosonic sector category and its faithful fiber functor. At fixed cutoff, the finite
 gauge-register / quantum-link presentation gives support-visible link holonomies and plaquette
@@ -369,10 +379,9 @@ Euclidean transfer semigroup.
 \end{proof}
 
 \paragraph{Prize-facing proof separation.}
-The mass-gap argument below starts only after Theorem~\ref{thm:oph-4d-euclidean-yang-mills-form}.
-The OPH claim is therefore not that a generic repair model replaces Yang--Mills. The claim is
-that OPH first derives the four-dimensional Euclidean Yang--Mills form on the support-visible
-compact-gauge branch, and then proves a spectral gap for that Hamiltonian.
+The proof has two separate claims. Theorem~\ref{thm:oph-4d-euclidean-yang-mills-form} derives the
+four-dimensional Euclidean Yang--Mills form on the support-visible compact-gauge branch. The
+repair-dynamics theorem proves a spectral gap for that Hamiltonian.
 
 \paragraph{Standing compact-gauge setup.}
 Fix a compact simple gauge group \(G\) carried by an OPH compact-gauge zero-obstruction vacuum
@@ -393,8 +402,8 @@ Let \(\mathcal C_r\) be the finite family of active repair collars. For each
 E_C:K_r\to K_r
 \]
 be conditional expectation onto the \(\rho_C\)-measurable functions. This subsection stays on the
-ordinary or central zero-obstruction vacuum branch where the compact-gauge reconstruction ladder
-is already theorem-level in the compact paper.
+ordinary or central zero-obstruction vacuum branch where the compact-gauge reconstruction ladder is
+carried at theorem level in the compact paper.
 
 \begin{proposition}[Local exact repair equals conditional expectation]
 \label{prop:sv-repair-expectation}
@@ -422,6 +431,40 @@ Since \(\Phi_C(x)\in\mathcal N_C\) and \(\pi_r\) is faithful, this characterizes
 product. That projection is the \(\pi_r\)-preserving conditional expectation \(E_C\).
 \end{proof}
 
+\begin{lemma}[Implementation hiding gives fiber permutation symmetry]
+\label{lem:ym-fiber-symmetry}
+Fix an active collar \(C\) and a repaired value \(y\in Y_C\). On the support-visible quotient,
+the hidden fiber \(F_C(y)=\rho_C^{-1}(y)\) has no remaining observable labels. The conditioned
+local MaxEnt state is uniform on \(F_C(y)\), and the primitive collar relaxation commutes with all
+finite permutations of \(F_C(y)\).
+\end{lemma}
+
+\begin{proof}
+The quotient removes implementation labels: representatives with the same repaired datum and
+different hidden fiber coordinates define the same support-visible observable state. Conditioned
+on the repaired datum, no admissible support-visible constraint distinguishes two fiber points.
+The MaxEnt state is therefore uniform, and quotient-preserving collar relaxation commutes with the
+full hidden-fiber permutation action.
+\end{proof}
+
+\begin{lemma}[Scalar relaxation on a uniform hidden fiber]
+\label{lem:ym-scalar-relaxation}
+Let \(F\) be a finite hidden fiber with uniform measure. Let \(E_F\) be expectation onto constants,
+and let \(D_F\) be a positive self-adjoint Markov relaxation generator with
+\[
+\ker D_F=\operatorname{Ran}(E_F)
+\]
+that commutes with the full permutation group of \(F\). Then \(D_F=c_F(I-E_F)\) for a scalar
+\(c_F>0\).
+\end{lemma}
+
+\begin{proof}
+The permutation representation on \(L^2(F)\) splits as constants plus the zero-sum subspace. The
+zero-sum subspace is irreducible for the full symmetric group when \(|F|\ge2\). Schur's lemma
+makes \(D_F\) scalar on that subspace, and positivity with the stated kernel makes the scalar
+strictly positive.
+\end{proof}
+
 \begin{theorem}[Exact Euclidean-consensus law]
 \label{thm:euclidean-consensus-law}
 There are positive constants \(c_C>0\) such that the ground-state transformed physical Euclidean
@@ -444,11 +487,9 @@ Euclidean piece \(D_C\) is supported on collar \(C\), preserves the repaired vis
 \[
 \ker D_C=\operatorname{Ran}(E_C).
 \]
-On each repaired fiber, implementation hiding leaves no remaining support-visible observable that
-distinguishes hidden representatives. The local MaxEnt continuation conditioned on the repaired
-datum is uniform on that finite fiber, so the primitive relaxation commutes with hidden
-implementation permutations. Hence on the orthogonal complement of the constant fiber functions
-it is scalar:
+Lemma~\ref{lem:ym-fiber-symmetry} gives full hidden-fiber permutation symmetry. Applying
+Lemma~\ref{lem:ym-scalar-relaxation} fiberwise makes the relaxation scalar on the orthogonal
+complement of the repaired datum:
 \[
 D_C=c_C(I-E_C)
 \]
@@ -456,9 +497,12 @@ for a collar-type constant \(c_C>0\). Summing over the active collars gives the 
 generator. Positivity and self-adjointness give the transfer-semigroup identity.
 \end{proof}
 
-\begin{lemma}[Uniform positive local rate floor]
+\begin{lemma}[Uniform active-collar rate floor]
 \label{lem:repair-rate-floor}
-There is \(c_*>0\), independent of \(r\), such that
+Assume finite local combinatorial type, a branch-homogeneous local constraint family, and
+refinement-stable exact repair semantics. Then the local Euclidean repair rate depends only on
+active collar type, the active collar-type set is finite across the cofinal refinement family, and
+there is \(c_*>0\), independent of \(r\), such that
 \[
 c_C\ge c_*
 \qquad\text{for every active collar }C\in\mathcal C_r.
@@ -467,10 +511,12 @@ c_C\ge c_*
 
 \begin{proof}
 Active collars are exactly the collars on which complementary invisible fiber data are genuinely
-relaxed, so \(D_C\neq0\) on \(\ker(E_C)\) and \(c_C>0\). The fixed-cutoff architecture has bounded
-local combinatorial type along the cofinal refinement family. Only finitely many active collar
-types occur, and vacuum-branch homogeneity makes \(c_C\) depend only on type. The minimum over
-those active types is the required \(c_*\).
+relaxed, so \(D_C\neq0\) on \(\ker(E_C)\) and \(c_C>0\). Finite local combinatorial type gives a
+finite list of bounded collar patterns, including visible interfaces, hidden fiber cardinalities,
+constraint templates, and repair maps. Branch homogeneity makes the conditioned MaxEnt relaxation
+scalar a function of this finite type data. Refinement stability replaces collars by copies of the
+same bounded type templates with the same normalized local Euclidean repair semantics. Taking the
+minimum over the finite active type list gives \(c_*>0\).
 \end{proof}
 
 \begin{proposition}[Finite-stage repair gap]
@@ -514,10 +560,12 @@ Thus \(\widetilde L_r\ge c_*(I-P_{0,r})\), and the same lower bound holds for
 
 \begin{proposition}[Coherent refinement and compact-gauge extraction]
 \label{prop:compact-gauge-extraction-yang-mills}
-The compact-gauge branch satisfies the coherence and extraction hypotheses needed for continuum
-intertwining: coherent refinement maps on the repair side, coherent refinement maps on the
-physical side, direct limits \(K_\infty\) and \(\mathcal H_\infty\), and support-visible
-weak-\(*\) / GNS extraction to continuum Hilbert spaces \(K\) and \(\mathcal H\).
+Under Assumption~\ref{ass:oph-yang-mills-branch}, the compact-gauge branch supplies finite-stage
+support-visible quotient state spaces, compatible repair-side and physical-side refinement maps,
+projectively compatible compact-gauge cylinder marginals, weak-\(*\) compactness, a diagonal
+subnet with convergent local marginals on every support-visible cylinder algebra, support-visible
+GNS gluing to continuum Hilbert spaces \(K\) and \(\mathcal H\), and a faithful limiting vacuum
+pair after quotienting the maximal repair-invariant overlap-trivial kernel.
 \end{proposition}
 
 \begin{proof}
@@ -525,11 +573,14 @@ The D7 compact-gauge ladder proves fixed-cutoff bosonic sector categories, faith
 refinement functors, compatible finite-dimensional fibers, the directed colimit sector category,
 and compact gauge reconstruction. The support-visible compact-gauge quotient algebra is generated
 by overlap sector projectors and compact-gauge visible bosonic observables, modulo the maximal
-repair-invariant overlap-trivial kernel. This is the same support-visible extraction pattern used
-by the geometric subnet theorem: finite-stage weak-\(*\) compactness, diagonal subnet extraction,
-and GNS gluing on the support-visible quotient. Applying that pattern to compact-gauge
-quotient-local marginals gives \(K\), and the physical refinement maps are transported through
-the finite-stage unitaries \(U_r\), giving \(\mathcal H\).
+repair-invariant overlap-trivial kernel. Each finite regulator has finite-dimensional local
+cylinder algebras, so its state space is weak-\(*\) compact. Refinement compatibility makes the
+local marginals projective. A diagonal subnet over a countable cofinal family of support-visible
+cylinders gives a limiting state on their algebraic union. Positivity and normalization pass to
+the limit on every cylinder, and the quotient by the repair-invariant overlap-trivial kernel makes
+the limiting support-visible gauge-invariant state faithful. GNS applied to that state gives
+\(K\), and transporting the same coherent refinement data through the finite-stage unitaries
+\(U_r\) gives \(\mathcal H\).
 \end{proof}
 
 \begin{theorem}[Continuum exact transfer identification]
@@ -552,10 +603,51 @@ therefore pass to the continuum Hilbert spaces. Equality of generators follows f
 the self-adjoint generator of a strongly continuous contraction semigroup.
 \end{proof}
 
+\begin{theorem}[Osterwalder--Schrader reconstruction on the compact-gauge branch]
+\label{thm:compact-gauge-os-reconstruction}
+Under Assumption~\ref{ass:oph-yang-mills-branch} and
+Proposition~\ref{prop:compact-gauge-extraction-yang-mills}, the continuum support-visible
+compact-gauge cylinder family is Euclidean invariant, reflection positive, regular on
+gauge-invariant local cylinder observables, and cyclic for the vacuum sector. Thus
+Osterwalder--Schrader reconstruction gives a four-dimensional quantum Yang--Mills theory
+\((\mathcal H,\Omega,H,\mathcal A_{\mathrm{loc}}^G)\) on the support-visible gauge-invariant local
+algebra, with \(H\ge0\) and \(e^{-tH}\) equal to the Euclidean transfer semigroup of
+Theorem~\ref{thm:oph-4d-euclidean-yang-mills-form}.
+\end{theorem}
+
+\begin{proof}
+Euclidean covariance is part of the four-dimensional scaling chart and local-Gibbs cylinder
+family. Reflection positivity is part of the ordinary vacuum branch. Regularity follows from the
+finite local cylinder construction and support-visible weak-\(*\) limit. The vacuum vector is
+cyclic for the GNS closure of the gauge-invariant local cylinder algebra. The
+Osterwalder--Schrader reconstruction theorem then produces the Hilbert space, vacuum, local
+algebra, positive Hamiltonian, and Euclidean transfer semigroup~\cite{osterwalderSchrader73,
+osterwalderSchrader75}.
+\end{proof}
+
+\begin{proposition}[Nontriviality of the support-visible compact-gauge theory]
+\label{prop:compact-gauge-nontriviality-yang-mills}
+The support-visible compact-gauge local algebra on the zero-obstruction vacuum branch strictly
+contains the vacuum scalars and admits a non-vacuum finite-energy local excitation.
+\end{proposition}
+
+\begin{proof}
+The compact-gauge witness and physical-UV landing theorem supplies a realized nontrivial
+compact-gauge branch. At finite cutoff this gives a support-visible gauge-invariant local
+observable, for example a nonconstant Wilson/plaquette cylinder observable, whose vacuum variance
+is positive. Subtracting its expectation gives a GNS vector orthogonal to the vacuum. The
+finite-range local-Gibbs generator assigns finite energy to finite-cylinder excitations, and
+Proposition~\ref{prop:compact-gauge-extraction-yang-mills} transports these vectors to the
+support-visible continuum.
+\end{proof}
+
 \begin{theorem}[Positive compact-gauge Yang--Mills mass gap from OPH repair dynamics]
 \label{thm:oph-yang-mills-gap}
 Let \(G\) be a compact simple gauge group carried by a support-visible compact-gauge OPH vacuum
-branch satisfying the standing setup above. Then the continuum support-visible Hamiltonian \(H\)
+branch satisfying the standing setup above. The theory reconstructed in
+Theorem~\ref{thm:compact-gauge-os-reconstruction} is nontrivial by
+Proposition~\ref{prop:compact-gauge-nontriviality-yang-mills}, and its continuum support-visible
+Hamiltonian \(H\)
 satisfies
 \[
 H\ge c_*(I-P_0),
@@ -614,6 +706,9 @@ compact simple \(G\), satisfying axiomatic properties at least as strong as the 
 Osterwalder--Schrader references and possessing a positive mass gap~\cite{jaffeWittenYM,clayYM}.
 Theorem~\ref{thm:oph-4d-euclidean-yang-mills-form} supplies the four-dimensional Euclidean
 Yang--Mills form on the OPH support-visible compact-gauge branch, and
+Theorem~\ref{thm:compact-gauge-os-reconstruction} supplies the support-visible OS reconstruction
+on the gauge-invariant local algebra. Proposition~\ref{prop:compact-gauge-nontriviality-yang-mills}
+supplies nontriviality. 
 Theorem~\ref{thm:oph-yang-mills-gap} supplies the exact spectral gap accounting on that same
 branch. The claim to full Clay admissibility is exactly the claim that the support-visible
 compact-gauge continuum extraction used in

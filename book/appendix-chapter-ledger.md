@@ -148,7 +148,7 @@ The shadows become a world only because observers compare and reconstruct. A
 single shadow is ambiguous. Several partial records, cross-checked through
 overlap, can begin to constrain a shared model.
 
-The human chain is older than physics departments. It includes oral argument,
+The human chain predates physics departments. It includes oral argument,
 geometry, astronomy, logic, theology, optics, mechanics, and eventually
 experimental science. A modern reader should not treat philosophy as a failed
 version of physics. Philosophy was the first debugging environment for
@@ -552,6 +552,13 @@ The gauge group $SU(3)\times SU(2)\times U(1)$ names the Standard Model's
 strong, weak, and hypercharge symmetries before electroweak symmetry breaking.
 Later quotient structure identifies transformations that act the same on
 physical states.
+
+The compact-gauge branch also supplies the Euclidean Yang-Mills action in four
+dimensions on its support-visible branch. The corresponding mass-gap statement
+identifies the first nonzero Yang-Mills energy with the first nonzero repair
+eigenvalue:
+
+$$\Delta_{\mathrm{YM}}=\Delta_{\mathrm{rep}}.$$
 
 The Noether diagram in the chapter shows the pipeline: symmetry, fixed
 action, conserved current. The human story centers on Emmy Noether, but it

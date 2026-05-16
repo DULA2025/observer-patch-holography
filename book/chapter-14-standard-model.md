@@ -247,6 +247,12 @@ Forces are mediated by bosons: particles with integer spin.
 
 **Gluons** (spin 1): Carry the strong force. Eight types, distinguished by color charge. Massless, but the strong force is short-range because gluons themselves carry color and interact.
 
+The Yang-Mills mass gap is a statement about the spectrum of the compact
+nonabelian gauge theory, separate from assigning a hard mass to the gluon. In
+OPH, the gap is accounted for by repair dynamics on the compact-gauge branch:
+exact local repair gives a positive Euclidean relaxation generator, and its
+first nonzero repair eigenvalue is the first nonzero Yang-Mills energy.
+
 **Higgs boson** (spin 0): The source of mass for W, Z, and fermions. Discovered at CERN in 2012. Mass about 125 GeV.
 
 **Graviton** (spin 2): The hypothetical carrier of gravity. Not part of the Standard Model. Never directly detected.
@@ -414,6 +420,12 @@ together.
 Different observers describe the same overlap region using different frames. The transformation between frames is a gauge transformation. The freedom that leaves overlap observables invariant forms the gauge group.
 
 This is "gauge-as-gluing." Gauge symmetry isn't fundamental. It's the grammar of how patches fit together.
+
+The same branch also carries the Yang-Mills form. Local holonomy data and the
+four-dimensional continuum scaling limit produce the curvature-squared
+Euclidean action. Repair collars supply the spectral part: leaving the repaired
+vacuum sector costs a positive amount of Euclidean relaxation energy, and that
+cost is the Yang-Mills mass gap on the support-visible compact-gauge branch.
 
 ### Edge-Center Completion
 

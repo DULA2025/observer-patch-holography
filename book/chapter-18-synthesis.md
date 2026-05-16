@@ -96,6 +96,13 @@ ways. $SU(3)$ carries color, $SU(2)$ carries weak doublet structure, and
 $U(1)$ carries hypercharge. The $\mathbb Z_6$ quotient is the discrete
 identification that makes the Standard Model charge lattice fit together.
 
+The same compact-gauge branch also carries a four-dimensional Euclidean
+Yang-Mills form and a mass-gap account for compact simple gauge groups carried
+by that branch. The Euclidean action comes from compact-gauge holonomy data and
+the local maximum-entropy Gibbs scaling limit. The gap comes from repair:
+exact local repair turns into a positive Euclidean relaxation generator, and
+the first nonzero repair eigenvalue is the first nonzero Yang-Mills energy.
+
 The color triplet follows from the minimal coupled carrier, and the
 three-generation count follows from CKM phase counting, weak-sector
 consistency, and minimality on the same low-energy branch. The photon,
@@ -307,7 +314,7 @@ information theorist sees a code. A good theory earns its keep by making those
 views mutually legible without erasing their differences.
 
 The structure is not a flat list. The gauge quotient, charge lattice, counting
-chain, massless carriers, Lorentz geometry, Einstein relation, and the
+chain, Yang-Mills repair gap, massless carriers, Lorentz geometry, Einstein relation, and the
 tracked electroweak, Higgs-top, quark, and neutrino surfaces form one
 organized reconstruction, not a catalog of unrelated facts.
 

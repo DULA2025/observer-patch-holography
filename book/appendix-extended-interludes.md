@@ -42,7 +42,7 @@ Standard Model alone. Each failure is a boundary condition on the architecture.
 The method does not make OPH automatically true. It sets the standard OPH has
 to meet. A successful reverse-engineered architecture must explain why the
 symptoms cluster. It must reduce the number of arbitrary knobs. It must
-respect the known test suite. It must explain why older effective
+respect the known test suite. It must explain why legacy effective
 descriptions worked where they did. It must make failures local, not global:
 when an extension remains assumption-dependent, that status must be visible rather
 than hidden.
@@ -726,7 +726,7 @@ extra assumptions that are too close to the desired conclusion. A
 Tannaka-Krein reconstruction might recover a broader family than the Standard
 Model without the economy principle doing legitimate work.
 
-It could fail phenomenologically. A particle status row might miss updated
+It could fail phenomenologically. A particle status row might miss revised
 data. A claimed source-only output might depend on a hidden empirical target.
 A dark-sector continuation might fit one acceleration scale but fail lensing,
 clusters, cosmic microwave background constraints, or structure formation.

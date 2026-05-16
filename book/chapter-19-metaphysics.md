@@ -223,7 +223,7 @@ and public reality is overlap-stable. A private impression becomes a public
 fact only if it can be anchored in records, compared through shared interfaces,
 and kept coherent with the rest of the world.
 
-That lets older philosophical language be translated into technical pressure.
+That lets classical philosophical language be translated into technical pressure.
 The "view from nowhere" becomes the demand for a global description that no
 finite observer actually occupies. A "phenomenal point of view" becomes the
 inside of a bounded, record-making process. A "law of nature" becomes a

@@ -101,7 +101,7 @@ I(A:C|B)=S_{AB}+S_{BC}-S_B-S_{ABC},
 
 along with Petz-recovery quality. OPH favors the direction "lower CMI, better recoverability" for more structured local states.
 
-Informally, conditional mutual information asks: once you already know the middle subsystem `B`, how much extra correlation still remains between the two ends `A` and `C`? Smaller values mean the state is closer to the kind of locally consistent, recoverable structure OPH expects.
+Informally, conditional mutual information asks: conditioned on the middle subsystem `B`, how much extra correlation remains between the two ends `A` and `C`? Smaller values mean the state is closer to the kind of locally consistent, recoverable structure OPH expects.
 
 ### `Z_3`
 
@@ -313,7 +313,7 @@ This result matters because the initial low `S_3` values were largely a layout-d
 
 ## Assessment of the evidence
 
-> On IBM quantum hardware, the first exact-ratio and recoverability tests already return the structure OPH predicts: `Z_3` passes cleanly, `Z_5` repeatedly lands near the golden-ratio target, and no tested branch shows a clean failure. Taken together with OPH's broader theoretical successes, this is substantial positive evidence for the framework.
+> On IBM quantum hardware, the first exact-ratio and recoverability tests return the structure OPH predicts: `Z_3` passes cleanly, `Z_5` repeatedly lands near the golden-ratio target, and no tested branch shows a clean failure. Taken together with OPH's broader theoretical successes, this is substantial positive evidence for the framework.
 
 The main caveats are:
 
@@ -330,4 +330,4 @@ These experiments cover a small reduced sector of OPH.
 - The exact-ratio experiments directly prepare OPH-motivated reduced-sector amplitudes, so the result is that the predicted structure survives real-hardware preparation and measurement in a nontrivial way.
 - Stage 1 is a real structural success, recoverability behavior by itself also appears in frameworks beyond OPH, and its random control was chosen from a fixed candidate pool.
 
-Real quantum hardware is already returning the local reduced-sector structure OPH says it should, and this constitutes substantial positive support for the framework.
+Real quantum hardware returns the local reduced-sector structure OPH predicts in these reduced-sector tests, and this constitutes substantial positive support for the framework.

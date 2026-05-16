@@ -303,7 +303,7 @@ One structure is doing two jobs at once. Read algebraically, it is the modular e
 
 Start with thermal structure. Ask: what is the natural notion of time evolution? In the wedge setting, the answer is Lorentz boosts.
 
-This reverses the usual logic in QFT. We don't postulate Lorentz symmetry and then discover thermal horizons; the BW theorem shows the boost structure is encoded in modular flow.
+This reverses the usual logic in QFT. We do not postulate Lorentz symmetry and then discover thermal horizons; the Bisognano-Wichmann theorem shows the boost structure is encoded in modular flow.
 
 That modular-boost link is the route by which the smooth geometric branch
 recovers Lorentz kinematics and a universal causal speed on the screen.
@@ -380,7 +380,7 @@ toward gravity.
 
 ---
 
-We’ve located a source of time without putting time in by hand. Incomplete knowledge, restricted access, and record-building are enough to generate clocks and an arrow.
+We have located a source of time without putting time in by hand. Incomplete knowledge, restricted access, and record-building are enough to generate clocks and an arrow.
 
 The harder question concerns translation. Different observers inherit different local clocks, different horizons, and different cuts through the state. Why do the conversion rules between their descriptions lock into the rigid form of symmetry and conservation law, with no case-by-case negotiation?
 

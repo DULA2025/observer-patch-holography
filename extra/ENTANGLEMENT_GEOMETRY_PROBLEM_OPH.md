@@ -87,7 +87,7 @@ G = a_cell / (4 lbar(t))
 
 This is the OPH derivation of the area term and of Newton's constant from edge entropy density.
 
-This already answers the main issue. A map from entropy to geometry has to run through generalized entropy and the center/edge structure of the patch algebra.
+This answers the main issue. A map from entropy to geometry has to run through generalized entropy and the center/edge structure of the patch algebra.
 
 Relevant OPH sources: *Observers Are All You Need*, Part I Section 5.4 and Part V Section 2.6; *Reality as Consensus Protocol*, "Connection to Observer-Patch Holography" and Appendix A.
 
@@ -292,7 +292,7 @@ The OPH answer can be summarized as follows.
 
 ### 6.1 Can a quantitative spacetime deformation be derived from entanglement manipulation?
 
-Yes. The statement holds in the semiclassical regime, and the relevant quantity is generalized entropy rather than entanglement entropy alone.
+Yes. The statement holds in the semiclassical regime, and the relevant quantity is generalized entropy with its edge/center terms included.
 
 The correct first-order map is:
 

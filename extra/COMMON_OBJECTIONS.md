@@ -24,11 +24,11 @@ This note collects rebuttals to common objections to the OPH framework, with lon
 >
 > The Failure: A discrete lattice of information patches inherently violates Lorentz Invariance at high energies. If the 'Screen' has a fixed pixel density, then a boosted observer (moving near light speed) would perceive a 'length contraction' of those pixels, changing the entropy count (S).
 >
-> If S changes based on the observer's velocity, your 'Overlap Consistency' fails unless you can prove your framework is Background Independent. Currently, your math seems to 'force' the Gravitational Constant (G) by plugging in the Planck length rather than deriving it as a purely emergent property of the information overlap. Without a proof of Lorentz Invariance across moving patches, the framework cannot recover the Einstein Field Equations, it only recovers a Newtonian approximation."
+> If S changes based on the observer's velocity, your 'Overlap Consistency' fails unless you can prove your framework is Background Independent. Your math seems to 'force' the Gravitational Constant (G) by plugging in the Planck length without deriving it as a purely emergent property of the information overlap. Without a proof of Lorentz Invariance across moving patches, the framework cannot recover the Einstein Field Equations, it only recovers a Newtonian approximation."
 
 ### Short answer
 
-This criticism would be decisive against a theory that treated the UV cells as little rigid rods sitting inside an already-given spacetime. That is **not** what OPH claims.
+This criticism would be decisive against a theory that treated the UV cells as little rigid rods inside a pre-given spacetime. OPH has a different setup.
 
 In OPH:
 
@@ -64,7 +64,7 @@ The OPH primitives are:
 - generalized entropy on cuts,
 - recoverability/Markov structure across collars.
 
-The bulk metric is **not** a background field that exists first and then gets discretized. The metric is reconstructed from modular data and overlap consistency. In that sense, the "lattice" is a regulator or UV bookkeeping structure for the algebra net, not a preferred Lorentz frame inside already-emergent spacetime.
+The bulk metric is reconstructed from modular data and overlap consistency. In that sense, the "lattice" is a regulator or UV bookkeeping structure for the algebra net, not a preferred Lorentz frame inside emergent spacetime.
 
 This distinction matters:
 
@@ -118,7 +118,7 @@ So the claim "boost changes the entropy count" is not correct when the compariso
 
 ### 3.3 Why length contraction is the wrong picture here
 
-In special relativity, length contraction is already a statement about comparing different spacetime slicings, not about crushing matter by hand. In OPH the situation is even more algebraic: a "boosted observer" corresponds to a different modular slicing and a different cap description within the same overlap-consistent net.
+In special relativity, length contraction is a statement about comparing different spacetime slicings, not about crushing matter by hand. In OPH the situation is even more algebraic: a "boosted observer" corresponds to a different modular slicing and a different cap description within the same overlap-consistent net.
 
 The right comparison is not:
 
@@ -144,8 +144,8 @@ The criticism says OPH has not proved Lorentz invariance. But the published clai
 The key steps in the main paper are:
 
 1. Markov locality localizes the modular generator to the collar around a cap boundary.
-2. The BW geometric-branch premise identifies the cap modular flow with the standard cap-preserving conformal dilation.
-3. The KMS/BW normalization fixes the modular scale to `2pi`.
+2. The Bisognano-Wichmann geometric-branch premise identifies the cap modular flow with the standard cap-preserving conformal dilation.
+3. The KMS and Bisognano-Wichmann normalization fixes the modular scale to `2pi`.
 4. Therefore cap modular flow takes the form:
 
 `K_C = 2pi B_C`.
@@ -182,7 +182,7 @@ From the null modular bridge, OPH obtains
 
 `K = 2pi ∫ v T_kk(v,Omega) dv + central term`.
 
-This is the same structural role played by boost generators in the standard Bisognano-Wichmann setting. Once one has this, the theory is already operating in Lorentzian null kinematics, not in Galilean kinematics (*Observers Are All You Need*, Part I §5.2; Part V §2.3-2.4).
+This is the same structural role played by boost generators in the standard Bisognano-Wichmann setting. With this structure, the theory operates in Lorentzian null kinematics, not in Galilean kinematics (*Observers Are All You Need*, Part I §5.2; Part V §2.3-2.4).
 
 So the criticism's conclusion, "therefore only Newtonian gravity," does not follow. The framework's actual derivation route goes through a boost algebra, null generators, and Lorentz-covariant stress reconstruction.
 
@@ -208,7 +208,7 @@ After the `BW_{S^2}` step this becomes
 
 `delta S_C = 2pi delta <B_C>`.
 
-Now apply a Lorentz transformation `Lambda`. Covariance gives `rho_C -> rho_(Lambda C) = U(Lambda) rho_C U(Lambda)^dagger` and `K_C -> K_(Lambda C) = U(Lambda) K_C U(Lambda)^dagger`.
+Apply a Lorentz transformation `Lambda`. Covariance gives `rho_C -> rho_(Lambda C) = U(Lambda) rho_C U(Lambda)^dagger` and `K_C -> K_(Lambda C) = U(Lambda) K_C U(Lambda)^dagger`.
 
 Therefore `delta S_(Lambda C) = delta <K_(Lambda C)> = delta Tr(U rho_C U^dagger U K_C U^dagger) = delta Tr(rho_C K_C) = delta S_C`.
 
@@ -288,7 +288,7 @@ This is the issue actually relevant to Lorentz invariance. On that question, OPH
 
 That is enough to answer the specific "your fixed pixels pick a preferred frame" objection. A preferred frame would have to be detectable in the physical overlap algebra. OPH's claim is that, after refinement and geometric modular action, it is not.
 
-So the criticism asks for too much in the wrong place. A full UV completion would be desirable, but the Lorentz-invariance issue is already addressed at the level of the emergent observable net.
+So the criticism asks for too much in the wrong place. A full UV completion would be desirable, but the Lorentz-invariance issue is addressed at the level of the emergent observable net.
 
 ---
 
@@ -313,7 +313,7 @@ That is why the criticism does not follow.
 
 The most precise version of the criticism is:
 
-> "Show in an explicit UV regulator that the refinement limit really flows to the `BW_{S^2}` geometric modular regime with controlled errors."
+> "Show in an explicit UV regulator that the refinement limit really flows to the geometric Bisognano-Wichmann modular regime on the sphere with controlled errors."
 
 That is a serious and legitimate demand.
 
@@ -321,7 +321,7 @@ But that is **not** the same as saying:
 
 > "A boosted observer sees contracted pixels, so OPH violates Lorentz invariance and only gets Newtonian gravity."
 
-That second statement confuses the UV regulator with the emergent observable geometry. In OPH, Lorentz invariance is not the symmetry of a literal background lattice. It is the symmetry forced on observer comparisons by modular flow on the screen net. Once that step is granted, the entropy first law is covariant, the null modular bridge is Lorentzian, and the derivation reaches the Einstein tensor equation rather than a merely Newtonian limit.
+That second statement confuses the UV regulator with the emergent observable geometry. In OPH, Lorentz invariance is not the symmetry of a literal background lattice. It is the symmetry forced on observer comparisons by modular flow on the screen net. Once that step is granted, the entropy first law is covariant, the null modular bridge is Lorentzian, and the derivation reaches the full Einstein tensor equation.
 
 ---
 
@@ -358,12 +358,12 @@ screen-microphysics paper then supplies one explicit fixed-cutoff reference
 architecture for records, repair, Bell, and checkpoint/restoration without
 claiming a unique microscopic UV completion.
 
-So the right challenge is no longer:
+So the right challenge is:
 
 > "Where is the missing core modular bridge?"
 
-The current core bridge is carried by the companion theorem stack. The serious
-remaining engineering question is instead:
+The companion theorem stack carries the core bridge. The serious
+engineering question is:
 
 > "Which fixed-cutoff realizations implement that interface cleanly, and how are nonunique microscopic representatives compared modulo physical equivalence?"
 
@@ -380,19 +380,19 @@ Bisognano-Wichmann / Unruh / Hawking / half-sided-modular package.
 
 That part is fair.
 
-But the current OPH paper stack does not leave the core modular-geometric
+But the OPH paper stack does not leave the core modular-geometric
 surface as an unproved gap. The recovered-core paper closes the support-visible
-BW scaling theorem and the downstream Lorentz / null-modular / Einstein branch
+Bisognano-Wichmann scaling theorem and the downstream Lorentz / null-modular / Einstein branch
 on its stated observer-facing surface. The microphysics paper supplies an
-explicit fixed-cutoff reference architecture instead of a second proof of that
+explicit fixed-cutoff reference architecture for that
 same scaling theorem.
 
 So the strongest fair version of the criticism is:
 
 > "Show that concrete fixed-cutoff realizations match the declared overlap, record, and scaling interface cleanly."
 
-That is a useful criticism. It is no longer the same thing as claiming that the
-core modular bridge itself is missing.
+That is a useful criticism. It differs from claiming that the core modular
+bridge itself is missing.
 
 ---
 
@@ -434,7 +434,7 @@ So the correct statement is not:
 
 The correct statement is:
 
-> "Type I modular dynamics by itself does not yet guarantee the universal geometric modular action needed for the continuum BW / Unruh / Hawking story."
+> "Type I modular dynamics by itself does not yet guarantee the universal geometric modular action needed for the continuum Bisognano-Wichmann / Unruh / Hawking story."
 
 That is a much narrower and more accurate objection.
 
@@ -470,7 +470,7 @@ The clean version of the objection is:
 > "Show that concrete fixed-cutoff realizations satisfy the declared overlap, record, repair, and scaling diagnostics with controlled errors."
 
 That is legitimate. It asks for implementation evidence and branch comparison,
-not for a missing core BW/geometric theorem.
+not for a missing core Bisognano-Wichmann/geometric theorem.
 
 But that is not the same as saying:
 
@@ -491,8 +491,8 @@ This is a useful objection when it is aimed at the right target.
 It is right to distinguish the finite Type I regulator layer from the
 observer-facing scaling-limit theorem surface. It is wrong to present that
 distinction as a fatal contradiction or as evidence that the core modular
-bridge is still missing. In the current corpus, the support-visible BW theorem
-and downstream Lorentz / null-modular / Einstein branch are already closed on
+bridge is missing. In the corpus, the support-visible Bisognano-Wichmann theorem
+and downstream Lorentz / null-modular / Einstein branch are closed on
 their declared surface, while the microphysics paper handles fixed-cutoff
 implementation and nonunique UV realization.
 
@@ -503,6 +503,6 @@ the modular-algebraic problem it raises; it answers a different question.
 
 - [Samir Dzolota, "Technical Critique and Resolution of the OPH Framework" (Zenodo)](https://zenodo.org/records/18902120)
 - [Observers Are All You Need PDF](../paper/observers_are_all_you_need.pdf)
-  Key sections used above: the support-visible BW scaling theorem, the Lorentz branch, and the null modular bridge.
+  Key sections used above: the support-visible Bisognano-Wichmann scaling theorem, the Lorentz branch, and the null modular bridge.
 - [Main manuscript source](../paper/tex_fragments/PAPER.tex)
-  Key sections used above: the regulator premises, the support-visible BW cap theorem, and the null modular bridge.
+  Key sections used above: the regulator premises, the support-visible Bisognano-Wichmann cap theorem, and the null modular bridge.
