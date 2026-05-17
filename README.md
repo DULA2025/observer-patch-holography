@@ -7,7 +7,7 @@
 **Quick links:** [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [website](https://floatingpragma.io/oph/) | [OPH Lab](https://oph-lab.floatingpragma.io)
 
 OPH is a reconstruction program for fundamental physics. It starts from finite
-observers on a finite holographic screen. Its working basis
+observers on finite holographic screen geometry. Its working basis
 is quantum-algebraic: patch algebras, states, trace/Born event probabilities on
 declared record surfaces, and generalized entropy are part of the formal
 starting point. The program is not a demand to derive every mathematical
@@ -29,7 +29,7 @@ static stage on which computation merely happens.
 
 Most theories begin by assuming spacetime, quantum fields, and a list of
 constants. OPH starts one step earlier than spacetime and quantum field theory,
-with finite observers on a finite quantum-algebraic holographic screen whose
+with finite observers on finite quantum-algebraic holographic screen geometry whose
 descriptions have to agree where their patches overlap. Push that requirement
 hard enough and a 3+1-dimensional Lorentzian spacetime emerges, together with a
 Jacobson-style Einstein equation and the realized Standard Model quotient
@@ -52,6 +52,28 @@ overlap-visible data, reject inconsistent continuations, and keep the stable
 patterns that can be synchronized. Geometry, particles, laws, and records are
 the large-scale fixed points of that observer-network computation.
 
+## Geometry, Symmetry, and Simulators
+
+Sphere language in OPH is geometry language. In symmetric regulator charts, an
+observer-accessible cut can be represented by the two-sphere \(S^2\). Those
+charts describe angular support geometry. The simulator is not an actual
+sphere. The substrate is not a literal spherical quantum computer. The
+simulator is a finite patch-and-overlap model for the algebraic constraints
+exposed by that geometry.
+
+The finite symmetry anchor is \(A_5\), the rotational symmetry group of the
+icosahedron. It supplies the icosahedral skeleton behind the echosahedral patch
+carrier language: a finite, highly symmetric way to organize ports, overlaps,
+and local comparison data without treating the carrier as a smooth ball.
+
+The exceptional symmetry anchor is the \(E_8\) Lie group and its root-lattice
+structure. \(E_8\) matters because it gives the exceptional closure language
+used in the higher symmetry and representation side of the OPH stack. The
+binary icosahedral group and affine \(E_8\) meet through the McKay
+correspondence. This is why \(A_5\)-icosahedral and \(E_8\)-type language can
+belong to one symmetry story. These names mark symmetry constraints and
+regulator structure.
+
 The scale is set by two quantities: the total screen capacity read from the
 de Sitter horizon and the local pixel ratio \(P\), the area of one screen cell
 in Planck-area units. For the observed cosmological constant, the bare horizon
@@ -65,8 +87,9 @@ geometric displacement equals the electromagnetic observation scale emitted by
 the universe living on that same screen. The public solution is
 \(P\simeq1.6309682094\), with
 \(\alpha^{-1}(0)=137.035999177(21)\) and
-\(\alpha(0)\simeq0.00729735256433\). The same fixed-point
-geometry is also probed in a separate optical-cavity hardware note.
+\(\alpha(0)\simeq0.00729735256433\). Hardware-facing checks of the
+same fixed-point geometry are treated only as public evidence-bundle claims
+when the raw artifacts and verifier receipts are available.
 
 The same local pixel scale drives the gravity readout, the fine-structure
 closure, gauge structure, scoped particle-mass rows, records, and observer
@@ -162,7 +185,8 @@ tiers live in the papers.
 - **Paper 2. [Recovering Relativity and the Standard Model from Observer Overlap Consistency](paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf)**: compact technical core for relativity, gravity, realized Standard Model structure, and the support-visible compact-gauge Yang-Mills form/gap theorem under its declared branch assumptions.
 - **Paper 3. [Deriving the Particle Zoo from Observer Consistency](paper/deriving_the_particle_zoo_from_observer_consistency.pdf)**: particle derivations, mass rows, coupling structure, and the quantitative comparison surface.
 - **Paper 4. [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)**: fixed-point repair dynamics, record stability, and the consensus picture of public reality.
-- **Paper 5. [Screen Microphysics and Observer Synchronization](paper/screen_microphysics_and_observer_synchronization.pdf)**: finite screen architecture, records, recovery moves, and observer synchronization.
+- **Paper 5. [Federated Echosahedral Screen Microphysics](paper/screen_microphysics_and_observer_synchronization.pdf)**: federated patch-carrier architecture, \(A_5\)-icosahedral and \(E_8\)-type symmetry framing, public hardware-evidence rules, records, recovery moves, and observer synchronization.
+- **Calibration note. [Digital Calibration Note for OPH Screen Microphysics](paper/screen_microphysics_digital_calibration_note.pdf)**: the octahedral \(\mathbb Z_2/S_3\) simulator suite, scoped as digital calibration for patch constraints. It is not a literal spherical substrate model.
 
 ## Supplemental Papers
 

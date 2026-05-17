@@ -6,7 +6,7 @@
 
 **Liens rapides :** [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [site](https://floatingpragma.io/oph/) | [OPH Lab](https://oph-lab.floatingpragma.io)
 
-L'OPH est un programme de reconstruction pour la physique fondamentale. Il part d'observateurs finis sur un écran holographique fini. Sa base de travail est algébrique-quantique : algèbres de patchs, états, probabilités de type trace/Born sur les surfaces d'enregistrement déclarées et entropie généralisée font partie du point de départ formel. Le programme ne cherche pas à dériver chaque ingrédient mathématique à partir de premiers principes. Son objectif est de construire une théorie du tout cohérente et complète en utilisant cette base d'information algébrique pour reconstruire l'univers effectif observé : espace-temps, structure de jauge, particules, enregistrements et synchronisation des observateurs y apparaissent comme des conséquences de la cohérence de recouvrement, et non comme des primitives.
+L'OPH est un programme de reconstruction pour la physique fondamentale. Il part d'observateurs finis sur une géométrie finie d'écran holographique. Sa base de travail est algébrique-quantique : algèbres de patchs, états, probabilités de type trace/Born sur les surfaces d'enregistrement déclarées et entropie généralisée font partie du point de départ formel. Le programme ne cherche pas à dériver chaque ingrédient mathématique à partir de premiers principes. Son objectif est de construire une théorie du tout cohérente et complète en utilisant cette base d'information algébrique pour reconstruire l'univers effectif observé : espace-temps, structure de jauge, particules, enregistrements et synchronisation des observateurs y apparaissent comme des conséquences de la cohérence de recouvrement, et non comme des primitives.
 
 La thèse opérationnelle est plus précise que "l'information est fondamentale".
 L'OPH modélise la réalité comme un processus de consensus à point fixe fondé
@@ -21,7 +21,7 @@ produirait simplement.
 
 ## Par où commencer
 
-Pour le noyau technique compact, commencez par **Paper 2. [Recovering Relativity and the Standard Model from Observer Overlap Consistency](paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf)**. **Paper 3. [Deriving the Particle Zoo from Observer Consistency](paper/deriving_the_particle_zoo_from_observer_consistency.pdf)** porte les dérivations particules. **Paper 4. [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)** développe l'image consensus-réparation. **Paper 5. [Screen Microphysics and Observer Synchronization](paper/screen_microphysics_and_observer_synchronization.pdf)** couvre l'architecture d'écran finie, les enregistrements et la machinerie observateur. Ce README, le Paper 1 et le livre sont les grandes vues d'ensemble.
+Pour le noyau technique compact, commencez par **Paper 2. [Recovering Relativity and the Standard Model from Observer Overlap Consistency](paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf)**. **Paper 3. [Deriving the Particle Zoo from Observer Consistency](paper/deriving_the_particle_zoo_from_observer_consistency.pdf)** porte les dérivations particules. **Paper 4. [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)** développe l'image consensus-réparation. **Paper 5. [Federated Echosahedral Screen Microphysics](paper/screen_microphysics_and_observer_synchronization.pdf)** couvre l'architecture fédérée de patches, les enregistrements, les règles de preuve matérielle publique et la machinerie observateur. Ce README, le Paper 1 et le livre sont les grandes vues d'ensemble.
 
 ## Ce que l'OPH apporte
 
@@ -47,7 +47,31 @@ les prolongements incohérents et conservent les motifs stables qui peuvent êtr
 synchronisés. Géométrie, particules, lois et enregistrements sont les points
 fixes à grande échelle de ce calcul en réseau d'observateurs.
 
-L'OPH utilise une seule entrée quantitative externe, la capacité totale de l'écran lue depuis l'horizon de Sitter, ainsi qu'un ratio local de pixel \(P\), l'aire d'une cellule d'écran en unités de Planck. Pour la constante cosmologique observée, le ratio nu d'aire d'horizon vaut environ \(1.05\times10^{122}\), tandis que la capacité entropique utilisée par l'OPH vaut environ \(3.31\times10^{122}\). La même cellule d'écran est décrite deux fois : vue de l'extérieur comme un pixel situé légèrement au-dessus de l'équilibre auto-similaire au nombre d'or, et vue de l'intérieur comme la plus petite échelle d'observation électromagnétique disponible pour les observateurs de l'univers simulé.
+## Géométrie, symétrie et simulateurs
+
+Le langage de sphère dans l'OPH est un langage de géométrie. Dans les cartes
+régulatrices symétriques, une coupe accessible à un observateur peut être
+représentée par la deux-sphère \(S^2\). Ces cartes décrivent une géométrie
+angulaire visible par support. Le simulateur n'est pas une sphère réelle. Le
+substrat n'est pas un ordinateur quantique sphérique littéral. Le simulateur
+est un modèle fini de patches et de recouvrements pour les contraintes
+algébriques exposées par cette géométrie.
+
+L'ancre de symétrie finie est \(A_5\), le groupe des rotations de
+l'icosaèdre. Elle fournit le squelette icosaédrique derrière le langage des
+porteurs de patches échosaédriques : une façon finie et très symétrique
+d'organiser ports, recouvrements et données locales de comparaison sans traiter
+le porteur comme une boule lisse.
+
+L'ancre exceptionnelle est le groupe de Lie \(E_8\) et sa structure de réseau
+de racines. \(E_8\) donne le langage de fermeture exceptionnelle utilisé dans
+le côté symétries supérieures et représentations de la pile OPH. Le groupe
+icosaédrique binaire et le \(E_8\) affine se rencontrent par la correspondance
+de McKay. C'est pourquoi le langage \(A_5\)-icosaédrique et le langage de type
+\(E_8\) appartiennent à une même histoire de symétrie. Ces noms désignent des
+contraintes de symétrie et une structure de régulateur.
+
+L'OPH utilise une seule entrée quantitative externe, la capacité totale de l'écran lue depuis l'horizon de Sitter, ainsi qu'un ratio local de pixel \(P\), l'aire d'une cellule d'écran en unités de Planck. Pour la constante cosmologique observée, le ratio nu d'aire d'horizon vaut environ \(1.05\times10^{122}\), tandis que la capacité entropique utilisée par l'OPH vaut environ \(3.31\times10^{122}\). La même cellule d'écran est décrite deux fois : vue de l'extérieur comme un pixel situé légèrement au-dessus de l'équilibre auto-similaire au nombre d'or, et vue de l'intérieur comme la plus petite échelle d'observation électromagnétique disponible pour les observateurs de l'univers encodé.
 Le papier de synthèse écrit cette autoréférence comme un problème de point fixe. Le calcul de structure fine part de l'équilibre entropique au nombre d'or et de la normalisation gaussienne de bord, puis transporte l'ancre électrofaible jusqu'au point de Thomson. La surface publique utilise \(P\simeq1.6309682094\). La lecture donne \(\alpha^{-1}(0)=137.035999177(21)\) et \(\alpha(0)\simeq0.00729735256433\). Le même pixel local porte la gravité, la structure fine, la jauge réalisée, les lignes de masses particules, les enregistrements et la synchronisation des observateurs.
 
 ## Surface locale d'unification
@@ -138,7 +162,8 @@ utilise une classe séparée de charge utile \(e^+e^-\to\mathrm{hadrons}\).
 - **Papier 2. [Recovering Relativity and the Standard Model from Observer Overlap Consistency](paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf)** : noyau technique pour la relativité, la gravité, la structure réalisée du Modèle Standard et la forme/gap Yang-Mills sur la branche compacte de jauge visible par support sous ses hypothèses déclarées.
 - **Papier 3. [Deriving the Particle Zoo from Observer Consistency](paper/deriving_the_particle_zoo_from_observer_consistency.pdf)** : dérivations particules, lignes de masses, structure des couplages et surface quantitative.
 - **Papier 4. [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)** : dynamique de réparation à point fixe, stabilité des enregistrements et consensus public.
-- **Papier 5. [Screen Microphysics and Observer Synchronization](paper/screen_microphysics_and_observer_synchronization.pdf)** : architecture d'écran finie, enregistrements, mouvements de récupération et synchronisation observateur.
+- **Papier 5. [Federated Echosahedral Screen Microphysics](paper/screen_microphysics_and_observer_synchronization.pdf)** : architecture fédérée de patches, cadrage de symétrie \(A_5\)-icosaédrique et de type \(E_8\), règles de preuve matérielle publique, enregistrements, mouvements de récupération et synchronisation observateur.
+- **Note de calibration. [Digital Calibration Note for OPH Screen Microphysics](paper/screen_microphysics_digital_calibration_note.pdf)** : suite de simulation octaédrique \(\mathbb Z_2/S_3\), limitée à une calibration numérique des contraintes de patches. Ce n'est pas un modèle de substrat sphérique littéral.
 
 ## Articles supplémentaires
 

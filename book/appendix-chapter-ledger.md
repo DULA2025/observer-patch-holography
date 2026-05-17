@@ -158,9 +158,9 @@ assumptions beyond the instruments of the time.
 
 Chapter 3 turns the philosophical projection hint into a physical storage
 question. If gravitational systems have finite information capacity and that
-capacity scales like area, where is the effective data surface? The chapter's
-answer is the holographic screen, especially the spherical screen naturally
-associated with symmetric light-cone and horizon constructions.
+capacity scales like area, what observer-facing chart exposes that capacity?
+The chapter's answer is the holographic screen, especially the spherical screen
+naturally associated with symmetric light-cone and horizon constructions.
 
 The most important symbol is $S\leq A/(4\ell_P^2)$. The inequality form says
 that a region's entropy is bounded by its boundary area in Planck units. $S$

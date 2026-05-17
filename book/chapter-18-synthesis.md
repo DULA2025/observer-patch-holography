@@ -72,11 +72,12 @@ of how their clocks, horizons, and correlations line up. Geometry is what the
 shared bookkeeping looks like when written smoothly.
 
 The fixed-cutoff microphysics paper plays a narrower role in that story. It
-supplies one explicit finite reference architecture for patches, overlaps, edge
-sectors, records, repair, Bell tests, and checkpoint/restoration. It does not
-identify a unique microscopic UV completion, but it does provide a concrete
-implementation surface on which the broader OPH bookkeeping can be simulated
-and checked.
+does not say that the universe is a literal spherical quantum computer. It
+treats the sphere as an observer-facing regulator chart and supplies a
+federated patch-carrier architecture for patches, overlaps, edge sectors,
+records, repair, Bell tests, and checkpoint/restoration. It does not identify a
+unique microscopic UV completion, but it does provide a concrete implementation
+surface on which the broader OPH bookkeeping can be simulated and checked.
 
 ## 18.5 How the Particle World Appears
 
@@ -216,10 +217,11 @@ into strongly interacting composite particles. Those data help account for the
 hadronic contribution to the long-distance electromagnetic running used in the
 displayed endpoint.
 
-Alex Osika's optical-cavity hardware work probes the same fixed-point geometry.
-The apparatus is not a miniature universe. It is a controlled physical
-implementation of the closure idea: a device whose geometry and readout are
-forced to settle on one fixed point.
+Optical-cavity hardware work probes the same fixed-point geometry only under a
+strict evidence rule. The apparatus is not a miniature universe, and private
+bench notes do not carry paper weight. A hardware claim counts only when its
+public bundle includes the body, firmware, calibration traces, controls, and
+exact-verifier receipts needed to audit it.
 
 One cell on the screen is then being described twice. From one side it is a
 pixel of the horizon. From the other it is the smallest electromagnetic step
@@ -299,8 +301,8 @@ Reverse engineering starts with symptoms and works backward to architecture.
 This book started with the symptoms modern physics could not stop producing:
 area laws, entanglement, measurement tension, horizons, relativity, gauge
 structure, and the peculiar fine balance of the particle world. It followed
-those clues back to one architecture: a finite screen, local patches,
-recoverability, modular flow, generalized entropy, and a world that holds
+those clues back to one architecture: finite observer-facing cuts, local
+patches, recoverability, modular flow, generalized entropy, and a world that holds
 together because partial observers can keep agreeing.
 
 That architecture turns the universe into a much stranger object than classical

@@ -44,8 +44,9 @@ same mathematical object.
 
 **Bulk.** The bulk is the emergent interior spacetime description. In
 holography, bulk physics can be encoded in boundary data. OPH treats the bulk
-as the compressed public geometry reconstructed from finite screen data and
-overlap consistency, not as the primitive storage layer.
+as the compressed public geometry reconstructed from finite patch data exposed
+through screen charts and overlap consistency, not as the primitive storage
+layer.
 
 **Cap.** A cap is a region on the spherical screen, usually associated with an
 observer-accessible patch or a subregion used in entropy and modular-flow

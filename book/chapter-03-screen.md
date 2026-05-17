@@ -303,24 +303,25 @@ physical.
 
 **The 4D bulk isn't on the sphere.** It emerges from the entanglement structure between patches. When you look around and see three-dimensional space, you're experiencing a compressed encoding of how your patch is entangled with others. In the constructions emphasized later, bulk distance is read from boundary entanglement structure.
 
-*The screen is the computation. Observer patches are the threads. Reality is what they agree on.*
+*The patch federation does the work. The screen is the chart. Reality is what observer patches agree on.*
 
 One concrete way to picture this is as a finite quantum machine. The specialist
 literature gives that family of pictures names such as quantum link models, but
-the image itself is easy to hold in mind. The sphere is a working device, and
-we are processes unfolding inside it.
+the image itself has to be handled carefully. The sphere is a working chart for
+what an observer-facing cut exposes. It is not a claim that reality is a
+literal spherical quantum computer.
 
 ### A Plausible Hardware Sketch
 
 The hardware itself does not need center stage. What matters is the feel of the
-architecture. Imagine the sphere tiled into tiny cells. Short quantum links
-connect neighbors. Local rules keep records stable, move correlations across
-the surface, and let nearby patches stay in sync.
+architecture. Imagine a federation of finite patches with exposed overlap
+ports. Short local links connect neighbors. Local rules keep records stable,
+move correlations across the interfaces, and let nearby patches stay in sync.
 
-That picture turns the screen from a metaphor into a machine. It can be rebuilt
-in miniature with ordinary qubits, then used to study finite-resolution
-measurement, durable records, restoration, and synchronization inside one
-bounded system.
+That picture turns the screen from a metaphor into a regulator chart over a
+finite patch machine. It can be rebuilt in miniature with ordinary qubits,
+then used to study finite-resolution measurement, durable records,
+restoration, and synchronization inside one bounded system.
 
 ## 3.10 Entanglement Creates Depth
 
@@ -342,11 +343,11 @@ information scales with volume and space is the container. The hint is that
 black-hole entropy scales with area, with gravitational entropy bounds pushing
 toward boundary-limited information. The lesson is that a boundary-first
 description becomes the strongest candidate. In the symmetric constructions
-used here, each observer has an effective horizon naturally modeled by a
-spherical screen. That screen carries the fundamental data, limited by
-$S\leq A/(4\ell_P^2)$. Entanglement patterns on the screen create the geometry
-of the emergent three-dimensional bulk, and overlap consistency makes that bulk
-shared and stable across observers.
+used here, each observer has an effective horizon naturally charted by a
+spherical screen. The finite patch data exposed through that chart is limited
+by $S\leq A/(4\ell_P^2)$. Its entanglement patterns create the geometry of the
+emergent three-dimensional bulk, and overlap consistency makes that bulk shared
+and stable across observers.
 
 The holographic principle enters as the strongest explanatory reading of the hints reviewed above, not as a philosophical preference.
 

@@ -31,7 +31,7 @@ The Fixed-Point Computation That Implements Physics}
 \OPHPaperReleaseBanner
 
 \begin{abstract}
-This paper gives the computational spine of Observer-Patch Holography. A universe is modeled as a finite network of observer patches that may disagree on their overlaps. Local repair moves try to reconcile those disagreements. When the repair law lowers the declared mismatch score and respects the overlap contract, the total inconsistency \(\Phi\) becomes a Lyapunov functional and the patch network converges to a unique schedule-independent physical world on the quotient. The paper also identifies the loop obstructions that block global consistency, explains why physical uniqueness lives on gauge-equivalence classes, carries the same normal-form and holonomy data through separated cofinal refinement systems, shows when coarse-graining and reconciliation commute up to controlled error, and gives a fixed-point account of stable records. This is the patch-net theorem package behind the relativity, gauge, Yang--Mills repair-gap, particle, and observer branches.
+This paper gives the computational spine of Observer-Patch Holography. A universe is modeled as a finite network of observer patches that may disagree on their overlaps. The network is abstract patch geometry, not a literal spherical device; spherical, \(A_5\)-icosahedral, and \(E_8\)-type language in the surrounding OPH stack names regulator and symmetry structure. Local repair moves try to reconcile those disagreements. When the repair law lowers the declared mismatch score and respects the overlap contract, the total inconsistency \(\Phi\) becomes a Lyapunov functional and the patch network converges to a unique schedule-independent physical world on the quotient. The paper also identifies the loop obstructions that block global consistency, explains why physical uniqueness lives on gauge-equivalence classes, carries the same normal-form and holonomy data through separated cofinal refinement systems, shows when coarse-graining and reconciliation commute up to controlled error, and gives a fixed-point account of stable records. This is the patch-net theorem package behind the relativity, gauge, Yang--Mills repair-gap, particle, and observer branches.
 \end{abstract}
 
 \section{Introduction}
@@ -146,7 +146,7 @@ T_i^\lambda:\Sigma\to\Sigma
 such that \(T_i^\lambda\) changes only the state of patch \(i\) (or, more generally, only a
 bounded neighborhood of \(i\)), and the local update is induced by one of the declared OPH
 recovery moves on that collar, where \(\omega_{A_iB_i}(s)\) denotes the \(A_i\cup B_i\) marginal
-of the current collar state encoded by \(s\):
+of the input collar state encoded by \(s\):
 \begin{enumerate}[label=(\roman*),leftmargin=2em]
 \item exact Markov splice on the collar, using Theorem~\ref{thm:splice} when
       \(I(A_i:D_i\mid B_i)=0\); or
@@ -721,13 +721,13 @@ algebra. Therefore \(\omega_R^t(X)=\omega_R^u(X)\) for every
 \end{proof}
 
 \begin{remark}[Inputs and boundary for observable-level confluence]\label{rem:obsconfluence}
-Theorem~\ref{thm:obsconfluence} does not add a new repair hypothesis beyond the D1 package. Its
-inputs are exactly the representative-level confluence theorem, quotient descent of the repair
-law, Definition~\ref{def:physobs}, and Corollary~\ref{cor:obsglue} from the fixed-cutoff
-union-collar gluing package. The boundary item is not fixed-cutoff observable uniqueness on that
-carrier, but extension of the same statement to broader refinement-stable branches where the
-declared union-collar compatibility is only approximate or where the chosen physical observable
-algebra itself changes under refinement.
+Theorem~\ref{thm:obsconfluence} does not add a new repair hypothesis beyond the confluence and
+fixed-cutoff gluing package. Its inputs are exactly the representative-level confluence theorem,
+quotient descent of the repair law, Definition~\ref{def:physobs}, and
+Corollary~\ref{cor:obsglue} from the fixed-cutoff union-collar gluing package. The boundary item
+is extension of the same statement to broader refinement-stable branches where the declared
+union-collar compatibility is only approximate or where the chosen physical observable algebra
+itself changes under refinement.
 \end{remark}
 
 \begin{corollary}[Inert ancillary refinement does not change physical law]\label{cor:ancilla}
@@ -1289,12 +1289,18 @@ This theorem records the monotonicity property of the meta-selection model.
 
 \section{Connection to Observer-Patch Holography}
 
-The formalism above is the computational skeleton of Observer-Patch Holography (OPH). The observer patches carry von Neumann algebras on a holographic screen $S^2$, the overlap projections are restrictions to shared subalgebras, and the consistency condition is algebraic state agreement on overlaps.
+The formalism above is the computational skeleton of Observer-Patch Holography (OPH). The
+observer patches carry von Neumann algebras on support-visible holographic cuts. In symmetric
+regulator charts those cuts may be represented by patches on a screen \(S^2\). The fixed-cutoff
+microphysics carrier is a federated patch system, not a literal spherical quantum computer. The
+overlap projections are restrictions to shared subalgebras, and the consistency condition is
+algebraic state agreement on overlaps.
 
 The bridge to physics works as follows in the broader companion corpus:
 
 \begin{itemize}
-\item The patch net becomes a net of subregion algebras on $S^2$.
+\item The patch net becomes a net of support-visible subregion algebras; \(S^2\) is the standard
+observer-facing regulator chart, not a required literal substrate.
 \item Overlap Consistency, one of the canonical framework axioms, is the algebraic version of Definition~\ref{def:patchnet}.
 \item The recoverability clause of the canonical Recoverable Generalized Entropy axiom provides the collar factorization $\rho_{ABD} = \bigoplus_\alpha p_\alpha\,\rho^{(\alpha)}_{Ab_L^\alpha}\otimes\rho^{(\alpha)}_{b_R^\alpha D}$ and the declared Petz/Fawzi--Renner recovery channels from which the local repair moves are built (see Appendix~\ref{app:splice} and Definition~\ref{def:oph-repair-map}).
 \item Gauge symmetry as implementation hiding (Theorem~\ref{thm:gauge}) becomes the fixed-cutoff edge-sector package from which the compact-gauge branch, using the theorem-produced coherent refinement transport, compatible finite fibers, and realized witness theorem, reconstructs a compact gauge group and fixes the Standard Model quotient $\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)/\mathbb{Z}_6$ together with the exact hypercharge lattice and the realized counts \(N_c=3\), \(N_g=3\).

@@ -42,7 +42,7 @@ Observer Consistency}
 \OPHPaperReleaseBanner
 
 \begin{abstract}
-Observer-Patch Holography turns the particle problem into a forward calculation from one local screen scale. The local pixel closure proceeds through five physics layers: unification scale, heat-kernel pixel closure, running transport, electroweak mixing, and Ward-projected Thomson transport. The outer/inner pixel equation leaves no local tuning freedom for the fine-structure constant: the fixed point gives \(\alpha^{-1}(0)=137.035999177(21)\) and \(P\simeq1.6309682094\). The same pixel scale propagates into structural massless carriers, the weak sector, the Higgs/top row, selected-class running quarks, and a weighted-cycle neutrino absolute-mass branch. Hadrons require separate treatment: source-only strong-binding calculations are kept distinct from empirical \(e^+e^-\to\mathrm{hadrons}\) closure checks. The status table separates validation rows, charged-lepton witnesses, source-only checks, and empirical hadron closure checks.
+Observer-Patch Holography turns the particle problem into a forward calculation from one local screen-geometry scale. The screen is not a literal sphere; it is the regulator and symmetry chart on which the \(A_5\)- and \(E_8\)-type geometric data are organized. The local pixel closure proceeds through five physics layers: unification scale, heat-kernel pixel closure, running transport, electroweak mixing, and Ward-projected Thomson transport. The outer/inner pixel equation leaves no local tuning freedom for the fine-structure constant: the fixed point gives \(\alpha^{-1}(0)=137.035999177(21)\) and \(P\simeq1.6309682094\). The same pixel scale propagates into structural massless carriers, the weak sector, the Higgs/top row, selected-class running quarks, and a weighted-cycle neutrino absolute-mass branch. Hadrons require separate treatment: source-only strong-binding calculations are kept distinct from empirical \(e^+e^-\to\mathrm{hadrons}\) closure checks. The status table separates validation rows, charged-lepton witnesses, source-only checks, and empirical hadron closure checks.
 \end{abstract}
 
 \section{Introduction}
@@ -683,29 +683,32 @@ been separated from the later realized-branch selection.
 \subsection{Regulated screen architecture and patch language}
 
 The SM/GR derivation in Ref.~\cite{ophcompact}
-states the axioms in algebraic language. Ref.~\cite{ophmicrophysics} supplies one concrete regulated realization of that language: a cellulated horizon screen,
-finite link or quantum-link registers on the edges, record registers on selected vertices or
-coarse cells, boundary-fixed patch algebras, overlap algebras on collars, typed readout packets,
-and local repair instruments. This regulated architecture is important for the particle derivation
+states the axioms in algebraic language. Ref.~\cite{ophmicrophysics} supplies one concrete
+regulated realization of that language: a federation of finite observer patches with echosahedral
+multi-port interfaces, recurrent toroidal subchannels, exposed overlap packets, record algebras,
+and local repair instruments. A spherical screen remains a support-visible regulator chart, not a
+literal microscopic computer. This regulated architecture is important for the particle derivation
 for three reasons.
 
 First, it makes the screen picture operational. A patch is a finite local
-algebra carried by one region of the cellulated screen, and an overlap is a
-boundary-visible algebra with declared shared observables. Second, it makes the edge-sector
+algebra in a bounded carrier, and an overlap is a boundary-visible algebra with declared shared
+observables. Second, it makes the edge-sector
 language concrete. The particle derivation ultimately uses edge sectors, transport, refinement,
 fusion, and overlap data to build the gauge and flavor branches; Ref.~\cite{ophmicrophysics} shows
-how those objects can be realized at fixed cutoff by finite gauge-aware registers.
+how those objects can be realized at fixed cutoff by finite gauge-aware patch carriers.
 Third, it clarifies the measurement interface. The observer-facing measurement package is a
 theorem-bearing fixed-cutoff statement about a central record algebra, Born probabilities for its
 event projectors, and L\"uders conditioning on that same commuting algebra.
 
 This regulated architecture should be read as a reference implementation, not as the unique OPH
-UV completion. Ref.~\cite{ophmicrophysics} is explicit on that boundary: it selects one finite
-gauge-register or quantum-link style screen model because it is local, finite-dimensional,
-gauge-aware, and naturally compatible with collars, overlap observables, and repair maps. This
-paper inherits that architecture as a concrete screen-side realization of the OPH
-language, while keeping microscopic uniqueness separate from the support-visible continuum theorem
-surfaces supplied by the compact paper.
+UV completion. Ref.~\cite{ophmicrophysics} is explicit on that boundary: it selects a federated
+patch-carrier architecture because it is local, finite-dimensional, gauge-aware, naturally
+compatible with collars, overlap observables, and repair maps, and no longer asks the reader to
+identify the spherical regulator chart with the literal substrate. Hardware evidence is imported
+only when it appears in a public OPH evidence bundle with stable hashes and verifier receipts.
+This paper inherits that architecture as a concrete screen-side realization of the OPH language,
+while keeping microscopic uniqueness separate from the support-visible continuum theorem surfaces
+supplied by the compact paper.
 
 \subsection{Quantitative inputs and where they enter the particle derivation}
 
@@ -797,8 +800,8 @@ theorem packages imported into the present draft are the following.
 fixed-point language, cycle holonomy, and gauge-as-gluing in a form that is especially useful
 for flavor transport and observer-centric interpretation.
 \item \textbf{Screen-side regulated architecture.} Ref.~\cite{ophmicrophysics} gives the
-finite gauge-register screen model, the regulated patch-net embedding theorem, and the fixed-cutoff
-edge heat-kernel / Casimir theorem.
+federated echosahedral patch-carrier model, the regulated patch-net embedding theorem, and the
+fixed-cutoff edge heat-kernel / Casimir theorem.
 \item \textbf{Measurement interface.} Ref.~\cite{ophmicrophysics}, together with the integrated
 measurement appendices and the synthesis paper \emph{Observers Are All You Need}~\cite{ophsynthesis}, supplies the fixed-cutoff central-record, Born-rule, and
 L\"uders-conditioning package together with the fixed-cutoff Bell/CHSH theorem stack used when
@@ -3230,7 +3233,7 @@ GitHub PDF:
 
 \bibitem{ophmicrophysics}
 B.\ M\"uller and K.\ Xue,
-\emph{Screen Microphysics, Patches, and Observer Synchronization in OPH}.
+\emph{Federated Echosahedral Screen Microphysics: Patch Hardware, Records, and Observer Synchronization in OPH}.
 GitHub PDF:
 \url{https://github.com/FloatingPragma/observer-patch-holography/blob/main/paper/screen_microphysics_and_observer_synchronization.pdf}
 

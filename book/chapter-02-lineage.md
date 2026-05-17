@@ -207,7 +207,10 @@ We don't perceive space directly. Our minds construct spatial experience from mo
 
 The holographic principle and emergent geometry resonate with this picture.
 
-The fundamental data lives on the 2D holographic screen. This is not yet the familiar 3D bulk geometry; it is quantum information organized on a sphere. Space is *reconstructed* from this data through the pattern of entanglement.
+The observer-facing data can be charted on a 2D holographic screen. This is not
+yet the familiar 3D bulk geometry; it is quantum information organized on a
+support-visible cut, often represented by a sphere in symmetric cases. Space is
+*reconstructed* from this data through the pattern of entanglement.
 
 The Ryu-Takayanagi formula makes the geometry-entanglement link precise in
 holographic settings: the amount of entanglement across a boundary is computed
@@ -311,7 +314,7 @@ Any system complex enough to describe itself will contain loops where the descri
 
 ### Hofstadter's Strange Loops
 
-In 1979, Douglas Hofstadter's *Gödel, Escher, Bach* explored how self-reference creates what he called **strange loops**, structures where moving through a hierarchy eventually brings you back to where you started.
+In 1979, Douglas Hofstadter's *Gödel, Escher, Bach* explored how self-reference creates what he called **strange loops**, structures where moving through a hierarchy brings you back to where you started.
 
 Escher's *Drawing Hands* shows two hands, each drawing the other into existence. Neither is primary. The loop is the reality.
 
@@ -335,7 +338,7 @@ Shannon's central point was simple. Information reduces uncertainty. Before you
 flip a coin, there are two possibilities. After you see the result, there is
 one. The flip provides one bit of information.
 
-**Rolf Landauer** added a crucial physical insight in 1961: erasing information costs energy. If you have a bit in an unknown state and you want to reset it to zero, you must dump at least $k_B T \ln 2$ of energy into the environment.
+**Rolf Landauer** added a physical insight in 1961: erasing information costs energy. If you have a bit in an unknown state and you want to reset it to zero, you must dump at least $k_B T \ln 2$ of energy into the environment.
 
 This sounds technical. It is revolutionary. It means **information is physical**. Bits are not abstract mathematical objects; they have thermodynamic weight. Processing information costs energy and produces entropy.
 
@@ -375,7 +378,7 @@ From this view, asking "are we in a simulation?" becomes less useful than asking
 
 But there is a deeper speculative possibility, one that connects to the strange loops we discussed earlier.
 
-If reality is computational, then observers can evolve within that computation, model their environment, develop science, and eventually understand the rules well enough to simulate key aspects of them.
+If reality is computational, then observers can evolve within that computation, model their environment, develop science, and understand the rules well enough to simulate key aspects of them.
 
 This would be the strange loop: **reality evolves observers who discover how reality works and build simulations of it, closing the loop of self-creation**.
 
@@ -388,11 +391,13 @@ Escher's hands draw each other. Reality simulates the observers who simulate rea
 
 ### The Physics
 
-One concrete realization uses quantum link models. Imagine a triangulated sphere
-where each edge carries a small quantum system. Rules at each vertex constrain
-which configurations are allowed, and maximum entropy selects the state. It is
-a concrete quantum-computational model, with qubits, gates, and constraints,
-and in that model spacetime, particles, and observers all emerge as outputs.
+One concrete regulator chart uses quantum link models. Imagine a triangulated
+screen where each edge carries a small quantum system. Rules at each vertex
+constrain which configurations are allowed, and maximum entropy selects the
+state. The microphysics picture is not a literal spherical quantum computer.
+The implementation surface is a federation of finite patches, with the screen
+acting as an observer-facing geometry chart. In that regulated model,
+spacetime, particles, and observers all emerge as outputs.
 
 The simulation principle asked the right question in the wrong frame. The useful question is not "are we simulated?" It is "what is the nature of the self-simulating loop we are part of?" OPH gives that question a physical direction.
 

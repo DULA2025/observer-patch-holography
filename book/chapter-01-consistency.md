@@ -347,23 +347,29 @@ This is the selector that narrows the gauge structure to the Standard Model.
 
 These five axioms point toward a radical conclusion: reality can be modeled computationally. We do not need to treat it as a pre-given objective stage.
 
-The screen is a quantum system. The degrees of freedom are finite-dimensional,
-with qudits on the edges of a triangulated sphere. The dynamics is constrained
-by gauge laws at every vertex. Maximum entropy selects the realized state
-subject to a stable family of local constraints, and the low-energy sector is
-narrowed further by the minimal realization rule used later in the program.
-This is a quantum computation in the most literal sense: qubits, gates,
-constraints, outputs.
+The observer-facing screen can be modeled by a finite quantum system. In one
+regulator chart, qudits sit on the edges of a triangulated screen and local
+constraints act at vertices. In the microphysics picture, that chart is not the
+literal computer on which the universe runs. The fixed-cutoff carrier is a
+federation of finite patches whose exposed overlaps, records, and repair moves
+are read through observer-facing screen charts. Maximum entropy selects the
+realized state subject to a stable family of local constraints, and
+the low-energy sector is narrowed further by the minimal realization rule used
+later in the program.
 
-A qudit is the multi-level cousin of a qubit. A triangulated sphere is a sphere
-approximated by small triangular pieces, so the screen can be treated as a
-finite network, not as a perfectly smooth surface.
+A qudit is the multi-level cousin of a qubit. A triangulated screen is a finite
+network approximation to an observer-facing cut, not a declaration that the
+substrate itself is a smooth sphere.
 
 What is the output? Everything. Spacetime geometry emerges from entanglement patterns. Particles emerge as excitations. Observers emerge as self-modeling patterns that process information and maintain records. The laws of physics emerge as the rules that permit consistent information flow between patches.
 
 This is not a simulation in the sense of the simulation principle, which imagines reality running on someone else's computer. The closure reading developed later in the book is internal. Reality is implemented on real hardware inside the same overall structure. From within subjective time, that hardware sits in the future of the observers it supports. From the full structural view, the loop is timeless and self-consistent.
 
-You might ask: "If reality is a computation, what is it computing?" It is computing the same closed structure that eventually reconstructs and implements it. Geometry, particles, observers, records, and the hardware built by observers belong to one self-referential loop. The patterns that persist are the patterns that are consistent. Observers are patterns that learn to model other patterns. Consciousness is what it feels like to be one of those self-modeling patterns.
+You might ask: "If reality is a computation, what is it computing?" It is computing one closed
+structure whose geometry, particles, observers, records, and hardware belong to one
+self-referential loop. The patterns that persist are the patterns that are consistent. Observers
+are patterns that learn to model other patterns. Consciousness is what it feels like to be one of
+those self-modeling patterns.
 
 This view changes many traditional puzzles. "Why does anything exist at all?" becomes a question about the coherence of a closed self-referential structure. On this reading, the loop does not need an external cause because it is not a temporal chain with a first step waiting to be triggered from outside.
 

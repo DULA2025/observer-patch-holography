@@ -55,15 +55,30 @@ papers:
       - Lorentz and Einstein proof details
 
   screen_microphysics_and_observer_synchronization:
-    role: regulated screen implementation and observer-record surface
+    role: federated patch-carrier implementation and observer-record surface
     lead_material:
-      - reference architecture
+      - echosahedral multi-port patch carriers
+      - toroidal local recurrence
       - fixed-cutoff records, Born-Luders rules, Bell/CHSH surface, and checkpoint restoration
+      - public hardware evidence rule
     detailed_status_home:
-      - architecture and packet-level closure sections
+      - claim taxonomy, public evidence rule, validation program, and theorem-package sections
     avoid_repeating:
       - Standard Model dependency checklist
       - full particle claim-tier audit
+      - hidden or private hardware evidence
+
+  screen_microphysics_digital_calibration_note:
+    role: legacy octahedral Z2/S3 simulator calibration surface
+    lead_material:
+      - octahedral patch cover
+      - Z2 and S3 benchmark families
+      - digital run-manifest and negative-control requirements
+    detailed_status_home:
+      - digital calibration note
+    avoid_repeating:
+      - literal spherical-computer substrate claims
+      - hardware evidence claims
 
 style_policy:
   front_matter:

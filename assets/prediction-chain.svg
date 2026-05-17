@@ -622,8 +622,8 @@
   <rect x="4371" y="697" width="134" height="28" rx="14" fill="rgb(255 255 255 / 0.03)" stroke="#4ee7ff" opacity="1" />
   <text x="4385" y="716" fill="#4ee7ff" font-size="15" font-family="JetBrains Mono, monospace" font-weight="700" letter-spacing="2" opacity="1">FOUNDATION</text>
   <rect x="4373" y="879" width="160.0" height="3" rx="1.5" fill="#4ee7ff" opacity="0.82" />
-  <text x="4379" y="763" fill="#f4f7fb" font-size="22" font-family="Space Grotesk, sans-serif" font-weight="700" letter-spacing="-0.35" opacity="1">Screen Microphysics</text>
-  <text x="4379" y="808" fill="#9ba7b8" font-size="18" font-family="JetBrains Mono, monospace" font-weight="500" opacity="1">finite gauge-register screen</text>
+  <text x="4379" y="763" fill="#f4f7fb" font-size="22" font-family="Space Grotesk, sans-serif" font-weight="700" letter-spacing="-0.35" opacity="1">Federated Microphysics</text>
+  <text x="4379" y="808" fill="#9ba7b8" font-size="18" font-family="JetBrains Mono, monospace" font-weight="500" opacity="1">echosahedral patch carriers</text>
   <text x="4379" y="836" fill="#9ba7b8" font-size="18" font-family="JetBrains Mono, monospace" font-weight="500" opacity="1">patch / overlap / observer</text>
   <text x="4379" y="864" fill="#9ba7b8" font-size="18" font-family="JetBrains Mono, monospace" font-weight="500" opacity="1">architecture</text>
 </g>
