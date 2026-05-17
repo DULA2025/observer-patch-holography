@@ -8,3 +8,7 @@ __pycache__/
 translations
 temp
 *.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
