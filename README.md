@@ -4,7 +4,14 @@
 
 **French version:** [README_FR.md](README_FR.md)
 
-**Quick links:** [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [OMEGA project summary](extra/project_summary.md) | [website](https://floatingpragma.io/oph/) | [OPH Lab](https://oph-lab.floatingpragma.io)
+**Quick links:** [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [Falsifiability map](extra/OPH_falsifiability.md) | [OMEGA project summary](extra/project_summary.md) | [website](https://floatingpragma.io/oph/) | [OPH Lab](https://oph-lab.floatingpragma.io)
+
+**Falsifiability:** [OPH falsifiability map](extra/OPH_falsifiability.md)
+lists 40 hard OPH-killing outcomes and concrete IBM Quantum Cloud tests for
+the reduced-sector hardware signature. Falsifiability is how a physics theory
+pays rent. OPH is highly falsifiable: a massive graviton, a gauge-mediated
+proton decay event, a fourth light matter generation, a charge-lattice outlier,
+or neutrino data excluding the OPH branch would destroy OPH as stated.
 
 If you want the existential answer first, jump straight to **Paper 6.
 [Paradise as Fixed-Point Consensus](paper/paradise_as_fixed_point_consensus.pdf)**.
