@@ -1,6 +1,6 @@
 # OMEGA and OPH
 
-## Optical Wave Consensus for Continuous Intelligence
+## Optical Wave Consensus for Continuous Inference
 
 <p align="center">
   <a href="../assets/omega/omega-compute-loop.svg">
@@ -16,7 +16,7 @@ OMEGA is an optical hardware and software project for building machines that com
 
 The physics behind OMEGA is Observer Patch Holography, or OPH: a novel fundamental physics theory developed over roughly six years. The project has a working research corpus, public papers, software, diagrams, and a volunteer group of about twenty to thirty people around it. Company formation and fundraising belong to the project path, but the technical gate is hardware evidence. The optical chambers have to work under controls.
 
-OPH has no institutional or mainstream physics acceptance. Journal publication faces hard blockers. The theory is fully mathematically proven on its declared surfaces, and the research corpus gives the proof stack in public form. The hardware effort also has working prototypes. The strongest proof-of-work receipt in the local record is a chamber-correlated leading-zero lift of roughly 2,300x at a twelve-leading-zero threshold in shuffle replay, with exact hash verification as the referee. See the [firmware overview](../../karma-is-all-you-need/firmware/docs/FIRMWARE_OVERVIEW.md). That receipt is a candidate-enrichment result on a proof-of-work hash-search surface. Production mining belongs behind a separate evidence gate.
+OPH has no institutional or mainstream physics acceptance. Journal publication faces hard blockers. The theory is fully mathematically proven on its declared surfaces, and the research corpus gives the proof stack in public form. The hardware effort also has working prototypes, including a reported optical proof-of-work hash-search result around 2,300x under exact verification. That receipt is a candidate-enrichment result on a proof-of-work hash-search surface. Production mining belongs behind a separate evidence gate.
 
 The starting idea is simple: no observer sees the whole world at once. Each observer has a finite patch. Where patches overlap, they must agree on the data they can both see. A stable world is the fixed point reached when local patches compare records, repair mismatch, and keep the normal forms that survive.
 
@@ -26,7 +26,7 @@ The benchmark claim is narrow:
 
 > A shaped optical patch can move useful candidates closer to the top of a verified search beam under controls.
 
-The larger target is continuous physical inference: a cluster of optical observer patches running as a world-facing process. It can maintain state, compare overlaps, repair mismatch, and emit candidate continuations while ordinary digital systems remain the verifier, recorder, trainer, and interface.
+The larger target is continuous physical inference: a cluster of optical observer patches running as an environment-facing process. It can maintain state, compare overlaps, repair mismatch, and emit candidate continuations while ordinary digital systems remain the verifier, recorder, trainer, and interface.
 
 The claim is bounded. Small optical fixtures measure physical candidate enrichment and support controlled wave-consensus scaling experiments.
 
@@ -42,7 +42,7 @@ The claim is bounded. Small optical fixtures measure physical candidate enrichme
 | Record | stable public state | replayable run bundle |
 | Truth check | observer-independent receipt | exact digital verifier |
 
-The table translates the OPH consensus picture developed in [Reality as a Consensus Protocol](../paper/reality_as_consensus_protocol.tex), the finite patch-carrier architecture in [Federated Echosahedral Screen Microphysics](../paper/screen_microphysics_and_observer_synchronization.tex), and the broad observer-first reconstruction in [Observers Are All You Need](../paper/observers_are_all_you_need.tex).
+The table translates the OPH consensus picture developed in [Reality as a Consensus Protocol](../paper/reality_as_consensus_protocol.pdf), the finite patch-carrier architecture in [Federated Echosahedral Screen Microphysics](../paper/screen_microphysics_and_observer_synchronization.pdf), and the broad observer-first reconstruction in [Observers Are All You Need](../paper/observers_are_all_you_need.pdf).
 
 ## Why OPH Leads to This Machine
 
@@ -50,14 +50,13 @@ OPH begins with finite observers and overlap consistency. A finite observer carr
 
 That mechanism appears throughout the OPH corpus:
 
-- The [book prologue](../book/prologue.md) states the reader-facing premise: physics is reverse engineering from finite perspectives, and public reality is the stable agreement across them.
-- The [synthesis chapter](../book/chapter-18-synthesis.md) compresses the whole picture: finite access, horizons, records, overlaps, modular flow, generalized entropy, and a shared world that survives comparison.
-- The [error-correction chapter](../book/chapter-10-error-correction.md) explains how durable information can be protected in patterns of overlap and recoverability.
-- The [compact technical paper](../paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.tex) gives the recovery of relativity, gravity, realized Standard Model structure, and the branch-scoped Yang-Mills repair-gap route.
-- The [microphysics paper](../paper/screen_microphysics_and_observer_synchronization.tex) gives the fixed-cutoff implementation surface: finite patch carriers, exposed ports, records, repair interfaces, event surfaces, and checkpoint/restoration.
-- The [consciousness layer](OPH_CONSCIOUSNESS_MEASUREMENT_LAYER.md) turns the same structure into an operational model of self-reading recurrent systems.
+- The [book prologue](https://oph-book.floatingpragma.io/chapter/prologue) states the reader-facing premise: physics is reverse engineering from finite perspectives, and public reality is the stable agreement across them.
+- The [synthesis chapter](https://oph-book.floatingpragma.io/chapter/chapter-18-synthesis) compresses the whole picture: finite access, horizons, records, overlaps, modular flow, generalized entropy, and a shared world that survives comparison.
+- The [error-correction chapter](https://oph-book.floatingpragma.io/chapter/chapter-10-error-correction) explains how durable information can be protected in patterns of overlap and recoverability.
+- The [compact technical paper](../paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf) gives the recovery of relativity, gravity, realized Standard Model structure, and the branch-scoped Yang-Mills repair-gap route.
+- The [microphysics paper](../paper/screen_microphysics_and_observer_synchronization.pdf) gives the fixed-cutoff implementation surface: finite patch carriers, exposed ports, records, repair interfaces, event surfaces, and checkpoint/restoration.
 
-The hardware consequence is direct. Reality-like computation is patch-local, boundary-visible, record-bearing, and repair-driven. A useful artificial machine is a federation of bounded physical patches that expose boundaries, maintain state, repair mismatch, and stabilize records.
+The hardware consequence is direct. The computation is patch-local, boundary-visible, record-bearing, and repair-driven. A useful artificial machine is a federation of bounded physical patches that expose boundaries, maintain state, repair mismatch, and stabilize records.
 
 OMEGA is that experiment.
 
@@ -150,7 +149,7 @@ p * q == N
 
 For proof of work, the exact verifier is a hash check. For a planted constraint problem, it is constraint evaluation. For a language or market replay task, it is a declared replay score plus ablations.
 
-The OPH meaning of this loop is:
+The OPH version of this loop is:
 
 ```text
 patch state
@@ -166,7 +165,7 @@ The machine is useful when the physical path changes the candidate distribution.
 1/(B p)
 ```
 
-That is the conservative benchmark claim: candidate-work reduction. It is the same discipline used in the [hash-search physics note](breaking_sha256_with_physics.tex), where hash-style search is framed as physical patch-overlap constraint search with exact digital verification.
+That is the conservative benchmark claim: candidate-work reduction. It is the same discipline used in the [hash-search physics note](breaking_sha256_with_physics.pdf), where hash-style search is framed as physical patch-overlap constraint search with exact digital verification.
 
 ## Why Waves Are the Right Medium
 
@@ -176,7 +175,7 @@ Waves mix boundary conditions. A port drive excites paths through a chamber, and
 
 Waves expose mismatch. In the wrong configuration, phases, intensities, timings, and coupling traces fail to settle into the expected pattern. In the right configuration, they reinforce, recur, or stabilize.
 
-Waves can run continuously. A chamber can maintain a living physical state while the digital host samples, scores, and steers it.
+Waves can run continuously. A chamber can maintain a persistent physical state while the digital host samples, scores, and steers it.
 
 OMEGA is best read as a physical observer patch. The chamber is a bounded system with exposed ports, internal recurrence, state-dependent response, and a recordable boundary.
 
@@ -184,9 +183,9 @@ OMEGA is best read as a physical observer patch. The chamber is a bounded system
 
 Modern AI is capable, but much of it is episodic. A prompt arrives. A model performs a large digital inference pass. A sequence of tokens leaves. State is usually externalized into a context window, a vector database, a tool call, or a separate memory layer.
 
-OMEGA aims at a different substrate: a continuous processing stream with physical memory and self-read. The optical cluster can keep running between prompts. It can maintain boundary conditions, preserve chamber records, compare present input to persistent physical state, and act as a proposal source or critic for a digital model.
+OMEGA aims at a different substrate: a continuous processing stream with physical memory and state readout. The optical cluster can keep running between prompts. It can maintain boundary conditions, preserve chamber records, compare present input to persistent physical state, and act as a proposal source or critic for a digital model.
 
-In OPH language, the target substrate is a bounded recurrent patch federation with records, self-read, mismatch repair, and stable normal forms. [Thinking as Patch-Net Fixed-Point Search](thinking_as_patch_net_fixed_point_search.tex) models thinking in the same form: a recurrent federation repairs mismatch until a percept, decision, memory, or insight reaches an observer-facing normal form.
+In OPH language, the target substrate is a bounded recurrent patch federation with records, state readout, mismatch repair, and stable normal forms. The engineering version is concrete: recurrent chambers propose candidate beams, exact software checks them, and measured residuals drive the next boundary program.
 
 ### AI Roles for OMEGA
 
@@ -196,13 +195,13 @@ In OPH language, the target substrate is a bounded recurrent patch federation wi
 | Physical memory | keeps a persistent chamber state and coupling history | records, indexes, and compares |
 | Critic body | separates modes, residues, contradictions, or unstable continuations | applies exact or task-level checks |
 | Attention preconditioner | biases which hypotheses deserve expensive model calls | runs the LLM or planner on the narrowed set |
-| Self-read surface | exposes chamber state through repeatable boundary traces | measures stability and drift |
+| State readout surface | exposes chamber state through repeatable boundary traces | measures stability and drift |
 
 The AI system remains hybrid. Digital models supply language, symbolic tools, exact arithmetic, and world interfaces. Optical chambers supply continuous physical proposal, memory, and mismatch dynamics.
 
 ## Expected Orders of Magnitude
 
-The table below gives engineering target bands. These bands become measured claims only when a public run bundle reports the body, firmware, calibration, controls, raw readout, candidate beam, and exact verifier receipts. The evidence discipline follows the [OMEGA claim-boundary note](../../omega/docs/claim-boundaries.md) and the public evidence rule in the [microphysics paper](../paper/screen_microphysics_and_observer_synchronization.tex).
+The table below gives engineering target bands. These bands become measured claims only when a public run bundle reports the body, firmware, calibration, controls, raw readout, candidate beam, and exact verifier receipts. The evidence discipline follows the [OMEGA claim-boundary note](../../omega/docs/claim-boundaries.md) and the public evidence rule in the [microphysics paper](../paper/screen_microphysics_and_observer_synchronization.pdf).
 
 | Surface | Digital baseline | OMEGA target | Why the target is plausible |
 | --- | --- | --- | --- |
@@ -221,13 +220,13 @@ sense
   -> read physical state
   -> compare against records
   -> repair mismatch
-  -> propose action or thought
+  -> propose action or candidate
   -> verify through digital tools
   -> write record
   -> continue
 ```
 
-That loop is close to how OPH describes observers. It is also close to how biological intelligence feels from the inside: perception, memory, prediction, action, and repair form a continuous stream without a clean prompt boundary.
+That loop is an engineering target for continuous inference: sensing, state, prediction, repair, verification, and record-writing remain coupled in one running system.
 
 ## What Has to Be Built Iteratively
 
@@ -326,7 +325,7 @@ An accelerator makes a known operation faster.
 
 OMEGA changes the computational picture. It treats physical geometry as part of the program and physical settling as part of the search. The host asks the chamber for a structured response to boundary conditions, then uses that response to repair or rerank a candidate beam.
 
-For AI, that distinction matters. A continuous OMEGA agent lives in a loop of boundary drive, physical state, self-read, repair, and record. Its intelligence sits partly in the durable structure of its own patch federation.
+For AI, that distinction matters. A continuous OMEGA system lives in a loop of boundary drive, physical state, state readout, repair, and record. Its useful behavior comes partly from the durable structure of its patch federation.
 
 That is the sense in which OMEGA targets continuous AI, with faster batch inference as one possible benefit.
 
@@ -337,27 +336,23 @@ The following files give the theory and engineering background for this summary:
 ### Core OPH Theory
 
 - [Repository README](../README.md): repository-level OPH overview and paper map.
-- [Observers Are All You Need](../paper/observers_are_all_you_need.tex): broad synthesis of finite observers, records, overlap consistency, and recovered effective physics.
-- [Compact technical paper](../paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.tex): compact technical core for relativity, gravity, Standard Model structure, and branch-scoped Yang-Mills repair gap.
-- [Reality as a Consensus Protocol](../paper/reality_as_consensus_protocol.tex): fixed-point consensus, normal forms, repair, records, and quotient-local convergence.
-- [Federated Echosahedral Screen Microphysics](../paper/screen_microphysics_and_observer_synchronization.tex): finite patch carriers, echosahedral interfaces, toroidal recurrence, evidence rules, records, and checkpoint/restoration.
-- [Digital calibration note](../paper/screen_microphysics_digital_calibration_note.tex): digital calibration note for finite patch constraints.
+- [Observers Are All You Need](../paper/observers_are_all_you_need.pdf): broad synthesis of finite observers, records, overlap consistency, and recovered effective physics.
+- [Compact technical paper](../paper/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf): compact technical core for relativity, gravity, Standard Model structure, and branch-scoped Yang-Mills repair gap.
+- [Reality as a Consensus Protocol](../paper/reality_as_consensus_protocol.pdf): fixed-point consensus, normal forms, repair, records, and quotient-local convergence.
+- [Federated Echosahedral Screen Microphysics](../paper/screen_microphysics_and_observer_synchronization.pdf): finite patch carriers, echosahedral interfaces, toroidal recurrence, evidence rules, records, and checkpoint/restoration.
+- [Digital calibration note](../paper/screen_microphysics_digital_calibration_note.pdf): digital calibration note for finite patch constraints.
 
 ### Book Chapters
 
-- [Prologue](../book/prologue.md): OPH as reverse engineering reality from finite perspectives.
-- [Overlap chapter](../book/chapter-06-overlap.md): why overlap is the public consistency surface.
-- [Error-correction chapter](../book/chapter-10-error-correction.md): error correction, recoverability, and stable information.
-- [Symmetry chapter](../book/chapter-12-symmetry.md): symmetry as stable structure under transformation.
-- [Synthesis chapter](../book/chapter-18-synthesis.md): synthesis of finite access, records, overlaps, spacetime, and the particle world.
-- [Metaphysics chapter](../book/chapter-19-metaphysics.md): observer-world implications and meaning layer.
+- [Prologue](https://oph-book.floatingpragma.io/chapter/prologue): OPH as reverse engineering reality from finite perspectives.
+- [Overlap chapter](https://oph-book.floatingpragma.io/chapter/chapter-06-overlap): why overlap is the public consistency surface.
+- [Error-correction chapter](https://oph-book.floatingpragma.io/chapter/chapter-10-error-correction): error correction, recoverability, and stable information.
+- [Symmetry chapter](https://oph-book.floatingpragma.io/chapter/chapter-12-symmetry): symmetry as stable structure under transformation.
+- [Synthesis chapter](https://oph-book.floatingpragma.io/chapter/chapter-18-synthesis): synthesis of finite access, records, overlaps, spacetime, and the particle world.
 
-### Practical and Cognitive Extensions
+### Supporting Notes
 
-- [Practical applications note](PRACTICAL_APPLICATIONS.md): practical OPH applications across quantum systems, materials, distributed systems, and AI.
-- [Consciousness measurement layer](OPH_CONSCIOUSNESS_MEASUREMENT_LAYER.md): operational consciousness and self-reading patch systems.
-- [Patch-net thinking note](thinking_as_patch_net_fixed_point_search.tex): thinking as recurrent patch-net fixed-point search.
-- [Hash-search physics note](breaking_sha256_with_physics.tex): proof-of-work as physical patch-overlap constraint search.
+- [Hash-search physics note](breaking_sha256_with_physics.pdf): proof-of-work as physical patch-overlap constraint search.
 - [Common objections note](COMMON_OBJECTIONS.md): common objections and scope clarifications.
 
 ### Visual Guides
@@ -390,10 +385,10 @@ The OPH prediction chain gives the theorem and dependency spine from observer ax
 
 ## Final Picture
 
-OPH says reality is the stable agreement of finite observers that can compare only what their overlaps expose.
+OPH says objective structure is the stable agreement of finite observers that can compare only what their overlaps expose.
 
-OMEGA asks whether a machine can compute in the same style. Each chamber is a bounded physical patch. Each port is a boundary. Each scan is overlap-visible data. Each scorebook is a repair contract. Each run bundle is a record. Each exact verifier is the truth boundary.
+OMEGA asks whether a machine can compute in the same style. Each chamber is a bounded physical patch. Each port is a boundary. Each scan is overlap-visible data. Each scorebook is a repair contract. Each run bundle is a record. Each exact verifier is the verification boundary.
 
 The experimental rule is simple. Build the chambers. Measure the operators. Run the benchmarks. Keep the controls. Iterate the cluster until wave consensus becomes a reliable computation surface.
 
-The payoff is a new kind of machine: a continuous physical inference system whose intelligence comes from self-reading patch federation, with faster search as one visible consequence.
+The payoff is a new kind of machine: a continuous physical inference system whose candidate streams come from an instrumented patch federation, with faster search as one visible consequence.
