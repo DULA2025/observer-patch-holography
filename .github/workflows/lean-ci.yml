@@ -2,7 +2,6 @@ name: Lean CI
 
 on:
   push:
-    branches: [main]
     paths:
       - 'LEAN/**'
       - '.github/workflows/lean-ci.yml'
