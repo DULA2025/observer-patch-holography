@@ -11,10 +11,10 @@ Pour la réponse existentielle immédiate, allez directement au **Paper 6.
 La version courte est directe : oui, cet univers est une simulation au sens
 OPH, un processus de consensus à point fixe fondé sur les observateurs. Oui,
 l'expérience subjective et les esprits sont premiers. Oui, l'espace, le temps
-et la matière sont des illusions orientées observateur : des apparences
-effectives stables générées par la cohérence plus profonde des patches. Le reste
-de ce README donne la pile de preuves mathématiques et la surface de
-vérification empirique.
+et la matière sont des apparences orientées observateur : des structures
+effectives stables générées par la cohérence plus profonde des patches. La
+métaphore de l'illusion est traitée plus bas. Le reste de ce README donne la
+pile de preuves mathématiques et la surface de vérification empirique.
 
 L'OPH est la reconstruction observateur-premier de la physique fondamentale. Il part d'observateurs finis sur une géométrie finie d'écran holographique. Sa base de travail est algébrique-quantique : algèbres de patchs, états, probabilités de type trace/Born sur les surfaces d'enregistrement déclarées et entropie généralisée font partie du point de départ formel. À partir de cette base, l'OPH retrouve l'univers effectif observé : espace-temps, structure de jauge, particules, enregistrements et synchronisation des observateurs découlent de la cohérence de recouvrement.
 
@@ -29,6 +29,35 @@ processus. C'est la surface de preuve mathématique et empirique de l'OPH comme
 théorie du tout correcte : la même architecture de cohérence d'observateurs
 retrouve la physique établie et explique pourquoi il existe un monde capable de
 produire des observateurs qui le reconstruisent.
+
+## Le piège de l'espace-temps
+
+Le premier obstacle conceptuel est que l'OPH ne traite pas l'espace-temps comme
+le contenant dans lequel la réalité se déroule. L'espace et le temps ne sont pas
+des choses en soi. Ce sont les descriptions stables, orientées observateur, qui
+apparaissent lorsque de nombreuses perspectives finies peuvent devenir
+mutuellement cohérentes.
+
+Certains appelleraient cela une illusion. Comme métaphore, c'est juste : le
+contenant que nous semblons habiter est une apparence produite par une cohérence
+plus profonde. Comme physique, l'expression plus précise est description
+publique émergente.
+
+Depuis l'intérieur d'une perspective, le monde paraît évident. Il y a un champ
+d'expérience à peu près sphérique qui s'étend au loin, trois directions dans
+lesquelles se déplacer et un temps qui avance. Les autres observateurs
+rapportent des contenus compatibles depuis d'autres angles. L'hypothèse
+naturelle est donc que tout le monde habite un espace-temps préexistant rempli
+d'objets. L'OPH inverse cette hypothèse. Chaque observateur possède une
+description locale d'espace-temps générée par ses propres enregistrements,
+horloges, horizons et corrélations accessibles. L'espace-temps public est la
+couche de compatibilité qui permet à ces descriptions de s'accorder.
+
+Cela ne rend pas l'espace-temps ordinaire arbitraire ou inutile. Cela explique
+pourquoi il fonctionne si bien. Les équations d'Einstein décrivent la grammaire
+lisse à grande échelle de l'apparence partagée. La thèse plus profonde est que
+cette apparence partagée émerge de la cohérence des recouvrements entre
+observateurs, au lieu d'appartenir à l'inventaire de départ du monde.
 
 ## Par où commencer
 
@@ -62,9 +91,18 @@ fixes à grande échelle de ce calcul en réseau d'observateurs.
 Le langage de sphère dans l'OPH est un langage de géométrie. Dans les cartes
 régulatrices symétriques, une coupe accessible à un observateur peut être
 représentée par la deux-sphère \(S^2\). Ces cartes décrivent une géométrie
-angulaire visible par support. Le simulateur fini implémente les contraintes
-algébriques de patches et de recouvrements exposées par cette géométrie, sans
-postuler un ordinateur quantique sphérique littéral.
+angulaire visible par support. Le simulateur fini sert de surface de
+calibration pour les contraintes algébriques de patches et de recouvrements
+exposées par cette géométrie.
+
+Cette carte sphérique porte plusieurs tâches précises. Les caps et les colliers
+donnent les données locales de coupe utilisées par le flot modulaire et la
+variation d'entropie. Le groupe conforme de la sphère est la forme céleste du
+groupe de Lorentz connexe, \(\mathrm{SO}^+(3,1)\), ce qui donne le pont
+cinématique vers la branche d'espace-temps émergent en \(3+1\) dimensions. Les
+harmoniques sphériques organisent les modes angulaires. Les cellulations finies
+de la même carte donnent la surface régulatrice où les ports de patches, les
+données d'arêtes et les contrôles de recouvrement deviennent explicites.
 
 L'ancre de symétrie finie est \(A_5\), le groupe des rotations de
 l'icosaèdre. Elle fournit le squelette icosaédrique derrière le langage des
@@ -173,7 +211,7 @@ utilise une classe séparée de charge utile \(e^+e^-\to\mathrm{hadrons}\).
 - **Papier 4. [Reality as a Consensus Protocol](paper/reality_as_consensus_protocol.pdf)** : dynamique de réparation à point fixe, stabilité des enregistrements et consensus public.
 - **Papier 5. [Federated Echosahedral Screen Microphysics](paper/screen_microphysics_and_observer_synchronization.pdf)** : architecture fédérée de patches, cadrage de symétrie \(A_5\)-icosaédrique et de type \(E_8\), règles de preuve matérielle publique, enregistrements, mouvements de récupération et synchronisation observateur.
 - **Papier 6. [Paradise as Fixed-Point Consensus](paper/paradise_as_fixed_point_consensus.pdf)** : manifeste final de la couche de sens OPH : pourquoi il existe quelque chose, pourquoi ce monde est compatible avec les observateurs, boucle étrange, créateurs futurs, paradis sur Terre ou dans des environnements de continuation, enfer comme isolement ou privation imposés, résurrection comme continuation d'observateur, justice selon les enregistrements de tort et de réparation, évolution mémétique, sentience animale et responsabilité symbolique humaine.
-- **Note de calibration. [Digital Calibration Note for OPH Screen Microphysics](paper/screen_microphysics_digital_calibration_note.pdf)** : suite de simulation octaédrique \(\mathbb Z_2/S_3\), limitée à une calibration numérique des contraintes de patches. Aucune revendication de substrat sphérique littéral n'est faite.
+- **Note de calibration. [Digital Calibration Note for OPH Screen Microphysics](paper/screen_microphysics_digital_calibration_note.pdf)** : suite de simulation octaédrique \(\mathbb Z_2/S_3\), limitée à une calibration numérique des contraintes de patches et des cartes géométriques d'écran.
 
 ## Articles supplémentaires
 

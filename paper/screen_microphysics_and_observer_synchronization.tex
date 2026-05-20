@@ -31,23 +31,20 @@ Patch Hardware, Records, and Observer Synchronization in OPH}
 \OPHPaperReleaseBanner
 
 \begin{abstract}
-Observer-Patch Holography needs a concrete microphysics. It should not be pictured as a literal
-spherical quantum computer. Observers see finite cuts, a spherical screen is one useful geometry
-chart for those cuts, and the work is done by a federation of finite patches that expose overlap
-ports and keep records. Sphere language is therefore geometry, not substrate:
-\(A_5\)-icosahedral patch symmetry and \(E_8\)-type exceptional
-organization belong to the symmetry data, not to a literal round machine. We model the local
-carriers as echosahedral multi-port bodies with recurrent toroidal channels inside them. The
-ports carry readout, repair, record, and synchronization data, so observer agreement becomes a
-fixed-cutoff mechanism rather than a metaphor.
+Observer-Patch Holography needs a concrete microphysics. Observers see finite cuts, and a
+spherical screen gives a useful geometry chart for those cuts. The operative model is a
+federation of finite patches that expose overlap ports and keep records. Sphere language is
+geometry: \(A_5\)-icosahedral patch symmetry and \(E_8\)-type exceptional organization belong to
+the symmetry data. We model the local carriers as echosahedral multi-port bodies with recurrent
+toroidal channels inside them. The ports carry readout, repair, record, and synchronization data,
+so observer agreement becomes a fixed-cutoff mechanism.
 
-The mathematical job of the paper is deliberately narrow. It exports the five packages the rest
+The mathematical job of the paper is narrow. It exports the five packages the rest
 of OPH uses: regulated patch-net embedding, the edge-sector heat-kernel/Casimir law,
 central-record measurement, Bell/CHSH event surfaces, and observer checkpoint/restoration. The
 hardware-facing job is narrow too. Hardware runs count as evidence only when the public
 repository contains an evidence bundle with stable hashes, manifests, calibration records, and
-exact-verifier receipts. Without that bundle, hardware language is architecture or motivation,
-not proof.
+exact-verifier receipts. Without that bundle, hardware language is architecture or motivation.
 \end{abstract}
 
 \tableofcontents
@@ -57,13 +54,12 @@ not proof.
 
 OPH microphysics uses finite observer patches with echosahedral interfaces. A spherical screen is
 a geometry chart for support-visible cuts. The cellulated-sphere gauge-register construction is a
-regulator and digital calibration chart, not a substrate claim. The premise is:
+regulator and digital calibration chart. The premise is:
 \begin{quote}
-OPH does not say that the universe is a literal spherical quantum computer. It says that
-observers access finite support-visible cuts. A spherical screen is one convenient geometry chart
-for such cuts. The underlying fixed-cutoff implementation surface is better modeled as a
-federation of finite overlap-facing observer patches, with echosahedral local interfaces and
-recurrent toroidal subchannels.
+Observers access finite support-visible cuts. A spherical screen is a geometry chart for such
+cuts. The underlying fixed-cutoff implementation surface is a federation of finite
+overlap-facing observer patches, with echosahedral local interfaces and recurrent toroidal
+subchannels.
 \end{quote}
 
 The paper's contract is:
@@ -86,8 +82,8 @@ patches, overlaps, records, repair interfaces, event algebras, and checkpoint la
 allowed to be theorem-bearing.
 
 \item \textbf{Regulator-chart claims.} These identify a convenient finite model, such as a
-spherical cellulation or a digital finite-group simulator, as a calculational chart. They are not
-claims about the literal substrate.
+spherical cellulation or a digital finite-group simulator, as a calculational chart. Their claim
+level is regulator geometry and calibration.
 
 \item \textbf{Federated-carrier claims.} These define a candidate implementation architecture:
 observer patches with echosahedral multi-port interfaces, recurrent toroidal subchannels, exposed
@@ -97,10 +93,9 @@ overlap data, records, and repair loops.
 evidence is present in a public OPH evidence bundle with stable hashes, manifests, calibration
 files, and exact-verifier receipts.
 
-\item \textbf{Non-claims.} This paper does not prove that the universe is made of laboratory
-hardware, does not identify a unique UV completion, does not solve the Yang--Mills mass gap by
-hardware experiment, does not prove a computational complexity collapse, and does not promote
-backend-gated hadron rows without a production OPH hadron backend.
+\item \textbf{Boundary statements.} This paper leaves laboratory-hardware identification, unique
+UV completion, hardware solution of the Yang--Mills mass gap, computational complexity collapse,
+and backend-gated hadron rows outside its claim surface.
 \end{enumerate}
 
 \section{The Public Evidence Rule}
@@ -135,8 +130,15 @@ algebras, declared patch interfaces, and stated branch assumptions.
 
 The spherical screen is useful because an observer-accessible cut often has an effective closed
 two-surface description. A cellulated sphere can encode finite capacity, caps, collars, edge
-centers, and support-visible cuts. The microscopic carrier is the finite patch federation, not the
-chart.
+centers, and support-visible cuts. The microscopic carrier is the finite patch federation. The
+chart is the observer-facing presentation of its support-visible data.
+
+The sphere also fixes the symmetry bridge used by the rest of OPH. Caps on \(S^2\) are the
+geometric support regions whose modular flows become Lorentz boosts in the support-visible
+scaling branch. The conformal group of \(S^2\) is \(\mathrm{SO}^+(3,1)\), so the same
+observer-facing chart supplies the kinematic bridge to emergent \(3+1\)D spacetime. Finite
+cellulations of the chart supply the regulator side: patch ports, edge sectors, collars, and
+overlap checks.
 
 At fixed cutoff, the fundamental object is a finite patch federation.
 Each patch has:
@@ -152,7 +154,7 @@ Each patch has:
 A spherical screen is then a coarse chart over a federation of such patches. It is what a
 particular observer-facing support cut looks like after quotienting hidden implementation details
 and choosing a geometric presentation. The microscopic carrier may be graph-like, federated,
-multi-patch, and locally polyhedral rather than literally spherical.
+multi-patch, and locally polyhedral.
 
 \begin{definition}[Federated patch carrier]
 A fixed-cutoff federated patch carrier is a tuple
@@ -175,8 +177,7 @@ physical.
 \section{The Echosahedral Patch Object}
 
 An echosahedral patch is the reference local body for this microphysics. The term is architectural:
-a bounded observer patch with a highly symmetric multi-port interface. It is not a claim that
-nature is literally a printed icosahedron.
+a bounded observer patch with a highly symmetric multi-port interface.
 
 \begin{definition}[Echosahedral patch]
 An echosahedral patch is a finite patch object
@@ -197,7 +198,7 @@ the port arrangement.
 \end{enumerate}
 \end{definition}
 
-The twelve-port choice is not sacred. Its role is to give the reference patch enough boundary
+The twelve-port choice is a reference convention. Its role is to give the reference patch enough boundary
 structure to support nontrivial overlap comparison, symmetry tests, verifier-shadow behavior, and
 cross-patch routing while remaining small enough for explicit evidence records.
 
@@ -210,9 +211,8 @@ manifest.
 
 \section{Toroidal Recurrence Is Local}
 
-Toroidal hardware supplies a local recurrence and mode-competition surface. It is not a claim that
-the universe has literal torus topology. A
-toroidal subchannel is a recurrent internal path inside a patch or between a bounded set of
+Toroidal hardware supplies a local recurrence and mode-competition surface. A toroidal subchannel
+is a recurrent internal path inside a patch or between a bounded set of
 ports. It can recycle boundary information, support settling dynamics, and expose winding-like
 or phase-locking observables.
 
@@ -221,8 +221,8 @@ systems. A toroidal or ring-like patch may fail to show global alignment while s
 stable winding class, a local coherence island, or a persistent twisted state. Therefore the
 validation metrics for toroidal subchannels should include:
 \begin{enumerate}[leftmargin=2em]
-\item local coupling matrices rather than only total brightness;
-\item recurrence and ring-diversity statistics rather than only global response;
+\item local coupling matrices, with total brightness treated as a secondary summary;
+\item recurrence and ring-diversity statistics, with global response treated as a secondary summary;
 \item winding-sensitive or phase-lock-sensitive summaries when phase data are available;
 \item matched controls that distinguish chamber-mediated dynamics from host-side filtering;
 \item exact-verifier receipts for task-level claims.
@@ -230,8 +230,7 @@ validation metrics for toroidal subchannels should include:
 
 The OPH interpretation is simple: toroidal recurrence supplies local memory and mode competition
 inside the patch federation. Echosahedral symmetry supplies a reference and consensus geometry.
-The universe, at this level of description, is a federated repair system, not a single global
-sphere or a single global torus.
+The universe, at this level of description, is a federated repair system with many local carriers.
 
 \section{Patch Federation and Overlap Synchronization}
 
@@ -358,8 +357,8 @@ same central projector \(E\) is true with probability one.
 
 \section{Edge Sectors and the Casimir Handoff}
 
-The edge heat-kernel/Casimir package is a fixed-cutoff theorem package. It is tied to an overlap
-collar with a finite exposed sector algebra, not to a literal spherical quantum computer.
+The edge heat-kernel/Casimir package is a fixed-cutoff theorem package tied to an overlap
+collar with a finite exposed sector algebra.
 
 At fixed cutoff, let \(\alpha\) label a finite set of exposed edge sectors on one declared
 overlap collar. Suppose the local thermalized edge dynamics has stationary weights
@@ -393,14 +392,13 @@ with commuting setting and outcome records on one compare slice. If the source-s
 law is the usual two-wing quantum law, the CHSH and Tsirelson statements are carried on that
 declared event algebra.
 
-Nothing in this section claims that laboratory echosahedral hardware is presently a loophole-free
-Bell experiment. The theorem package is a finite event-algebra statement inside the OPH
-microphysics surface.
+Laboratory echosahedral hardware has its own evidence gate for Bell-style claims. The theorem
+package here is a finite event-algebra statement inside the OPH microphysics surface.
 
 \section{Relation to Yang--Mills}
 
-The Yang--Mills repair-gap argument is not a hardware claim and not a corollary of
-echosahedral geometry. The microphysics paper supplies only:
+The Yang--Mills repair-gap argument belongs to the compact theorem surface. Echosahedral geometry
+supplies:
 \begin{enumerate}[leftmargin=2em]
 \item the fixed-cutoff patch, overlap, record, and repair interface;
 \item the finite edge-sector Casimir law on declared collars;
@@ -411,7 +409,7 @@ quotient form.
 The four-dimensional Yang--Mills form, reflection-positive ordinary vacuum branch, support-visible
 continuum extraction, and equality between the Yang--Mills gap and the repair gap belong to the
 compact/Yang--Mills theorem surface. Hardware evidence may test implementation discipline, but it
-does not prove the Clay-admissible construction.
+does not supply the Clay-admissible construction.
 
 \section{Relation to Hadrons and Backend Execution}
 
@@ -426,8 +424,8 @@ record and evidence requirements for such a backend. A backend fit for promotion
 \end{enumerate}
 
 Echosahedral or GLORB-class hardware can be described as a candidate backend family when public
-evidence bundles exist. Without those bundles, it is an architectural target and a design
-motivation, not a source-only hadron theorem.
+evidence bundles exist. Before those bundles exist, it is an architectural target and a design
+motivation. Source-only hadron theorem status requires the backend evidence listed above.
 
 \section{Validation Program}
 
@@ -439,8 +437,8 @@ The octahedral \(\mathbb Z_2/S_3\) simulator is a digital calibration model. It 
 finite groups, explicit patch covers, controlled defects, frustrated cycles, record writes,
 repair schedules, and negative controls.
 \begin{quote}
-The simulator validates the finite interface logic. It is not the primary physical picture of the
-OPH substrate.
+The simulator validates the finite interface logic. The primary physical picture is the
+federated patch-carrier architecture.
 \end{quote}
 
 \subsection{Public Hardware Evidence}
@@ -464,14 +462,13 @@ and negative controls against hidden duplicate amplification or host-side filter
 
 \section{Conclusion}
 
-OPH microphysics is a federation of finite observer patches, not a literal spherical quantum
-computer. The sphere is a regulator and symmetry chart for observer-facing cuts:
-\(A_5\)-icosahedral and \(E_8\)-type structure belong to the geometry data, not to a literal round
-substrate. The echosahedral patch is the reference local interface: a bounded multi-port patch
-with symmetry, records, readout, repair, and checkpoint data. Toroidal subchannels supply local
-recurrence and winding-sensitive dynamics. The mathematical exports remain fixed-cutoff patch-net
-embedding, edge-sector Casimir handoff, central-record measurement, Bell/CHSH event surfaces, and
-checkpoint/restoration.
+OPH microphysics is a federation of finite observer patches. The sphere is a regulator and
+symmetry chart for observer-facing cuts. \(A_5\)-icosahedral and \(E_8\)-type structure belong to
+the geometry data and representation-closure data. The echosahedral patch is the reference local
+interface: a bounded multi-port patch with symmetry, records, readout, repair, and checkpoint
+data. Toroidal subchannels supply local recurrence and winding-sensitive dynamics. The mathematical
+exports remain fixed-cutoff patch-net embedding, edge-sector Casimir handoff, central-record
+measurement, Bell/CHSH event surfaces, and checkpoint/restoration.
 
 The claim discipline is the main point. Hardware can guide the architecture and supply public
 evidence through hash-stable evidence bundles. The theorem surface stands on finite algebras and
@@ -521,8 +518,8 @@ The octahedral \(\mathbb Z_2/S_3\) build has the following reading rule:
 \item it validates finite patch/overlap/record/repair bookkeeping;
 \item it tests frustrated-cycle and defect behavior in an exact digital setting;
 \item it calibrates the edge-sector law on a finite declared interface;
-\item it does not define the literal OPH substrate;
-\item it should not be used to argue that the universe is a literal spherical quantum computer.
+\item it supplies calibration data for the interface layer;
+\item it leaves the physical carrier role with the federated echosahedral patch architecture.
 \end{enumerate}
 
 \begin{thebibliography}{99}

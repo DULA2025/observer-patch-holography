@@ -170,7 +170,7 @@ In 1961, Rolf Landauer showed that erasing information costs energy.
 
 Erasing one bit at temperature $T$ requires dissipating at least $k_B T \ln 2$ of energy as heat.
 
-This sounds technical. It's revolutionary. It means **information is physical**. Bits are not abstract-they are thermodynamic objects with energy costs.
+This sounds technical. It changed physics. It means **information is physical**. Bits are not abstract. They are thermodynamic objects with energy costs.
 
 ### Maxwell's Demon
 
@@ -309,7 +309,7 @@ When two observers compare notes, they share information across patch boundaries
 
 ### The Information Budget
 
-For the late-time de Sitter horizon used in the OPH capacity closure, the bare radius-squared count is about $1.05\times10^{122}$ and the Gibbons-Hawking entropy capacity is about $3.31\times10^{122}$ in natural units, or $4.77\times10^{122}$ bits. Other cosmological horizon conventions stay in the same $10^{122}$--$10^{123}$ band. The key point here is that the budget is enormous but finite.
+For the late-time de Sitter horizon used in the OPH capacity closure, the bare radius-squared count is about $1.05\times10^{122}$ and the Gibbons-Hawking entropy capacity is about $3.31\times10^{122}$ in natural units, or $4.77\times10^{122}$ bits. Other cosmological horizon conventions stay in the band from $10^{122}$ to $10^{123}$. The key point here is that the budget is enormous but finite.
 
 But most of that entropy is in black holes, inaccessible. The entropy we can actually manipulate is far less.
 

@@ -325,12 +325,17 @@ spacetime symmetry was looking for.
 
 ### Conformal Symmetry Is Lorentz Symmetry
 
-The crucial fact is that the group of orientation-preserving conformal
+The mathematical fact is that the group of orientation-preserving conformal
 transformations of $S^2$ is
 
 $$\text{Conf}^+(S^2) \cong PSL(2, \mathbb{C}) \cong SO^+(3,1)$$
 
 The conformal group of the sphere is isomorphic to the Lorentz group.
+
+This is the main reason the sphere is the right observer-facing chart. It gives
+each observer a celestial sky, it gives local caps whose modular clocks can
+become geometric flows, and it gives the exact symmetry group that relativity
+uses to compare inertial observers.
 
 $\text{Conf}^+(S^2)$ is the orientation-preserving conformal group of the
 two-sphere. $PSL(2,\mathbb C)$ is the projective special linear group acting
@@ -347,10 +352,9 @@ isomorphism says these are the same symmetry written in two languages: angle
 preservation on the celestial sphere and relativistic frame changes in
 spacetime.
 
-Lorentz kinematics is not assumed. It is recovered when the observer-facing cap
-net reaches the geometric scaling branch, the cap modular flow acts as a real
-geometric motion, and the rigidity hypotheses identify that motion with the
-conformal action.
+Lorentz kinematics is recovered when the observer-facing cap net reaches the
+geometric scaling branch, the cap modular flow acts as a real geometric motion,
+and the rigidity hypotheses identify that motion with the conformal action.
 
 ### Why There Is No Privileged Reference Frame
 
@@ -407,7 +411,7 @@ Special relativity emerges from the conformal structure of the screen. What abou
 
 ### How Patch Consistency Enters
 
-Patch consistency does two crucial jobs here. First, it forbids any preferred
+Patch consistency does two jobs here. First, it forbids any preferred
 observer or preferred frame. Second, once each observer gets the same local
 rest-frame relation, patch consistency forces those local relations to fit
 together into a tensor law. MaxEnt supplies the equilibrium state, modular
@@ -672,9 +676,9 @@ branch, Lorentz symmetry becomes the geometry of how modular times mesh across
 patches, and gravity becomes the equilibrium condition that lets those patches
 share one spacetime.
 
-On this reading, the speed of light is not a random number sprinkled into the
-laws. It is the conversion factor between information flow on the screen and
-emergent geometry in the bulk. On the Einstein branch, Einstein's equation is
+On this reading, the speed of light is the conversion factor between
+information flow on the screen and emergent geometry in the bulk. On the
+Einstein branch, Einstein's equation is
 the public face of entanglement equilibrium written in the language of
 curvature.
 

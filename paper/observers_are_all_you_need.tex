@@ -144,9 +144,10 @@
 \OPHPaperReleaseBanner
 
 \begin{abstract}
-Observer-Patch Holography starts from finite horizon-screen geometry, not from a literal sphere,
-and one rule: local observer patches must agree on every observable they share. Sphere language
-names regulator and symmetry geometry: finite screen charts, \(A_5\)-type icosahedral patch data
+Observer-Patch Holography starts from finite horizon-screen geometry following the spherical
+symmetries of observer-accessible cuts. The rule is that local observer patches must agree on
+every observable they share. Sphere language names regulator and symmetry geometry: finite screen charts,
+\(A_5\)-type icosahedral patch data
 where a carrier is made concrete, and \(E_8\)-type exceptional organization where the high-symmetry
 branch invokes it. Together with local MaxEnt, recoverable
 generalized entropy, and minimal admissible realization, that rule reconstructs an effective
@@ -264,8 +265,7 @@ weak compare-only validation row, charged-lepton target-anchored witnesses, and 
 
 The fourth achievement is implementation. The screen-microphysics construction makes patches,
 overlaps, edge observables, records, repair maps, and observer checkpoints explicit at finite
-cutoff, using a federated patch-carrier architecture rather than a literal spherical quantum
-computer. OPH has a regulated observer-and-record surface on which the basic consistency
+cutoff through a federated patch-carrier architecture. OPH has a regulated observer-and-record surface on which the basic consistency
 machinery can be written directly.
 
 \paragraph{Axioms in words.}
@@ -330,19 +330,33 @@ extraction to the compact-gauge Yang--Mills Hamiltonian. The accounting identity
 
 \section{Physical Implementation and \(A_5\)/\(E_8\) Significance}
 
-The implementation question is what must exist below the observer-level axioms for them to be
-physical rather than only formal. OPH's answer is a fixed-cutoff federation of finite patch
-carriers. Each carrier exposes overlap ports, record registers, repair maps, and checkpoint
-interfaces. The claim is not that the universe is a literal sphere or a laboratory device. The
-screen is the observer-facing geometry chart. The implementation is the finite algebraic machinery
-that makes compare, write, repair, and re-read operations available.
+The implementation question is what must exist below the observer-level axioms so they have a
+physical carrier. OPH's answer is a fixed-cutoff federation of finite patch carriers. Each carrier
+exposes overlap ports, record registers, repair maps, and checkpoint interfaces. The screen is the
+observer-facing geometry chart. The implementation is the finite algebraic machinery that makes
+compare, write, repair, and re-read operations available.
+
+Spherical geometry carries several pieces of the construction at once. An observer-accessible cut
+has a closed two-dimensional angular chart. Caps and collars on that chart supply the cut data used
+by modular flow, entropy variation, and overlap comparison. The orientation-preserving conformal
+group of the same \(S^2\) chart is the celestial-sphere realization of
+\(\mathrm{SO}^+(3,1)\), so the sphere is the kinematic bridge between finite screen cuts and the
+emergent \(3+1\)-dimensional Lorentz branch. Finite cellulations of the chart provide the
+regulator surface on which ports, edge sectors, and local comparison data can be made explicit.
+
+The echosahedral carrier is the concrete local realization of this chart data. Its multi-port
+interface supplies discrete boundary directions, face and edge incidence, exposed readout
+channels, record slots, and repair channels. Recurrent toroidal subchannels supply local winding
+and memory structure. The smooth spherical chart describes the observer-facing cut; the
+echosahedral carrier supplies the fixed-cutoff local machine whose quotient data can present that
+cut.
 
 The \(A_5\) and \(E_8\) labels mark different roles in that machinery. \(A_5\)-icosahedral symmetry
 is the local finite-screen language used when a patch carrier is made concrete: it organizes ports,
 faces, and overlap data with enough discrete symmetry to stabilize support-visible cuts.
 \(E_8\)-type language is the exceptional closure language used by the high-symmetry branch. It names
-the root-lattice and affine exceptional structure in which the icosahedral data can sit. It is not a
-new force and not a claim that every microscopic cell is an \(E_8\) crystal.
+the root-lattice and affine exceptional structure in which the icosahedral data can sit. The term
+is representation-closure language for the branches that call for it.
 
 This distinction matters for the synthesis paper. The physical claim lives at the observer-visible
 quotient: finite patches must expose the same records and shared observables after allowed

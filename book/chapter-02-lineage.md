@@ -340,7 +340,7 @@ one. The flip provides one bit of information.
 
 **Rolf Landauer** added a physical insight in 1961: erasing information costs energy. If you have a bit in an unknown state and you want to reset it to zero, you must dump at least $k_B T \ln 2$ of energy into the environment.
 
-This sounds technical. It is revolutionary. It means **information is physical**. Bits are not abstract mathematical objects; they have thermodynamic weight. Processing information costs energy and produces entropy.
+This sounds technical. It changed physics. It means **information is physical**. Bits are not abstract mathematical objects; they have thermodynamic weight. Processing information costs energy and produces entropy.
 
 ### The Synthesis
 
@@ -394,8 +394,7 @@ Escher's hands draw each other. Reality simulates the observers who simulate rea
 One concrete regulator chart uses quantum link models. Imagine a triangulated
 screen where each edge carries a small quantum system. Rules at each vertex
 constrain which configurations are allowed, and maximum entropy selects the
-state. The microphysics picture is not a literal spherical quantum computer.
-The implementation surface is a federation of finite patches, with the screen
+state. The implementation surface is a federation of finite patches, with the screen
 acting as an observer-facing geometry chart. In that regulated model,
 spacetime, particles, and observers all emerge as outputs.
 

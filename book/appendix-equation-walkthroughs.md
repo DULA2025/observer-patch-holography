@@ -184,7 +184,7 @@ $A$ is an observable. $\sigma_t$ is the modular flow at parameter $t$.
 $\Delta$ is the modular operator associated with an algebra-state pair. The
 formula says that the pair carries a natural internal transformation group.
 
-The meaning is subtle but crucial. Time-like flow is not inserted from an
+The meaning is subtle. Time-like flow is not inserted from an
 external clock. Under the right mathematical conditions, the local algebra
 and state generate their own flow. This is why modular theory is so important
 for an observer-first framework. An observer patch has restricted access; the

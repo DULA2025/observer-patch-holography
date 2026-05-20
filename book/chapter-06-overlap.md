@@ -327,7 +327,7 @@ Quantum agreement is a budget. Spend it on one overlap and you have less for ano
 
 There's an even more direct demonstration that quantum mechanics resists classical consistency.
 
-In 1967, Simon Kochen and Ernst Specker proved a theorem that sounds technical but has revolutionary implications: in a Hilbert space of dimension 3 or higher, there is no single noncontextual assignment of pre-existing values to all quantum observables.
+In 1967, Simon Kochen and Ernst Specker proved a theorem with a hard consequence: in a Hilbert space of dimension 3 or higher, there is no single noncontextual assignment of pre-existing values to all quantum observables.
 
 ### What Does This Mean?
 

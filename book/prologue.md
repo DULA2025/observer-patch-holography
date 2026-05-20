@@ -116,6 +116,25 @@ compare notes and find they agree.
 This book develops the conceptual shift: **observer-relative perspectives are
 primary, and objectivity is reconstructed from consistency across them.**
 
+The hardest part of that shift is spacetime. Most readers naturally imagine a
+container first: a huge three-dimensional arena, with time flowing above it and
+things placed inside it. Your own experience encourages the picture. You seem
+to have a roughly spherical world around you, three directions in which you can
+move, and a future that keeps arriving. Other people seem to see the same room,
+street, planet, and sky from different angles.
+
+OPH keeps those experiences, but changes what they mean. Space and time are not
+fundamental substances waiting for observers to enter them. Each observer has a
+local spacetime description tied to its own records, clocks, horizons, and
+correlations. The shared spacetime of physics is what appears when those local
+descriptions can be made compatible. It is real as a public structure, but it
+is not the starting point.
+
+Some would call this an illusion. The metaphor is useful if it means that the
+container we seem to inhabit is an appearance produced by a deeper agreement
+process. It becomes misleading if it suggests that ordinary spacetime is
+arbitrary or unreal.
+
 This has nothing to do with solipsism or wishful thinking. Consistency across
 perspectives creates objectivity. The stable, shared, predictable structure
 that we call "the physical world" is the overlap-consistent backbone that all
@@ -253,7 +272,9 @@ equivalent of a stub loader. It works for everyday purposes, but it's not
 what's really going on.
 
 What's really going on is weirder, more elegant, and more unified than
-the surface shows. It starts with observers. It starts with perspectives that must agree.
+the surface shows. It starts with observers. It starts with perspectives that
+must agree. Spacetime is the agreement pattern, not the container that comes
+first.
 
 Start there.
 

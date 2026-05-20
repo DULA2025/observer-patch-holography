@@ -308,8 +308,14 @@ physical.
 One concrete way to picture this is as a finite quantum machine. The specialist
 literature gives that family of pictures names such as quantum link models, but
 the image itself has to be handled carefully. The sphere is a working chart for
-what an observer-facing cut exposes. It is not a claim that reality is a
-literal spherical quantum computer.
+what an observer-facing cut exposes. The physical picture is a federation of
+finite patches with shared boundary data.
+
+This chart does real work. Caps and collars on the sphere identify the local
+questions an observer can ask. Overlaps between caps identify the data two
+observers can compare. The conformal symmetries of the same sphere become the
+Lorentz symmetries of the shared spacetime description in the smooth regime.
+The finite patch federation supplies the machine underneath that chart.
 
 ### A Plausible Hardware Sketch
 
@@ -357,7 +363,7 @@ Let's put numbers on this.
 
 The Planck length is $\ell_P \approx 1.6 \times 10^{-35}$ meters-about $10^{20}$ times smaller than a proton. The Planck area is $\ell_P^2 \approx 2.6 \times 10^{-70}$ m².
 
-**The de Sitter horizon**: Radius $R_{dS} \approx 1.66 \times 10^{26}$ m. The bare radius-squared count is $N_{\text{patch}} \approx 1.05\times10^{122}$. The corresponding Gibbons-Hawking entropy capacity is $N_{\text{scr}} \approx 3.31\times10^{122}$ in natural units, or about $4.77\times10^{122}$ bits. Other cosmological horizon conventions stay in the same $10^{122}$--$10^{123}$ band.
+**The de Sitter horizon**: Radius $R_{dS} \approx 1.66 \times 10^{26}$ m. The bare radius-squared count is $N_{\text{patch}} \approx 1.05\times10^{122}$. The corresponding Gibbons-Hawking entropy capacity is $N_{\text{scr}} \approx 3.31\times10^{122}$ in natural units, or about $4.77\times10^{122}$ bits. Other cosmological horizon conventions stay in the band from $10^{122}$ to $10^{123}$.
 
 This is a truly enormous number-but it is finite. The observable universe contains a finite amount of information.
 

@@ -414,7 +414,7 @@ that this encoding carries the structure of quantum error correction.
 
 ### What OPH Does Not Require
 
-OPH stands apart from AdS/CFT in several crucial ways. It does not need a
+OPH stands apart from AdS/CFT in several concrete ways. It does not need a
 specific boundary CFT. It does not treat bulk and boundary as two complete
 descriptions with equal ontological status. It does not live at negative
 cosmological constant. It does not use a boundary at infinity. The screen is

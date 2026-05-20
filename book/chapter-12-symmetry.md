@@ -72,7 +72,8 @@ Conservation laws are the simplest form of this agreement. If I measure total en
 
 ## 12.4 Why Symmetry Lives on the Screen
 
-Our fundamental object is the holographic screen $S^2$. The screen is a sphere. Therefore, the natural symmetry group is **SO(3)**.
+In the symmetric screen chart, an observer-accessible cut is represented by
+the holographic screen $S^2$. The natural angular symmetry group is **SO(3)**.
 
 SO(3) is the group of ordinary rotations in three-dimensional space. Calling it
 a group only means that rotations can be composed, undone, and compared in a
@@ -195,7 +196,7 @@ hypercharge labels at the same time.
 
 A **gauge group** is a group of transformations that change the mathematical
 description without changing the physical situation. The word gauge adds one
-crucial feature: the transformation can be chosen locally. Different observers,
+extra feature: the transformation can be chosen locally. Different observers,
 or different points in spacetime, may use different internal bookkeeping
 choices, and the predictions must still agree. Gauge fields are what make that
 local agreement possible.
@@ -379,9 +380,10 @@ operational structure, not decoration.
 ## 12.11 What Symmetry Predicts
 
 Symmetry earns its place in physics because it leaves hard fingerprints.
-Noether ties symmetry to conservation. The sphere automatically carries
-rotational structure. Spinors fit naturally on that sphere. Wigner shows that
-once relativity is in place, particles are classified by how they transform.
+Noether ties symmetry to conservation. The sphere carries rotational
+structure, angular harmonics, and the conformal bridge to Lorentz symmetry.
+Spinors fit naturally on that sphere. Wigner shows that once relativity is in
+place, particles are classified by how they transform.
 
 The world obeys the script. Conservation laws hold. CPT remains intact.
 Spin-statistics stays locked. Symmetry is not decorative embroidery on top of

@@ -166,7 +166,7 @@ Why use it here? Because experiments show that adding possibilities changes outc
 
 In quantum mechanics, this picture changes fundamentally. Questions become **projectors** on a Hilbert space. A projector P is an operator satisfying P² = P.
 
-The crucial difference: projectors do not form a Boolean algebra. The distributive law fails:
+The difference is sharp: projectors do not form a Boolean algebra. The distributive law fails:
 
 $$P \land (Q \lor R) \neq (P \land Q) \lor (P \land R)$$
 
@@ -434,4 +434,4 @@ inside, not imposed by an external clock.
 
 The next chapter develops the overlap consistency condition in detail: exactly how must measurements on shared regions agree?
 
-Once the questions are algebraic, the crucial issue is gluing their answers.
+Once the questions are algebraic, the hard issue is gluing their answers.

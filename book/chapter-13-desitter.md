@@ -190,7 +190,7 @@ This is a different target. The "unsolved problem" of dS holography is about fin
 
 ### Lambda as Global Capacity
 
-A crucial insight: the cosmological constant is not a local patch datum. Null
+A key point: the cosmological constant is not a local patch datum. Null
 modular probes reconstruct the stress tensor only up to a term proportional to
 the metric itself, so $\Lambda g_{ab}$ enters as the one global scale the local
 construction cannot erase.

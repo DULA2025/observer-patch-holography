@@ -71,6 +71,14 @@ In plain language, spacetime is the compressed way finite observers keep track
 of how their clocks, horizons, and correlations line up. Geometry is what the
 shared bookkeeping looks like when written smoothly.
 
+From the inside, this compressed bookkeeping feels like a world. An observer
+sees distance, direction, motion, and a forward flow of time. Neighboring
+observers report a compatible world from different angles. That agreement is
+why spacetime seems like a common container. In OPH, the agreement is primary.
+The container picture is the successful large-scale description that results.
+Calling it an illusion works only as metaphor. What persists is the compatible
+appearance, stable enough to carry clocks, rulers, fields, and observers.
+
 The fixed-cutoff microphysics paper plays a narrower role in that story. It
 treats the sphere as an observer-facing regulator chart and supplies a
 federated patch-carrier architecture for patches, overlaps, edge sectors,
