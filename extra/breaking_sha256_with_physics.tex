@@ -25,6 +25,7 @@
   citecolor=blue!55!black,
   urlcolor=blue!55!black
 }
+\captionsetup{hypcap=false}
 
 \setlist[itemize]{topsep=3pt,itemsep=2pt}
 \setlist[enumerate]{topsep=3pt,itemsep=2pt}
@@ -50,10 +51,8 @@
 \newcommand{\E}{\mathcal E}
 \newcommand{\Sol}{\operatorname{Sol}}
 \newcommand{\poly}{\operatorname{poly}}
-\InputIfFileExists{../paper/release_info}{}{%
-  \newcommand{\OPHPaperReleaseID}{standalone}
-  \newcommand{\OPHPaperReleaseDate}{May 20, 2026}
-}
+\newcommand{\OPHPaperReleaseID}{r1454}
+\newcommand{\OPHPaperReleaseDate}{May 20, 2026}
 
 \title{\textbf{Photonic Fixed-Point Consensus for SHA-256d Proof of Work}\\[0.25em]
 \large Minimal-Hardware Candidate Enrichment on OMEGA-I1}
@@ -127,7 +126,7 @@ The blog essay ``P = NP on the Observer Screen'' phrases the computational
 primitive in five words: ``Verification is the force'' \cite{OPHBlogPNP}. The
 technical OPH papers develop the same idea through patch algebras, overlap
 consistency, syndromes, repair moves, and fixed-point consensus
-\cite{OPHObserversCurrent,OPHConsensusCurrent,OPHScreenCurrent,OPHCompactCurrent}. For SHA-256d mining, the
+\cite{OPHObserversCurrent,OPHCompactCurrent,OPHConsensusCurrent,OPHScreenCurrent}. For SHA-256d mining, the
 primitive becomes an auditable patch network.
 
 The paper has a narrow scope. It gives an exact scorebook for SHA-256d mining,
@@ -866,7 +865,7 @@ have traps. A successful physical solver either avoids those traps, escapes
 them, or provides a measurable success probability large enough to beat
 enumeration after exact verification.
 
-\section{The Role of the OPH Pixel Constant \(P\)}
+\section{The Role of the OPH Pixel Constant \texorpdfstring{\(P\)}{P}}
 
 The OPH papers use a dimensionless local pixel ratio
 \[
@@ -1953,27 +1952,27 @@ public educational guide, 2026.
 \bibitem{OPHObserversCurrent}
 B. Mueller et al.,
 ``Observers Are All You Need,''
-GitHub release \OPHPaperReleaseID{} PDF, \OPHPaperReleaseDate.
-\href{https://github.com/FloatingPragma/observer-patch-holography/releases/download/\OPHPaperReleaseID/observers_are_all_you_need.pdf}{release PDF}.
+GitHub release r1454 PDF, May 20, 2026.
+\url{https://github.com/FloatingPragma/observer-patch-holography/releases/download/r1454/observers_are_all_you_need.pdf}.
 
 \bibitem{OPHCompactCurrent}
 B. Mueller et al.,
 ``Recovering Relativity and Standard Model Structure from Observer Overlap
 Consistency,''
-GitHub release \OPHPaperReleaseID{} PDF, \OPHPaperReleaseDate.
-\href{https://github.com/FloatingPragma/observer-patch-holography/releases/download/\OPHPaperReleaseID/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf}{release PDF}.
+GitHub release r1454 PDF, May 20, 2026.
+\url{https://github.com/FloatingPragma/observer-patch-holography/releases/download/r1454/recovering_relativity_and_standard_model_structure_from_observer_overlap_consistency_compact.pdf}.
 
 \bibitem{OPHConsensusCurrent}
 B. Mueller, K. Xue, and K. A. Anirudha,
 ``Reality as a Consensus Protocol,''
-GitHub release \OPHPaperReleaseID{} PDF, \OPHPaperReleaseDate.
-\href{https://github.com/FloatingPragma/observer-patch-holography/releases/download/\OPHPaperReleaseID/reality_as_consensus_protocol.pdf}{release PDF}.
+GitHub release r1454 PDF, May 20, 2026.
+\url{https://github.com/FloatingPragma/observer-patch-holography/releases/download/r1454/reality_as_consensus_protocol.pdf}.
 
 \bibitem{OPHScreenCurrent}
 B. Mueller and K. Xue,
 ``Federated Echosahedral Screen Microphysics,''
-GitHub release \OPHPaperReleaseID{} PDF, \OPHPaperReleaseDate.
-\href{https://github.com/FloatingPragma/observer-patch-holography/releases/download/\OPHPaperReleaseID/screen_microphysics_and_observer_synchronization.pdf}{release PDF}.
+GitHub release r1454 PDF, May 20, 2026.
+\url{https://github.com/FloatingPragma/observer-patch-holography/releases/download/r1454/screen_microphysics_and_observer_synchronization.pdf}.
 
 \end{thebibliography}
 
