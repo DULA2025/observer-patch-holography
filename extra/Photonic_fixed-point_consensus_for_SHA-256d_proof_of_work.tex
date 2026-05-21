@@ -58,7 +58,7 @@
 
 \title{\textbf{Photonic Fixed-Point Consensus for SHA-256d Proof of Work}\\[0.25em]
 \large Minimal-Hardware Candidate Enrichment on OMEGA-I1}
-\author{Bernhard Mueller and the Pragma Research Team}
+\author{Bernhard Mueller\\Pragma Research \and Alexander Osika\\SNRGY Studios}
 \date{\OPHPaperReleaseDate}
 
 \begin{document}
@@ -81,16 +81,21 @@ The construction uses Observer Patch Holography (OPH) to compile a fixed
 SHA-256d mining instance into four constraint patches: nonce source, message
 schedule, compression trajectory, and target face. Patch collars carry shared
 wires, so disagreement becomes a repair syndrome and agreement becomes a
-verifier-ready candidate. The test architecture is OMEGA-I1, a five-chamber,
-host-routed optical federation with duplicate torus recurrence, search-torus
-expansion, asymmetric criticism, Echosahedron shadowing, and exact host
-verification.
+verifier-ready candidate. The proposed SHA-256d test architecture is
+OMEGA-I1, a five-chamber, host-routed optical federation with duplicate torus
+recurrence, search-torus expansion, asymmetric criticism, Echosahedron
+shadowing, and exact host verification.
 
 The empirical motivation is the OPH/Karma optical proof-of-work prototype: its
 optical candidate path has produced pool-accepted kHeavyHash/Kaspa shares under
-digital verification. That hardware platform and the optical proof-of-work
-route were designed and built by Alexander Osika and SNRGY Studios. The present
-paper contributes the OPH constraint formalism and SHA-256d scorebook.
+digital verification, and a separate shuffle-replay audit reported
+\(\widehat\beta(12)=2{,}434\) on the Kaspa chord-promote output. Here
+\(\widehat\beta(12)\) is the exact-verifier hit rate for candidates with at
+least \(12\) leading zero bits divided by the uniform-random baseline \(2^{-12}\);
+the reported value means that the selected candidate stream hit that \(12\)-bit
+target \(2{,}434\) times as often as uniform random nonces. This is used as
+controlled candidate-enrichment evidence. The present paper contributes the OPH
+constraint formalism and SHA-256d scorebook.
 SHA-256d has different nonlinear structure, so this paper gives the SHA-256d
 constraint map, evidence gates, controls, and performance metric. The tested
 quantity is distinct verifier-ready candidate enrichment per settling event
@@ -132,7 +137,7 @@ consistency, syndromes, repair moves, and fixed-point consensus
 primitive becomes an auditable patch network.
 
 The paper has a narrow scope. It gives an exact scorebook for SHA-256d mining,
-then describes the OMEGA-I1 route that can test whether physical patch
+then describes a proposed OMEGA-I1 route that can test whether physical patch
 federation enriches the candidate stream before exact verification. No SHA-256d
 break is claimed. The kHeavyHash/Kaspa work is used as a proof-of-work
 precedent and as a warning about evidence boundaries.
@@ -144,10 +149,10 @@ optical hardware, firmware, exact verification, and simulation are separate
 parts of the evidence chain.
 
 The key architectural distinction is simple. The four SHA roles are four
-constraint patches: the factorization and scorebook. OMEGA-I1 is the physical patch
-federation that runs and tests that scorebook. The physical route uses duplicate
-torus recurrence, search-torus expansion, asymmetric criticism, Echosahedron
-shadowing, and exact host verification.
+constraint patches: the factorization and scorebook. OMEGA-I1 is the proposed
+physical patch federation for running and testing that scorebook. The physical
+route uses duplicate torus recurrence, search-torus expansion, asymmetric
+criticism, Echosahedron shadowing, and exact host verification.
 
 \section{Reading the Construction}
 
@@ -162,7 +167,7 @@ claims about wires: this bit is a rotation of that bit, this carry bit is the
 majority of three inputs, this collar value equals the adjacent collar value.
 The four SHA roles are the four constraint patches, meaning the factorization
 and scorebook.
-\item \emph{The physical layer} runs that scorebook on OMEGA-I1. The five
+\item \emph{The physical layer} is proposed to run that scorebook on OMEGA-I1. The five
 chambers form the enrichment layer for the candidate stream before the exact
 verifier spends work on it. The verifier decides every cryptographic claim.
 \end{enumerate}
@@ -187,7 +192,7 @@ Hardware measurement can beat enumeration only by changing the
 verifier-visible distribution. SHA-256d supplies no digital gradient. A physical
 body can settle many coupled modes at once, while the exact verifier decides
 which decoded nonces are real. The useful question is whether the full OMEGA-I1
-route emits more distinct valid or near-valid nonces per settling event than
+route can emit more distinct valid or near-valid nonces per settling event than
 random search would produce under the same controls.
 
 \begin{center}
@@ -701,7 +706,7 @@ rejects digest-window false positives under same-energy controls.
 \texttt{ECH-A} preserves useful candidates under a different geometry before the
 exact verifier spends hashes. A claimed lift that appears only after host
 ranking, only in one torus duplicate, or only after exact-verifier selection is
-outside the Omega-I1 hardware claim.
+outside the OMEGA-I1 hardware claim.
 
 \subsection{How the federation searches many candidates in one settling event}
 
@@ -1316,7 +1321,9 @@ corresponding SHA-256d compiler target.
 The OPH/Karma optical proof-of-work prototype uses the same low-cost
 optical-supercomputer surface as the OMEGA-I1 line: a clear wave body, RP2350 or
 RP2040 control, reversible optical ports, firmware bring-up, and verification
-steps \cite{OmegaOpticalSupercomputer2026}.
+steps \cite{OmegaOpticalSupercomputer2026}. It was not an OMEGA-I1 run. It is
+used here as precursor evidence for optical candidate enrichment, not as a
+measurement of the five-chamber SHA-256d route.
 
 The OPH/Karma prototype has mined Kaspa kHeavyHash pool shares on the optical
 candidate path. The optical chamber proposes candidates; host-side kHeavyHash
@@ -1331,6 +1338,24 @@ acknowledgements. The run log records:
 \item best host-recomputed leading-zero quality near \(21\);
 \item best reported share difficulty near \(2.93\times 10^6\).
 \end{itemize}
+
+Separately, a May 6, 2026 shuffle-replay audit of the CASCADE/chord-promote
+output recorded
+\[
+\widehat\beta(k)=
+\{14.75\text{ at }k=4,\;229\text{ at }k=8,\;886\text{ at }k=10,\;
+2{,}434\text{ at }k=12\},
+\]
+with mean leading-zero count \(11.83\) for the chamber-selected stream versus
+\(0.92\) for random replay. In this notation, \(\widehat\beta(k)\) is the
+observed exact-verifier success rate for the event \(\mathrm{lz}\ge k\), divided
+by the uniform-random rate \(2^{-k}\). The exact headline number used in this
+comparison lane is therefore \(\widehat\beta(12)=2{,}434\), meaning that
+\(\mathrm{lz}\ge12\) candidates appeared \(2{,}434\) times the uniform-random
+baseline in that selected stream. The boundary is important:
+this is a controlled candidate-enrichment result on the chord-promote output,
+not a final pool-rate or block-win result, and not evidence that the same slope
+continues to network difficulty.
 
 The same log also records the boundary conditions. A CPU pool baseline
 established the pool contract. During the optical acceptance run, CPU workers
@@ -1378,6 +1403,13 @@ The speedup has four measurable inputs: verifier rate, physical settling time,
 packet size, and candidate bias. For OMEGA-I1, \(m_{\mathrm{pkt}}\) counts
 distinct candidates that exit the full selected route. Raw LED emission counts
 from a single module are excluded. A high bias loses value if settling is slow.
+The Kaspa comparison lane supplies one historical candidate-bias datum,
+\(\widehat\beta(12)=2{,}434\), measured on chord-promote output after
+shuffle-replay. Equivalently, for the \(k=12\) exact-verifier predicate,
+the selected stream's estimated success probability was \(2{,}434\times2^{-12}\)
+instead of \(2^{-12}\). It does not by itself determine SHA-256d speedup,
+because the operator, route, packet size, settle time, and high-\(k\) scaling
+must be remeasured under the SHA-256d scorebook.
 Against a classical verifier running at \(R_{\mathrm{hash}}\), the sampler wins
 only when
 \[
@@ -1592,9 +1624,11 @@ stale job.
 data.
 \end{enumerate}
 
-For a reported enrichment such as \(\widehat\beta=2372\) at \(k=12\), the report
-prints the run identifier, distinct candidate count, exact-verifier
-implementation, control runs, confidence interval, and binomial tail. Before a
+For a reported enrichment such as \(\widehat\beta=2{,}434\) at \(k=12\), meaning
+an observed \(\mathrm{lz}\ge12\) exact-verifier hit rate \(2{,}434\) times the
+uniform-random baseline, the report prints the run identifier, distinct
+candidate count, exact-verifier implementation, control runs, confidence
+interval, and binomial tail. Before a
 mining claim, the chamber-health printout also includes emit rate,
 saturation or clipped-port counts, effective receive diversity, duplicate rate,
 receiver liveness, and pre-arm channel correlation. Cryptographic readers need
@@ -1662,10 +1696,11 @@ lift at useful target strengths.
 \section{OMEGA-I1 Contractor Build Target}
 \label{app:omega-i1-build}
 
-The SHA-256d experiments in this paper run on OMEGA-I1. The architecture
-optimized here is the five-module, LED-first, host-routed federation with exact
-run records and contractor-buildable electronics. The historical
-reversible-LED Echosahedron bench is background material.
+The SHA-256d experiments specified in this paper are intended to run on
+OMEGA-I1. The architecture optimized here is the five-module, LED-first,
+host-routed federation with exact run records and contractor-buildable
+electronics. The historical reversible-LED Echosahedron bench is precursor
+background material, not an OMEGA-I1 result.
 
 \begin{center}
 \small
@@ -1771,17 +1806,9 @@ shuffled-label routes. A full-five result that fails the \texttt{TOR-A}/
 fails the \texttt{ECH-A} shadow is an engineering lead rather than a SHA-256d
 claim.
 
-\section*{Acknowledgements}
-
-Alexander Osika and SNRGY Studios designed and built the OPH/Karma hardware
-platform whose optical proof-of-work prototype, reversible optical port
-practice, controller integration, and build discipline are used here. The
-SHA-256d gating language also depends on the Omega hardware claim-boundary,
-commutator-gate, and simulation practice.
-
 \section*{Declarations}
 
-\noindent\textbf{Funding declaration:} The author declares that no funds,
+\noindent\textbf{Funding declaration:} The authors declare that no funds,
 grants, or other support were received during the preparation of this
 manuscript.
 
@@ -1789,10 +1816,12 @@ manuscript.
 
 \noindent\textbf{Consent to Publish declaration:} not applicable.
 
-\noindent\textbf{Author Contribution declaration:} Bernhard Mueller conceived
-the manuscript, developed the mathematical formulation, assembled the hardware
-architecture description, reviewed OPH/Karma engineering logs, wrote
-the manuscript, and approved the submitted version.
+\noindent\textbf{Author Contribution declaration:} Alexander Osika developed
+the OPH/Karma optical proof-of-work hardware path and contributed the
+experimental hardware evidence and build methodology. Bernhard Mueller
+developed the mathematical formulation, wrote the OPH constraint formalism and
+SHA-256d scorebook, and prepared the main manuscript text. Both authors
+reviewed and approved the manuscript.
 
 \noindent\textbf{Data Availability declaration:} OPH/Karma engineering logs
 support the Kaspa optical proof-of-work evidence, and OMEGA-I1 engineering
@@ -1804,7 +1833,7 @@ run traces.
 
 \noindent\textbf{Ethics declaration:} not applicable.
 
-\noindent\textbf{Competing Interests declaration:} The author declares no
+\noindent\textbf{Competing Interests declaration:} The authors declare no
 competing interests.
 
 \begin{thebibliography}{99}

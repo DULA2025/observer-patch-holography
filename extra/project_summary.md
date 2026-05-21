@@ -167,7 +167,7 @@ The machine is useful when the physical path changes the candidate distribution.
 1/(B p)
 ```
 
-That is the conservative benchmark claim: candidate-work reduction. It is the same discipline used in the [hash-search physics note](breaking_sha256_with_physics.pdf), where hash-style search is framed as physical patch-overlap constraint search with exact digital verification.
+That is the conservative benchmark claim: candidate-work reduction. It is the same discipline used in the [photonic SHA-256d proof-of-work note](Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work.pdf), where hash-style search is framed as physical patch-overlap constraint search with exact digital verification.
 
 ## Why Waves Are the Right Medium
 
@@ -354,7 +354,7 @@ The following files give the theory and engineering background for this summary:
 
 ### Supporting Notes
 
-- [Hash-search physics note](breaking_sha256_with_physics.pdf): proof-of-work as physical patch-overlap constraint search.
+- [Photonic SHA-256d proof-of-work note](Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work.pdf): proof-of-work as physical patch-overlap constraint search.
 - [Common objections note](COMMON_OBJECTIONS.md): common objections and scope clarifications.
 
 ### Visual Guides

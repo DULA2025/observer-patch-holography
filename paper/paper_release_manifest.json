@@ -1,9 +1,9 @@
 {
   "extra_papers": {
-    "breaking_sha256_with_physics": {
-      "pdf_path": "extra/breaking_sha256_with_physics.pdf",
-      "sha256": "9ab23f62e82ec141af2e904dca890d62168c6486b14903ffc5444f2d46051ee7",
-      "size_bytes": 198208
+    "Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work": {
+      "pdf_path": "extra/Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work.pdf",
+      "sha256": "43944e84740a6388a0882f30545fc026c746742c1d6d6dbb3e29ee2ec382b250",
+      "size_bytes": 198702
     },
     "fine_structure_constant_derivation": {
       "pdf_path": "extra/fine_structure_constant_derivation.pdf",
@@ -26,7 +26,7 @@
       "size_bytes": 112722
     }
   },
-  "generated_at": "2026-05-21T00:42:01.495651Z",
+  "generated_at": "2026-05-21T09:41:25.028844Z",
   "papers": {
     "deriving_the_particle_zoo_from_observer_consistency": {
       "pdf_path": "paper/deriving_the_particle_zoo_from_observer_consistency.pdf",

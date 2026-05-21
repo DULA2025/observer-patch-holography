@@ -244,7 +244,7 @@ point for the hardware model and its evidence discipline.
 
 ## Supplemental Papers
 
-- **[Breaking SHA-256 with Physics](extra/breaking_sha256_with_physics.pdf)**: physical constraint search for SHA-256d proof of work.
+- **[Photonic Fixed-Point Consensus for SHA-256d Proof of Work](extra/Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work.pdf)**: photonic candidate enrichment for SHA-256d proof of work.
 - **[The Fine-Structure Constant as an OPH Pixel Fixed Point](extra/fine_structure_constant_derivation.pdf)**: fixed-point derivation of the fine-structure row.
 - **[Explaining the Yang-Mills Mass Gap with Observer-Patch Repair Dynamics](extra/yang_mills_gap_clay_problem.pdf)**: support-visible OPH route to the Clay Yang-Mills problem, branch-scoped to the compact-gauge extraction and identifying the gap with the repair gap.
 - **[Observer-Patch Holography and the Dark Matter Phenomenon](extra/oph_dark_matter_paper.pdf)**: dark-matter phenomenology and MOND-like galaxy limit.

@@ -225,7 +225,7 @@ départ pour le modèle matériel et sa discipline de preuve.
 
 ## Articles supplémentaires
 
-- **[Breaking SHA-256 with Physics](extra/breaking_sha256_with_physics.pdf)** : recherche physique par contraintes pour la preuve de travail SHA-256d.
+- **[Photonic Fixed-Point Consensus for SHA-256d Proof of Work](extra/Photonic_fixed-point_consensus_for_SHA-256d_proof_of_work.pdf)** : enrichissement photonique de candidats pour la preuve de travail SHA-256d.
 - **[The Fine-Structure Constant as an OPH Pixel Fixed Point](extra/fine_structure_constant_derivation.pdf)** : dérivation à point fixe de la ligne de structure fine.
 - **[Explaining the Yang-Mills Mass Gap with Observer-Patch Repair Dynamics](extra/yang_mills_gap_clay_problem.pdf)** : route OPH visible par support vers le problème de Yang-Mills de Clay, limitée à la branche compacte de jauge déclarée, avec identification du gap au gap de réparation.
 - **[Observer-Patch Holography and the Dark Matter Phenomenon](extra/oph_dark_matter_paper.pdf)** : phénoménologie de la matière noire et limite galactique de type MOND.
