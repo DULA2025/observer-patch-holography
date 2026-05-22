@@ -903,8 +903,8 @@ theory lined up.
 Noether's theorem shows the mathematical version of the same relay. A
 symmetry is a transformation that leaves the action fixed. A conservation law
 is a public balance that survives every allowed description. Energy,
-momentum, angular momentum, and charge are not loose bookkeeping habits. They
-are invariants under shared transformations. That is why Chapter 12 treats
+momentum, angular momentum, and charge are invariants under shared
+transformations. That is why Chapter 12 treats
 symmetry as a language for agreement. If observers can translate between
 descriptions while preserving the relevant structure, they can share a law.
 

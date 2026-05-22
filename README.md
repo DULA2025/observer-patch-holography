@@ -4,7 +4,7 @@
 
 **French version:** [README_FR.md](README_FR.md)
 
-**Quick links:** [OPH website](https://floatingpragma.io/oph/) | [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [OPH Lab](https://oph-lab.floatingpragma.io) | [OPH Blog](https://blog.floatingpragma.io/) | [Coherence map](https://coherence.floatingpragma.io/) | [OMEGA](https://omega.floatingpragma.io/) | [Three-body demo](https://3body.floatingpragma.io/)
+**Quick links:** [OPH website](https://floatingpragma.io/oph/) | [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [OPH Lab](https://oph-lab.floatingpragma.io) | [Applications](APPLICATIONS.md) | [OPH Blog](https://blog.floatingpragma.io/) | [Coherence map](https://coherence.floatingpragma.io/) | [OMEGA](https://omega.floatingpragma.io/) | [Three-body demo](https://3body.floatingpragma.io/)
 
 **Falsifiability:** [OPH falsifiability map](extra/OPH_falsifiability.md)
 lists 40 hard OPH-killing outcomes and concrete IBM Quantum Cloud tests for
@@ -232,6 +232,14 @@ and serious claims require records and exact checks. The guide at
 [omega.floatingpragma.io](https://omega.floatingpragma.io/) is the starting
 point for the hardware model and its evidence discipline.
 
+## Applications
+
+OPH has four main application lanes beyond the paper stack: cheap desktop
+fusion energy, room-temperature desktop supercomputing, cost-effective
+OMEGA-grounded AGI, and local gravity or inertia manipulation for hoverbikes
+and hoverboards. The overview page is
+[`APPLICATIONS.md`](APPLICATIONS.md).
+
 ## Papers
 
 - **Paper 1. [Observers Are All You Need](paper/observers_are_all_you_need.pdf)**: broad synthesis of the OPH reconstruction program, from finite observers to the recovered effective universe.
@@ -290,6 +298,8 @@ descent on the realized branch.
 ## Repository Guide
 
 - **[`paper/`](paper):** PDFs, LaTeX sources, and release metadata.
+- **[`APPLICATIONS.md`](APPLICATIONS.md):** high-level application map for
+  OPH energy, compute, AGI, and local-lift use cases.
 - **[`book/`](book):** OPH Book source and generated downloadable PDF. Print-PDF build notes live in [`book/README.md`](book/README.md).
 - **[`code/`](code):** computational material, particle outputs, and experiments.
 - **[`HADRON.md`](HADRON.md):** policy for QCD-limited particle rows, empirical

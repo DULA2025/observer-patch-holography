@@ -75,7 +75,7 @@ debt appears elsewhere or the count changes.
   proofs are sorry-free but generic; they do not reach OPH-specific
   structure.
 - This scaffold ports those proofs into a properly-built Lake project,
-  relabels them honestly, and lays out the gap to be closed.
+  applies accurate labels, and lays out the gap to be closed.
 - Coordination: "OPH LEAN Proofs" working group (Bernhard Mueller, Ben
   Cassie, Dula). Cross-audit between auditors is required before PRs are
   merged.

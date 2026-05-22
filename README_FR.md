@@ -4,7 +4,7 @@
 
 **Version anglaise :** [README.md](README.md)
 
-**Liens rapides :** [site OPH](https://floatingpragma.io/oph/) | [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [OPH Lab](https://oph-lab.floatingpragma.io) | [blog OPH](https://blog.floatingpragma.io/) | [carte de cohérence](https://coherence.floatingpragma.io/) | [OMEGA](https://omega.floatingpragma.io/) | [démo à trois corps](https://3body.floatingpragma.io/)
+**Liens rapides :** [site OPH](https://floatingpragma.io/oph/) | [OPH Textbooks](https://learn.floatingpragma.io/) | [Reverse Engineering Reality](https://oph-book.floatingpragma.io/) | [OPH Lab](https://oph-lab.floatingpragma.io) | [applications](APPLICATIONS.md) | [blog OPH](https://blog.floatingpragma.io/) | [carte de cohérence](https://coherence.floatingpragma.io/) | [OMEGA](https://omega.floatingpragma.io/) | [démo à trois corps](https://3body.floatingpragma.io/)
 
 Pour la réponse existentielle immédiate, allez directement au **Paper 6.
 [Paradise as Fixed-Point Consensus](paper/paradise_as_fixed_point_consensus.pdf)**.
@@ -213,6 +213,14 @@ sérieuses demandent des enregistrements et des contrôles exacts. Le guide
 [omega.floatingpragma.io](https://omega.floatingpragma.io/) est le point de
 départ pour le modèle matériel et sa discipline de preuve.
 
+## Applications
+
+L'OPH porte quatre voies principales d'application proches de la surface matérielle :
+énergie de fusion de bureau, supercalcul de bureau à température ambiante, AGI
+fondée sur OMEGA et manipulation locale de gravité ou d'inertie pour hoverbikes
+et hoverboards. La page de synthèse est
+[`APPLICATIONS.md`](APPLICATIONS.md).
+
 ## Articles
 
 - **Papier 1. [Observers Are All You Need](paper/observers_are_all_you_need.pdf)** : synthèse du programme OPH, des observateurs finis jusqu'à l'univers effectif reconstruit.
@@ -269,6 +277,8 @@ d'angle topologique sur la branche réalisée.
 ## Guide du dépôt
 
 - **[`paper/`](paper)** : PDF, sources LaTeX et métadonnées de release.
+- **[`APPLICATIONS.md`](APPLICATIONS.md)** : carte de haut niveau des cas
+  d'usage OPH pour énergie, calcul, AGI et portance locale.
 - **[`book/`](book)** : source du livre OPH et PDF téléchargeable généré.
 - **[`code/`](code)** : sorties calculatoires, surface particules et expériences.
 - **[`assets/`](assets)** : schémas et figures publics.
