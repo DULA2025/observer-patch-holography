@@ -63,10 +63,10 @@ completion tracker.
     lake build                # build the library + Main executable
     ./.lake/build/bin/oph     # optional: run the entry point
 
-CI runs on every push and pull request — see
-`.github/workflows/lean-ci.yml`. The workflow currently allows exactly the
-10 intentional `sorry` warnings in `Primitives.lean` and fails if new proof
-debt appears elsewhere or the count changes.
+Lean CI is manual. Use GitHub Actions, `Lean CI`, `Run workflow` when the
+Lean formalisation changes need a hosted check. The workflow allows exactly
+the 10 intentional `sorry` warnings in `Primitives.lean` and fails if new
+proof debt appears elsewhere or the count changes.
 
 ## Provenance
 

@@ -1,14 +1,6 @@
 name: Lean CI
 
 on:
-  push:
-    paths:
-      - 'LEAN/**'
-      - '.github/workflows/lean-ci.yml'
-  pull_request:
-    paths:
-      - 'LEAN/**'
-      - '.github/workflows/lean-ci.yml'
   workflow_dispatch:
 
 jobs:
