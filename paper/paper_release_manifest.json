@@ -7,8 +7,8 @@
     },
     "chi_nu_susceptibility_bounds": {
       "pdf_path": "extra/chi_nu_susceptibility_bounds.pdf",
-      "sha256": "7bf6bb4c364dddcffb953e43dd7569a7ad016fdf60267b1269ff6cba9e307af6",
-      "size_bytes": 111562
+      "sha256": "9e59e3a8126147604aea4a85a11473d882a38b0a34835772e5cc5c38a547da7c",
+      "size_bytes": 135291
     },
     "fine_structure_constant_derivation": {
       "pdf_path": "extra/fine_structure_constant_derivation.pdf",
@@ -31,7 +31,7 @@
       "size_bytes": 112723
     }
   },
-  "generated_at": "2026-05-24T05:29:59.145921Z",
+  "generated_at": "2026-05-24T07:50:24.977300Z",
   "papers": {
     "deriving_the_particle_zoo_from_observer_consistency": {
       "pdf_path": "paper/deriving_the_particle_zoo_from_observer_consistency.pdf",
